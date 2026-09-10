@@ -1,0 +1,1157 @@
+{
+  "archive": "02-种子与扩展数据.zip",
+  "archiveBytes": 10320132,
+  "sha256": "24f4fc5bd0da4ea9d43e50e9b11f572dd4b5e418627168e7674406f82fa52406",
+  "zip64": true,
+  "compression": "模型与已压缩二进制STORE；源码/普通数据DEFLATE level6",
+  "validation": {
+    "entries": 228,
+    "uncompressedBytes": 169539949,
+    "allEntryHashesMatch": true,
+    "crcReadback": "passed",
+    "seconds": 0.26
+  },
+  "seconds": 2.5,
+  "files": [
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/a2ui-v09-sequences.jsonl",
+      "bytes": 40069,
+      "sha256": "c4e5fbb79c267630d6c29249c623d701f6b36b7e354b7dbfcfe43cbda0673171"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/README.md",
+      "bytes": 3527,
+      "sha256": "c1ffbfb66a10b845e87fafbf6d2543c717b89da830cfe4267af0a600c0b1c64b"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/representative-index.csv",
+      "bytes": 4515,
+      "sha256": "3daffaaa816579ecc72e51f98c7f2c46cee320736ca23e2cf43371580baebfd4"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/representative-index.xlsx",
+      "bytes": 13550,
+      "sha256": "b4b58dd25cf4fc00bb44f9678f5f7ff35f0987f5db8cba4c27d00dd8ce1eb063"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/representative-samples.jsonl",
+      "bytes": 301917,
+      "sha256": "d0ab7a033587a3975c0283b3de4713d041270c2676a8e6df305a43e1c3e190f5"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/validation-report.json",
+      "bytes": 7732,
+      "sha256": "972eb8af34714ad3c0032d2ddff10cec5e5004ccbbd14f65f668e9adda2986be"
+    },
+    {
+      "path": "02-种子与扩展数据/00-历史来源参考28/validation-report.md",
+      "bytes": 325,
+      "sha256": "a999140cba475f5027ee3b28f9c4e0f231d4eb6dfc8c0e31169458bb92e903f5"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/boundary-cases.jsonl",
+      "bytes": 16287,
+      "sha256": "b05315742e7388555de0bd118990826854772c8045f5c125901824677642bef9"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/HASHES.sha256",
+      "bytes": 941,
+      "sha256": "9d576c93c2738dea0dcf93ecb6509eabf8dc8f60cfce22810279c4fb145ed79f"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/inputs-144.jsonl",
+      "bytes": 62921,
+      "sha256": "aa7ae691d5146bdfaaa5ee0e7aba2d17ca9e65e52b19dc3795549da5cdd20e21"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/live-model-evaluation-fixed-examples.json",
+      "bytes": 11066,
+      "sha256": "a2a4fe2eb924bfba6c41f50300abf7a2533d0e460243d646f443d75ddc3545e4"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/live-model-evaluation.json",
+      "bytes": 11082,
+      "sha256": "20946861d2cc1e25b3a61373d426da4d33305c48d9d32575ec7b9fb922268243"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/meta-prompt.txt",
+      "bytes": 9516,
+      "sha256": "8f7254ceed4ab089b7a8b0c3bef1ac0bc4d7fadc242fb56e50c575d979c3dbeb"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/preview-batch-01-100.jsonl",
+      "bytes": 29602,
+      "sha256": "d0e944ab355a8e4e36ea069cfffeaa229a015f202957b07a728b0649fa22dde0"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/preview-batch-02-44.jsonl",
+      "bytes": 13312,
+      "sha256": "1155becb2ef51a6ae20a7f226b4b9ddf5e9c7276e23308146eb559cf862ddc67"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/preview-frames-144.jsonl",
+      "bytes": 42914,
+      "sha256": "3bb551110b916a80640711c51b778080cd34a24a54aad8016c75acb6ff898f23"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/profile-contracts.json",
+      "bytes": 9335,
+      "sha256": "200e030b5b519dfeddb4840952731b1cd48b5f5c4e53b26a7634af1df279b5a9"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/quality-report.json",
+      "bytes": 38873,
+      "sha256": "109f32bd589a2296e9a85d0be95ccb6699861b6da8dd3842fae692013ea2f107"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/README.md",
+      "bytes": 2667,
+      "sha256": "156e288d8832cf6923d0c012211014d0c72b380ca61f4cc0d248effe6374d43b"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/seeds-144.jsonl",
+      "bytes": 1605111,
+      "sha256": "fbe8de149ce92acaee626f156ff99e2d7c2b9c34388b3f3e11727440e1aaf42d"
+    },
+    {
+      "path": "02-种子与扩展数据/01-V4种子144/sft-144.jsonl",
+      "bytes": 1530339,
+      "sha256": "9f807d6f5956eb64a2f0618fdb65a29ed881aa98e2f786f7f78ce7b93cf5277a"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/eval-a2ui-qwen2.5-3b-v4-288-zero-shot-288.json",
+      "bytes": 899275,
+      "sha256": "9780d26d14946ac9588350df387aa4ebd91a0f89f73c22a688b4039e0255e0cb"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/eval-qwen2.5-3b-base-zero-shot-288.json",
+      "bytes": 941494,
+      "sha256": "a0263c2e204f3b73a56dcc00ef4882a310f39d19b1d6556ae27bda2b9f325c1a"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/eval-test-288.jsonl",
+      "bytes": 277396,
+      "sha256": "c9f727f49f35d393c4cb85b6515f95747f4b756f92f4d8067c610ab0efb505d1"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/dev-144.jsonl",
+      "bytes": 1537837,
+      "sha256": "bcc3cb61114477527716aba3422b461bda0f7c5efd9b18a7334ad3a11a98d997"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/dev-manifest-144.jsonl",
+      "bytes": 176622,
+      "sha256": "962dcabc9784d33c22188566784778b9baae9f782e5c15bf91f539a5db27de4c"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/split-report.json",
+      "bytes": 13973,
+      "sha256": "52a13092d34bad4b85aa9380504b08ec762c60e28e3963f94d6b32e03931f746"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/test-288.jsonl",
+      "bytes": 3082660,
+      "sha256": "a685e13423293284025dc000b8269f69eafb4633ac720d50815c8eb94a2f8246"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/test-manifest-288.jsonl",
+      "bytes": 363909,
+      "sha256": "b7b2d6e1252079c62090db7b0acbb7719230d72554f5df9814b9984a8e356064"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/train-288.jsonl",
+      "bytes": 3073480,
+      "sha256": "9b577df6fe2f49cb7da42dcaaf86111861e662978014e3edac3bcab0fe94def2"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/experiment-288/train-manifest-288.jsonl",
+      "bytes": 344857,
+      "sha256": "61f8f82374037b3a1c7a0923924584b7ade09a67e11c9feefcb755bcf7f0308a"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/finetune-comparison-288.png",
+      "bytes": 60045,
+      "sha256": "23ae8eb43a3a1cf1b65a4641a7990235dd5638c0589de65c924191c5fe0b70c7"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/finetune-errors-288.jsonl",
+      "bytes": 432226,
+      "sha256": "d550a90b835479eee8cb49e61c77736caf7f605927245e6b33e487197a353e9e"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/finetune-evaluation-report-288.json",
+      "bytes": 16793,
+      "sha256": "0f613fc7acfde504b1190299085430b16b2abfc49aa2d844c71801aa9de2068c"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/finetune-evaluation-report-288.md",
+      "bytes": 5150,
+      "sha256": "36c7e91d0eeace251c48758acf18f1d132a211d53252cfe05a264e4b6606497c"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/HASHES.sha256",
+      "bytes": 871,
+      "sha256": "a08bff2a2aee38a44c6ee771ce8cfdfe956988abdd0af9d5988f3c971b385dae"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/manifest-audit-5000.jsonl",
+      "bytes": 6255564,
+      "sha256": "6cc458087df4dbbe953a72999452bcc5d5822b47d25875ebecf86885286893bb"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/ppt/Qwen2.5-3B微调结果_答辩页稿_v1.pptx",
+      "bytes": 29266,
+      "sha256": "b21dafac1cd0001bbea6a3634ad02ff5af8a9c14c869b3c9e93977104c74be8a"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/ppt/Qwen2.5-3B微调结果_答辩页稿_v2.pptx",
+      "bytes": 29272,
+      "sha256": "0872ff5d2b494dcd8c51ed484e2ec308c8b12b6ce3d230aa4fcb018282b4bc54"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/preview-base-batch-001.jsonl",
+      "bytes": 29602,
+      "sha256": "1a789dd502d031dad6ca4824eb7efb704144a7632eb53f1fcef6175af058b427"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/preview-base-batch-002.jsonl",
+      "bytes": 13312,
+      "sha256": "1155becb2ef51a6ae20a7f226b4b9ddf5e9c7276e23308146eb559cf862ddc67"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/quality-report.json",
+      "bytes": 5616,
+      "sha256": "44c45d95ae3997a5b16bc177ae7b512c39fc3fc8fbc91320ea12bf6a6f0457eb"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/README.md",
+      "bytes": 1299,
+      "sha256": "100c56441ba1b07079959e6c2e719ad8e7ca065e27967561d3be30ed18ccd130"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/sft-all-5000.jsonl",
+      "bytes": 53499782,
+      "sha256": "44022782a93146794bdca4cabeb9a9a86e8167427d3252ff68c4f215e2221f83"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/sft-dev-432.jsonl",
+      "bytes": 4620301,
+      "sha256": "1e93fc8d0d41eca06cf1a3eb7bfc64d3f48fc0dd96ba8a7e2df6bd9dea5853b3"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/sft-test-432.jsonl",
+      "bytes": 4623954,
+      "sha256": "c3a38aaaef81fd93132f769b8095453b7ba7ed6d717b6ab61d63199fce9a065d"
+    },
+    {
+      "path": "02-种子与扩展数据/02-V4扩展5000/sft-train-4136.jsonl",
+      "bytes": 44255527,
+      "sha256": "dcc4a81029ec3dd37706e09a3207185d3ac285ac4ccc0ea8001881d95cce9e6b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/compose-evidence.cjs",
+      "bytes": 11952,
+      "sha256": "db8f070c85c8e7ff0abb3d5edd7463e04cb793255f0c27ddb252b69298b3145c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/console-log.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/entry.png",
+      "bytes": 212757,
+      "sha256": "b0b735452625154c9e4ee31d7feac5577978c690dfa8c4c0acb9eac998b2219f"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/final-summary.json",
+      "bytes": 2375,
+      "sha256": "c60b5fca04f08fcd5a6eb252e6b768430c5e88c00fd22e1292382e5a5f586e6c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G01-failed-card.png",
+      "bytes": 36069,
+      "sha256": "a8e7f8d4e1ae8ccff319a06dc5239cdc4bdfa75d66fa9b7e5c852ec95b974412"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G01-failed-error.png",
+      "bytes": 9319,
+      "sha256": "e383345d7b966cca659274a6f25570d43874b4868156cc575b9e58c065f0ef8b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G01-failed-page.png",
+      "bytes": 245106,
+      "sha256": "908682ce9ced65a05a4722f4b11b0075888275fa3939d25c5a0d4b97e7b54aab"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G02-rendered-card.png",
+      "bytes": 32227,
+      "sha256": "1ac25bb6547d9a60192c654faf604e2435685e2af2c83c214d8efb39c61d2c91"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G02-rendered-page.png",
+      "bytes": 212760,
+      "sha256": "7b3ee55ec78ed926bc9fc50508b704570b51792e62bb5188ca39b06fe5dabc64"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G03-failed-card.png",
+      "bytes": 36324,
+      "sha256": "e2b43c1c3b0c8b9137575a0aa0ae6d82fa3683b8f6e552df5d0497bb02a05aec"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G03-failed-error.png",
+      "bytes": 13332,
+      "sha256": "057e61bb7124f1e696c5aae4d9fc5a038de4f37acb8d2fa6cd8285e6e34592f6"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G03-failed-page.png",
+      "bytes": 267753,
+      "sha256": "37984e4513e2f898b11578eadc14c7739801cca6b5a2ddbdffdf9a4766dc9fc8"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G04-failed-card.png",
+      "bytes": 36949,
+      "sha256": "2931f1a0fbe63f90232154c9739b924a1af5b69ea6dec35e1083d9235d4c138b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G04-failed-error.png",
+      "bytes": 9636,
+      "sha256": "a592fcab10c3ba31d5c36af672bc7cbd55514bf4108189f3132694bd6bc8c765"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G04-failed-page.png",
+      "bytes": 244474,
+      "sha256": "fb6e8f958586db1e5019aed87dc87e1a03ca14122ea8aea07ed163688c78b010"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G05-rendered-card.png",
+      "bytes": 25472,
+      "sha256": "b0beddccee0be2b1ef3ffa1fd65bbeb4f1053b1c8a4e67d06840dfab70ced6a3"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G05-rendered-page.png",
+      "bytes": 204429,
+      "sha256": "6cf6b7bd468a3742b0f530cc9821d2e1567c0e24037776df7c9834682ba3c27f"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G06-failed-card.png",
+      "bytes": 36113,
+      "sha256": "686763fea58752aebb85fb2ae1ded5d79ee05412e15166b6898fc337fe0e2641"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G06-failed-error.png",
+      "bytes": 18413,
+      "sha256": "943f67fcfd1b33b34dae92924e3c1f2ee14bebbe33308b58f91a0f63f30c4876"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G06-failed-page.png",
+      "bytes": 288924,
+      "sha256": "8c2409707c715b0a9faa20f057976ff5bf0d6020dbb7447164474dd41fa3d97f"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G07-failed-card.png",
+      "bytes": 37076,
+      "sha256": "a678f4173d92af391bf8215382bd61f3c48ca8a033660f6a6fc388390c4b09bc"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G07-failed-error.png",
+      "bytes": 10296,
+      "sha256": "6105380286e5df327f99212de63482aba05f4a00c204ec3e3e5c4a9796f5f533"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G07-failed-page.png",
+      "bytes": 244625,
+      "sha256": "4c8ec68862920f61abe8b0edb5596811dea0ddac14ddb8745594dfa08a9df167"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G08-failed-card.png",
+      "bytes": 36220,
+      "sha256": "1d1f3366b17d8dd71768502225b4f2cc6e0542496c00ced0893ef69e5a85902a"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G08-failed-error.png",
+      "bytes": 11187,
+      "sha256": "9ee02905ebde0fb5659daaa7946023e49d4260ce1f6fc311223c8346151dc877"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G08-failed-page.png",
+      "bytes": 248608,
+      "sha256": "a9de8d32ca82aaaa5dfe6768694b1fa7b022eb35588f001eae240ddbd6e3d273"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G09-failed-card.png",
+      "bytes": 36949,
+      "sha256": "2931f1a0fbe63f90232154c9739b924a1af5b69ea6dec35e1083d9235d4c138b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G09-failed-error.png",
+      "bytes": 8849,
+      "sha256": "f9458d2c22b9500a1ce70972b97c0f4d74b6f067e3efe5ccdc2581ac75bc206b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G09-failed-page.png",
+      "bytes": 248232,
+      "sha256": "da7f645a6a31a3a9afcfcf1f170d9139b5a9f935366215b65d8c341ecbf764c3"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G10-rendered-card.png",
+      "bytes": 10250,
+      "sha256": "738f555473b03be37a225ad352c69131a7aaed8ab6a4e7656b4da5206c437957"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G10-rendered-mobile.png",
+      "bytes": 121282,
+      "sha256": "b875305c56eed057745f41f9fbbc6302162c3fa9ef892472d68f86953607dd3c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/G10-rendered-page.png",
+      "bytes": 187367,
+      "sha256": "bf2715416b959ed13311b5174e3d805f3db96a848a220fd81ace9835450ab29d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/inputs.json",
+      "bytes": 5002,
+      "sha256": "d8b7c3010ee4c2803d34e091f13f369fda52ec9737399cb94d93b13593ef4bf4"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/p1-summary.json",
+      "bytes": 258,
+      "sha256": "9db67a0f64caca972bf270dc93f00b89ec6d453ce50c28c641b105a9523090a3"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/preservation-after.json",
+      "bytes": 64052,
+      "sha256": "b28fe88a6e113fbd9e49bc9b376c2b56e1abe565e373152c175465d5e67f38f5"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/preservation-before.json",
+      "bytes": 64031,
+      "sha256": "695631ac40d02a53ba6f4e901372275a09f7b3455f202cfa5b218b0c71d0fec9"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/protocol.json",
+      "bytes": 704,
+      "sha256": "c030987eadb0214935c64be6710a4820da09b9385962a634ca296bcb1e6a30f0"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/raw-results.jsonl",
+      "bytes": 27668,
+      "sha256": "a72565c03582501c257869eb1bbe33c549ae76422238a6a8227aac1d7b2af9bb"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/README.md",
+      "bytes": 8422,
+      "sha256": "6901731953f291313d1c8b176fc543fb40a7df847f4d1abf0dd84c490c0d83d3"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/rejected-contact-sheet.png",
+      "bytes": 203331,
+      "sha256": "e1d0697bd75b487bc32af64aa02d76b5c9cb8ffeb2da267cc54939322ed4ac3d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/rendered-contact-sheet.png",
+      "bytes": 364944,
+      "sha256": "54f82bce50d224b6626a3de18977f304163d1547f82eebbbcff9533647100e8e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/requests.jsonl",
+      "bytes": 238209,
+      "sha256": "477364d61c24bec9992cb7f76a5255c34621cb2ab2c327faac51cb11f1f35e46"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/responses.jsonl",
+      "bytes": 18412,
+      "sha256": "3ba037afd4dd2afb15280e2a7d59346f0dce6cd7ea2ce5f2ddb56d2831497549"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/review.json",
+      "bytes": 4993,
+      "sha256": "fb3e00b8d94ebe27eaaff97daefe039e1cf661171bdf6e4b885621c7e8444811"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/reviewed-results.json",
+      "bytes": 39972,
+      "sha256": "831169afbf624a7277dbc428fe2444626bb10fc4632bf08b1b0a9fb9f5410635"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/run-state.json",
+      "bytes": 298,
+      "sha256": "8642daca652fd4eb18a19094792365a0afba657395757122620bebf83ec56dc1"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/run-ui.cjs",
+      "bytes": 9434,
+      "sha256": "4caac08fa40eae800906b9037e9278daa5348daa8843c8c36dfa966c2df89da6"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S01-rendered-card.png",
+      "bytes": 41855,
+      "sha256": "a26a6828fd52721a4ee4d222eff6e513858768e056c6080badd2d304c7f4e8dc"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S01-rendered-mobile.png",
+      "bytes": 151742,
+      "sha256": "f370cf89367f7502c860c960b253d30eb4c702b91cc51d0ceca10cf40af69b6d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S01-rendered-page.png",
+      "bytes": 229701,
+      "sha256": "1e9030915faf02ea2c878d4eccee9c0f2f2410180e40afedde37ffb0bf96dcf7"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S02-rendered-card.png",
+      "bytes": 10752,
+      "sha256": "9bd1367f3aa403c738f09c336e1af73a0c41a7286d63485227c2ce00bee7626d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S02-rendered-page.png",
+      "bytes": 189143,
+      "sha256": "b6b888c8066c254fa91d66ab6e77d38ad575de741f803b496e38ba5cee9f32ae"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S03-rendered-card.png",
+      "bytes": 17829,
+      "sha256": "a8fb146c35d7af913c302d6bcc5f56f7640fb28fdad76add148cc5dfad0af130"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S03-rendered-page.png",
+      "bytes": 196393,
+      "sha256": "af8c8602190d11e045f296a87fcacbb7080c2ef196cd8152c2c6a8983c291386"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S04-rendered-card.png",
+      "bytes": 20173,
+      "sha256": "64e1163a4548f3f1d4de7101a9adfa8fcec7e27e4f2fb39117723957350c6021"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S04-rendered-page.png",
+      "bytes": 198706,
+      "sha256": "f8ff7b4761864952cb18d1af68d672b2b7f0de1b391dc2be71ba12faa892216e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S05-rendered-card.png",
+      "bytes": 57740,
+      "sha256": "28c05c8988b6259ea3d52d567258ad12c23e89ac543f24fef405146fce5ff79e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S05-rendered-page.png",
+      "bytes": 239857,
+      "sha256": "f93ff8604937799cd4bfe1cec1214ecc7fadcb30657515e5be3405f9854f4132"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S06-failed-card.png",
+      "bytes": 36550,
+      "sha256": "eb37c81dd107b82e24304b63c33d881241d0f94604944bcb969f7dde85f9b55c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S06-failed-error.png",
+      "bytes": 10107,
+      "sha256": "22cc0c1af30b81522ad0bd8fc61bfc68492dc4191121b484b92f50b054aa8b15"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S06-failed-page.png",
+      "bytes": 266751,
+      "sha256": "f98e616470278a2297e63f98826a16a2e559b5e5529b0f2c1111b23e9e3d264c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S07-failed-card.png",
+      "bytes": 36921,
+      "sha256": "4d81f52ed10d335acc16f9ce1d7cfd0a1012bd1a2207157b3d673d37f82ab1ad"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S07-failed-error.png",
+      "bytes": 8459,
+      "sha256": "bb414da698838b29a4c9cfdabaa8337f477a72e85c0ca4e83c5458a13c4069e3"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S07-failed-page.png",
+      "bytes": 242650,
+      "sha256": "1a7924b385ee3042dab0538a5437857a3aba4ae802923efeccb6055f7456a83a"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S08-failed-card.png",
+      "bytes": 35985,
+      "sha256": "7876825487401a3dabb30a699a3dbd4ee098f8a47df2778aaa688724fda48c25"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S08-failed-error.png",
+      "bytes": 18413,
+      "sha256": "943f67fcfd1b33b34dae92924e3c1f2ee14bebbe33308b58f91a0f63f30c4876"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S08-failed-page.png",
+      "bytes": 264315,
+      "sha256": "126e9d2ace0c0ece9f9be159824623e37c49a525f468deff843a507694d72570"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S09-rendered-card.png",
+      "bytes": 25464,
+      "sha256": "394286134bd3a1e8f8eb9f97b9df8382cd9cd56c2c2717f138f947615b57ce70"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S09-rendered-page.png",
+      "bytes": 201873,
+      "sha256": "5e55cf282f484fa40f703b0da68ba5dda8914073ebee53c167f26bb6030f63d8"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S10-rendered-card.png",
+      "bytes": 15491,
+      "sha256": "bcbb1f200ed9014914e8ef7357604502a5cbfc9740fadae866c5a246c6ee9dd5"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/dialogue-20-ui-evidence-20260908/S10-rendered-page.png",
+      "bytes": 192682,
+      "sha256": "2bf264f3ae58fd5768f46d0b2aa20ff174eac54ba20780ea7f0be44bc90535b4"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/diagnostic-report.mts",
+      "bytes": 25504,
+      "sha256": "05ba39f5071dfef26abd59ed1c516d98cc0c9cd5245c5580f7d9b593c7ff22c7"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/diagnostic-verification.json",
+      "bytes": 1040,
+      "sha256": "980f1b319d85e1a3e9c971f9657da576adb1f9c2700022f5dd8f12cfdd4d416d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/error-analysis.json",
+      "bytes": 8465,
+      "sha256": "d08d97d6b2377152b133e60610f3e225ac6b66ebe9665da127bf1f88f80dca7b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/error-details.jsonl",
+      "bytes": 243124,
+      "sha256": "a3f6f29a57afe0cf16981d064640f081acbade9172056a136757da7d3b9e902d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/model-frames-288.jsonl",
+      "bytes": 89089,
+      "sha256": "4a22890df4cb42ac07d626949d13f33ee9f08739a8b013791b8783b23395c72a"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/paired-comparison-288.jsonl",
+      "bytes": 336180,
+      "sha256": "e0f6f81de696e95103b194ca2b9608f8b3df5143550370db6a5af726736aeb28"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/preservation-warning.json",
+      "bytes": 685,
+      "sha256": "5334e6c9591c9470f82257e5dd91dc49fc29b3e538be0d569b8ac56cac7c2970"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/preview-batch-01-100.jsonl",
+      "bytes": 31249,
+      "sha256": "585531d1963d95c1c6fee27f950e9a0dfe85fb0ab4899b34d4dc1d335120c372"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/preview-batch-02-100.jsonl",
+      "bytes": 30555,
+      "sha256": "263302cf31370931cc5c0d87726767425ec341c7231dc89b9dc914293e5541cf"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/preview-batch-03-88.jsonl",
+      "bytes": 27285,
+      "sha256": "a381c8e78580c3c45cd878a1d8c1a5ec74eee64d4861e1c2fcb44a220eb40cb4"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/protocol.json",
+      "bytes": 90385,
+      "sha256": "84e50a4fd97692559ad4e914463d845e4123608864bdf012aea02e39bf4afb5e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/raw-records-288.jsonl",
+      "bytes": 1215583,
+      "sha256": "cae89d3e444407e7088ea262f4b7ec9ec34909be6b9c1d9b15c5cb541bc2d7d2"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/requests-288.jsonl",
+      "bytes": 3448196,
+      "sha256": "6ea4d45c75b2632f46bcf34eb17c9e4c15e9b8fa38c6b9d6a1e9569310f8069b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/results-288.json",
+      "bytes": 1604404,
+      "sha256": "55ed6645218bae8b6fd51405475f18d328dd591a7cc00c4a129454d3b51171e8"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/run-one-shot.mts",
+      "bytes": 20202,
+      "sha256": "d1550509b19d7cfbf428820441d07d0dc07c0dafb6e17db3e3d8891dabbf7a29"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/verification.json",
+      "bytes": 35579,
+      "sha256": "890d0b94d67dda10a4389bd85cf570458fc8226a7f51e4aee86f669a3d43d2b9"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/verify-and-report.mts",
+      "bytes": 22908,
+      "sha256": "eda13ea543fe738fbb956cb764a89a48d31e3e60c8ddde7258701d2c0b1c322a"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/微调单示例测试报告.md",
+      "bytes": 13411,
+      "sha256": "1db5c742e85204f4e5825b4d58d05260a4ff6bc5cff49333bf27af9d58b29019"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-finetuned-one-shot-288-20260908/最终文件保留告警.md",
+      "bytes": 1948,
+      "sha256": "dd57c36bf6ee73ddbc73b573eb37e1058d38b22915f11db30aee8e775a6f4073"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/error-analysis.json",
+      "bytes": 5300,
+      "sha256": "0abe4c8bf47a346d0fe3886f543e844f50cdce36189ac4c909a68f181e96a802"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/error-details.jsonl",
+      "bytes": 219066,
+      "sha256": "b44e9733450fece4a06dc58f3078b2e11c7dd7b38dd598031e39aac331819b1e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/errors.jsonl",
+      "bytes": 426479,
+      "sha256": "c2d3c0205eac444b56980d1ad8b5c2bef01da40ac240e43e7741227a82e062a0"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/independent-verification.json",
+      "bytes": 549,
+      "sha256": "99e78ea75052a7a05f25c7ca3b089880d8e9b92f54af1edffa423f4dd21b6a2c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/model-frames-288.jsonl",
+      "bytes": 86845,
+      "sha256": "4292e8d886ab4b41e7f4097d62a382f0a23691181fdd1ead6f8863698a453f48"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/preview-batch-01-100.jsonl",
+      "bytes": 30772,
+      "sha256": "bf520cad9d170ab4ed832cc033a7db9cec41c0379e075725fa383be3e75edcf8"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/preview-batch-02-100.jsonl",
+      "bytes": 29998,
+      "sha256": "c655491afe2cd7fcba1edab94f96b5d29da547d8048fd11b221b1426ef6d4c87"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/preview-batch-03-88.jsonl",
+      "bytes": 26075,
+      "sha256": "cec50e6ad42dcb8fbc2d0b0242374c98e9673bb59f305456289bbb1d6fda7d32"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/protocol.json",
+      "bytes": 43352,
+      "sha256": "9ccc970507e6676f70facc1b07e44cfcdd84c66c6079d5404019a7042396d5e9"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/raw-records-288.jsonl",
+      "bytes": 958135,
+      "sha256": "36f92bbdf17fcdc2e4cf74f2568f60acd1d0cb0cbf798e9aab4787187de1474d"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/requests-288.jsonl",
+      "bytes": 3442724,
+      "sha256": "fc45d5aaf5ecc659ed5b41b140e701087196b61e774088c97babab1830990dc9"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/results-288.json",
+      "bytes": 1305888,
+      "sha256": "3b413952b44690afaa526d72d0847b2f8b2efbaae06fcd884cff61c697523008"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/run-one-shot.mts",
+      "bytes": 17800,
+      "sha256": "9bd075ca127f63dd0898ebaca45af74e5a2a9d7976d243e2433ba05a1ef57c22"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/subgroups.json",
+      "bytes": 10006,
+      "sha256": "37410f010f8a7cbd397d87a915d7a1d659593497076ca917dd1c64620fb3e6a1"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/verification.json",
+      "bytes": 34278,
+      "sha256": "b0757c9a386e61c5e5efc66bee01519764999eb7f4d3edfff94aab379b13d6c2"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/verify-and-report.mts",
+      "bytes": 20295,
+      "sha256": "366e27735b8fd8553c3b8ee6d7d01479988401250a7f1f6ada32d9ecebb02f2c"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/最终复核说明.md",
+      "bytes": 2220,
+      "sha256": "2e556a3258c01908b0b9abaffdadc26c02b8fe96bcc1e1899cce0fb0dd3ed21f"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/profile-v4-one-shot-288-20260908/测试结果与错误分析.md",
+      "bytes": 11492,
+      "sha256": "1caceb17b69dd31d031e61b730a919c97621d39ccbacfd42d953c83a67a13a81"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/analysis-summary.json",
+      "bytes": 8803,
+      "sha256": "3c214dc40ea64d51c9fadf9766effa74ab1f964c6d026110ddba41f16c60dd31"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/error-samples.jsonl",
+      "bytes": 2409799,
+      "sha256": "072b15a9e89b76c1204687432b0602f3d077deb0d46e3ef68dc4dacb8282e9ca"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/evaluation-qwen2.5-3b-1000-compact.json",
+      "bytes": 3914420,
+      "sha256": "767feffa8077ec3568071a06c3fc4abb21ec94a6d64ab7ac016891762288a491"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/evaluation-report.md",
+      "bytes": 2344,
+      "sha256": "e8f34433c8328093e720ee0c905aac3074b662e17bf3a1898c770c9c3db51fef"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/preview-20.md",
+      "bytes": 23878,
+      "sha256": "2024f02ecf2a595440c8f093096a7c1f6815f2da058790dd36f0c534eea8275b"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/quality-report.json",
+      "bytes": 2169,
+      "sha256": "b0960cd49149db0c4f6470c6b969874f7e078b0fcd6c64b343ada12ba36a074f"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/scenario-metrics.csv",
+      "bytes": 2732,
+      "sha256": "055c1cf6b9446856bde8d2bd44aa3d24fe0266baac1a66173271aff8e3e2f3fd"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/semantic-daily-1000-messages.jsonl",
+      "bytes": 4673958,
+      "sha256": "e1ed0a0f3b218e31d503fa9542bad11dca4757c1ec7d32d4f98ef56c361f5ad4"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/semantic-daily-1000-prompts.txt",
+      "bytes": 104317,
+      "sha256": "79b8f7a3278b2a8b6a50cc85771739f26b83ac44807369f2683a9bb7bc2cfbe2"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/semantic-daily-1000-usr_prompt.jsonl",
+      "bytes": 121317,
+      "sha256": "4d40fad48b825fdc44654f92edef2d1b793ba74076a25555a92ec51b3a103b93"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/semantic-daily-1000.jsonl",
+      "bytes": 1065508,
+      "sha256": "50a5cafd7334c80e91261003bc81d87cf94d884c37dc01ea878c92ad05631b32"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/smoke-20.json",
+      "bytes": 108278,
+      "sha256": "1e02df350d23229045dbbbc5c1b18eae28d78b972b5f950b807c9249ef68ff49"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/smoke-stratified-20-compact.json",
+      "bytes": 84028,
+      "sha256": "3cb32e171dbd4617b4092a6697cb738e05365e0b2205a275eb8bf60423d34042"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/system-prompt.txt",
+      "bytes": 4577,
+      "sha256": "29c707570bb3f23e289da4ed6442fe0447a9b7cb01bc12d51187aebf0c4ec8f1"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/training-splits/manifest.json",
+      "bytes": 601,
+      "sha256": "239af7d0ef9ebd4e429be5b42161757acf79e439922e066bb76c5f5ea8cf7c4e"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/training-splits/test-100-gold.jsonl",
+      "bytes": 106523,
+      "sha256": "f154ed6c94ac1c01e9b346c02d80adde1e86f1dcc5644f0c9f4b791e515ce7af"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/training-splits/test-100.jsonl",
+      "bytes": 467368,
+      "sha256": "ebccfc711ad2a1077e9bee398c4d6b95e268ca663526f598704e15a6c70778f4"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/training-splits/train-800.jsonl",
+      "bytes": 3739145,
+      "sha256": "f162dd15d5e02cacef0d86f4fb21f6ee5516684783c6ad1688c5e3e7794027bf"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/training-splits/validation-100.jsonl",
+      "bytes": 467445,
+      "sha256": "8a92a51336382c7dc305b63159edec857db5dee241b8f92ac7dad4489430b371"
+    },
+    {
+      "path": "02-种子与扩展数据/03-后续评测与补充数据/semantic-extraction-1000-20260908/vertical-chart-artifact.json",
+      "bytes": 18515,
+      "sha256": "643046cc540eab96280de2d7ad6e76b1f5a9d5f2bd42daca161546461c8bdff0"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-001.jsonl",
+      "bytes": 32473,
+      "sha256": "c1177d022ee17590685081d2b0a9ef0c3435a7b6dd95d58ec90f16619a5dcb54"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-002.jsonl",
+      "bytes": 26823,
+      "sha256": "5ceb5d8e85230625e3037f6d6c4f541fb259c4808e2d5023ad19cb3ddd70aa92"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-003.jsonl",
+      "bytes": 27873,
+      "sha256": "af065cfa5ef7d3ab0d13084a422a83609f869815da5f2d67b02ab4f16ff1d134"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-004.jsonl",
+      "bytes": 29309,
+      "sha256": "7d7c2556e1f67570639f91117103b3a723d48d10623563845d5489bc1c2c56b0"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-005.jsonl",
+      "bytes": 29097,
+      "sha256": "9af215e76adfaa3a6b68cce7a1aeffe242d8275a5989c147b586acfb0831a9dc"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-006.jsonl",
+      "bytes": 31357,
+      "sha256": "f8809392e00508b83294c112265b6b0c3322fb4ffd91388079b6e55f23cc9b9f"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-007.jsonl",
+      "bytes": 27053,
+      "sha256": "86f69721601d8981f04d3ab699aceba85bf6ea9561bdce8b4368349012e5d198"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-008.jsonl",
+      "bytes": 36862,
+      "sha256": "a270ccde6f7c79119e190b7227c0755b2f187a4e4917307411c9fd7a46de3736"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-009.jsonl",
+      "bytes": 29612,
+      "sha256": "aabd5f5729ba7b42cfbd41dc42df288606ee57759f9ad797ff60fb2301d90d99"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-010.jsonl",
+      "bytes": 29007,
+      "sha256": "8f0de72f9778903ab2f7e2e6f3e8d4abd33a6afbd586d42aae0d4d838b5980a7"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-011.jsonl",
+      "bytes": 26255,
+      "sha256": "5dfbbcfc6ad18e8da803da05faade7ec2b34b69bc75999c0b6031bbe8e7137bb"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-012.jsonl",
+      "bytes": 30745,
+      "sha256": "581179cde2b5ecbb7c05e91f4caf5b461d7289e1ed2b2e3b7cb74f4d4d1de3b2"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-013.jsonl",
+      "bytes": 26430,
+      "sha256": "6ebc7966c3b46a2566f6090538036a5e920f0b517954d73b0592d1ddb092cc5f"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-014.jsonl",
+      "bytes": 25035,
+      "sha256": "06a43cd78b302b2e41a9d15858bc973efec07f59690b5ef0d124ce397ebe9369"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-015.jsonl",
+      "bytes": 26055,
+      "sha256": "a4ec12e2ca1093dca0ed93b407d40992fd7ff6ebee3f2b2382d8e328732deb69"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-016.jsonl",
+      "bytes": 35040,
+      "sha256": "a82c0275782e27cf51d6da007a6af11ff795e55ecf98c567f70165dcde157a70"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-017.jsonl",
+      "bytes": 30195,
+      "sha256": "10bd976c32818fdf8128f8c81cc9d1742d32caa8619c919440f73a55a31b0a7d"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-018.jsonl",
+      "bytes": 27780,
+      "sha256": "76a859d6a4afabed1ef92724bc099de96d5e4c84bae8cb525e205d3811d59c11"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-019.jsonl",
+      "bytes": 26785,
+      "sha256": "0d14f8be58e0f81a6fbcc13ff1e429257aaf0c214afa8041e41e7d82499e048e"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-020.jsonl",
+      "bytes": 27655,
+      "sha256": "88f02ad52df0dc21129eae752cd5991a0f47e1776a66e3ff23eb3b3992633fa8"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-021.jsonl",
+      "bytes": 29665,
+      "sha256": "276ccf532458449666c672557a7ee08ea6608f38347d2d844e99ab4c4853567c"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-022.jsonl",
+      "bytes": 24970,
+      "sha256": "903c2f4f8f4dad5bb3da21467c0d291dadc3db33ceb6b3b7e2140a6b5bb0c09a"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-023.jsonl",
+      "bytes": 26720,
+      "sha256": "6d86dcf99765f0f6410ca3619c058deff0a29ae585108d28f650f7d1f566843c"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-024.jsonl",
+      "bytes": 26700,
+      "sha256": "9ccbc8565cfd16ec1a8d8ae4c90152d4ac87094cde16bf438c3d175d388619a7"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-025.jsonl",
+      "bytes": 27362,
+      "sha256": "f771cd2d15cae4eaa733d201dc6963f2bc0dcd9cc5fb23caa3743de356833443"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-026.jsonl",
+      "bytes": 27894,
+      "sha256": "0fdd25b52bb55a6af3269e808b542bb5ad48503689e7c68719680a30cea8d120"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-027.jsonl",
+      "bytes": 33354,
+      "sha256": "686b90e116e6a7810de92e047df7956803f552fa24099ec8bced61367fe29010"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-028.jsonl",
+      "bytes": 27392,
+      "sha256": "138d6afd13aa2d30cafc0a75dd788e6617baf9bee5d9595c9a8eb5be79c0cfda"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-029.jsonl",
+      "bytes": 36004,
+      "sha256": "e4a3ea4814fa0c8b24319105e530b61e62d074ed6405625d7bc015e4dcaed535"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-030.jsonl",
+      "bytes": 36768,
+      "sha256": "d7dd87f3b3be9efa9255cdd9e98b3d4dcb28ee25b2dbd0163398f5954421b72e"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-031.jsonl",
+      "bytes": 27572,
+      "sha256": "1fe1689f537ed47dd1ceedd9d7bf39204b87b34590d6cdc25466cb1656239856"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-032.jsonl",
+      "bytes": 25920,
+      "sha256": "b7004abbfb892f1878eb48a0fd2c224f3ed3dcf56707124214490056c136b81c"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-033.jsonl",
+      "bytes": 33805,
+      "sha256": "da5c359f4b1467018ef8cb87f31cc5cad7b5fc5a5ef07c194c57f5c654f13892"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-034.jsonl",
+      "bytes": 34572,
+      "sha256": "acf52020240472ebd196644e70dbb966bd19f02bf6ca580b244c46c8941f56cb"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-035.jsonl",
+      "bytes": 37886,
+      "sha256": "103cfdeb7fb823fe18845b1290f0763392f5c46dbe3982f1914daaf6038b167a"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-036.jsonl",
+      "bytes": 25925,
+      "sha256": "e3742abf7e0ad33d15c43bf48ed113c51dcda22bf8c6eab85fdd7c66f5c797b6"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-037.jsonl",
+      "bytes": 29159,
+      "sha256": "2b8f25a549d2653a4329b6fdd58d0bb6bdf0d6a8b64dc6d1954395377083d20d"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-038.jsonl",
+      "bytes": 32562,
+      "sha256": "29943104a033e46516ac73d397e8bb0fce2a7f5962cbb8ee373f32f0a4842b27"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-039.jsonl",
+      "bytes": 30354,
+      "sha256": "06e725949e375f5896ca187e7a45194f4db0d5cf82c1d772543cc2570a506fc7"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-040.jsonl",
+      "bytes": 29136,
+      "sha256": "4aacecd5a4605bb43c8002f0b828ed09a358036fb78c908813cdbcaf92089593"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-041.jsonl",
+      "bytes": 29612,
+      "sha256": "5a6f31dc7db5b7550c01d0e619a83737ce3b485c70615d4697ccf86103f7ca3b"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-042.jsonl",
+      "bytes": 28154,
+      "sha256": "4a3879790fc9e5f22b8da67fd3fab0e22afc812acb17bbe3380e9aa5c3c30633"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-043.jsonl",
+      "bytes": 28326,
+      "sha256": "27bdbb12f472edd3b0f033a09ca0cf7cc98bf617ecd81a19a9f166dab3d82164"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-044.jsonl",
+      "bytes": 33480,
+      "sha256": "ae0e7742abaa5d8bf61fbef49a217d26536c965152faacb976f6d9f64ce15f30"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-045.jsonl",
+      "bytes": 33907,
+      "sha256": "65e9a71f78d1d2fa8bf7421e5f311f638ffc71b2d007c653c1ef0ac2bb699bed"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-046.jsonl",
+      "bytes": 31976,
+      "sha256": "b7e95dd91684ec7e49df0efb223b6298f18a1e0392b37e39f438fdaea81319de"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-047.jsonl",
+      "bytes": 31338,
+      "sha256": "1257929ca630d91d9a6583010ab9cac3ae26eed71e188cafcfdf3f536252e447"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-048.jsonl",
+      "bytes": 28148,
+      "sha256": "63113910df1a26546d5dbbef8f2bfebce96240310400ac213c7a8a6f2f7a6e41"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-049.jsonl",
+      "bytes": 32602,
+      "sha256": "0d602ec64745d6490a8bb7b169a2a97e46f7ce36cc532fa13eebc7a5c27b1149"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/batch-050.jsonl",
+      "bytes": 28852,
+      "sha256": "bdcedf3e6beedfb16031a8e7003463b5b2e8e064fa649f32ef64313807aae435"
+    },
+    {
+      "path": "02-种子与扩展数据/04-扩展数据派生预览/preview-frames-5000.jsonl",
+      "bytes": 1491556,
+      "sha256": "7500152bcada3068e0bdff43fae5ec00c7c8c0d0953489196e4c791bda990b98"
+    },
+    {
+      "path": "02-种子与扩展数据/handoff-data-audit.json",
+      "bytes": 59035,
+      "sha256": "f4bb91dc32885546ac5027b87185a9d250a021b0f40031abb6ef4e6055868fec"
+    },
+    {
+      "path": "02-种子与扩展数据/README.md",
+      "bytes": 4718,
+      "sha256": "7eec3e12cdc6ab58ec5c468de08c929a070b1d0eb577cfac9f117c855b384d90"
+    }
+  ]
+}

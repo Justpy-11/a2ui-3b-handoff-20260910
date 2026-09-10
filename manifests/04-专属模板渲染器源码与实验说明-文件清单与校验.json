@@ -1,0 +1,3810 @@
+{
+  "archive": "04-专属模板渲染器源码与实验说明.zip",
+  "bytes": 68715998,
+  "sha256": "abe8f416beb2b64d7ee9f6afd42179733f7726f3a72045157a66aa2011a4f785",
+  "entries": 760,
+  "uncompressedBytes": 86035175,
+  "fullArchiveReadbackCRCAndSHA256": true,
+  "files": [
+    {
+      "path": "README-先读我.md",
+      "bytes": 3303,
+      "sha256": "1e95c4ee0116930d3db59f8ea065582d6d3a93c96da52dd0d5711bced2b10093"
+    },
+    {
+      "path": "docs/01-源码架构与入口.md",
+      "bytes": 5261,
+      "sha256": "94c0c00e99b1213b5413b928a0ed5c9d76a7167749df3de7107b594caaec19b3"
+    },
+    {
+      "path": "docs/02-实验复现指南.md",
+      "bytes": 4288,
+      "sha256": "fdbe32d2c0265befd383057d6c67d1dade0619cbb11e04d7926da8f7a8b3a869"
+    },
+    {
+      "path": "docs/03-手机端迁移说明.md",
+      "bytes": 3253,
+      "sha256": "d1515c91fb16a92ce8b9268f5dd888356b4f7ec571b02c73bb109177cb4b2d53"
+    },
+    {
+      "path": "docs/04-验证结果与已知限制.md",
+      "bytes": 3946,
+      "sha256": "df240e1e874de311836914f54c570ad1c6a01ffa81c96bc55c63adcd3a905fe8"
+    },
+    {
+      "path": "experiments/browser-smoke.mjs",
+      "bytes": 6070,
+      "sha256": "75673b313e0e7b49c73a1fb590108044de42dbdf266addd6c2c4a8bd349b1bb2"
+    },
+    {
+      "path": "experiments/derive-profile-samples.ts",
+      "bytes": 2738,
+      "sha256": "093f54bbe4fd2d775e3c53039256e018ae66cdba3c917e0c65d692fde78b6c36"
+    },
+    {
+      "path": "experiments/start-integrated.ps1",
+      "bytes": 671,
+      "sha256": "87fbab3aee709b9387380aaaac368dc374aa5d1f802a4fcfc7b9748f074b7c5b"
+    },
+    {
+      "path": "experiments/start-specialized.ps1",
+      "bytes": 576,
+      "sha256": "5855194ac926b7193dd3547e3398b59f57255c39183f8aa79561a791a557eeae"
+    },
+    {
+      "path": "experiments/samples/canonical-27.frames.json",
+      "bytes": 12366,
+      "sha256": "0fc23ca3e658429ad8a625bfc751f88e484012fad084792a2c6fdbabdf66d17d"
+    },
+    {
+      "path": "experiments/samples/profile-pairs.json",
+      "bytes": 35597,
+      "sha256": "2ef43e81b8714d18afad2e20c5fa1ad58af476266bafcad01b618cc4bd1e3ba0"
+    },
+    {
+      "path": "experiments/samples/specialized-27.frames.json",
+      "bytes": 10824,
+      "sha256": "141f1bdf2872283ff65499a38f2aab3702db8d2536bfacb5447acf78f57747ca"
+    },
+    {
+      "path": "source/local-2x2-renderer/.npmrc",
+      "bytes": 23,
+      "sha256": "f7dbda001b627b3a792fb6929303b517f047f03916f2c55227e81216d38a2008"
+    },
+    {
+      "path": "source/local-2x2-renderer/AGENTS.md",
+      "bytes": 11976,
+      "sha256": "df322b2a83a7fc398f90da9228db9fdcce4c067270f91509ddbc0edd7b2f8272"
+    },
+    {
+      "path": "source/local-2x2-renderer/PROJECT_TECHNICAL_GUIDE.md",
+      "bytes": 21322,
+      "sha256": "e3d3feaa3e095ed109e96535f975540fbf0e327ecb6a23ae9515ca58cef6b06c"
+    },
+    {
+      "path": "source/local-2x2-renderer/README.md",
+      "bytes": 15824,
+      "sha256": "08a5531946085ec49961d99793dd36ba69d11d97d14783f4ce7c501b8c7fc734"
+    },
+    {
+      "path": "source/local-2x2-renderer/conversation-renderer.html",
+      "bytes": 522,
+      "sha256": "9087680a49f46271a4bd6df95ba772466e80a0cf72500c718e9bdcdea61d8833"
+    },
+    {
+      "path": "source/local-2x2-renderer/design-qa.md",
+      "bytes": 37204,
+      "sha256": "b6e38c1801a86aee703e151b34228ace16f1ffa49c18331bd86f494b6eab89d6"
+    },
+    {
+      "path": "source/local-2x2-renderer/index.html",
+      "bytes": 358,
+      "sha256": "d4a96df50f30916b5a089a0d79f6ead72a2dbaf36e8be85ccd9a80d9758260fc"
+    },
+    {
+      "path": "source/local-2x2-renderer/package-lock.json",
+      "bytes": 57071,
+      "sha256": "5be2b05527f458e378c6897694583af60d611d23a5c7d8822c888cc3fbd4140c"
+    },
+    {
+      "path": "source/local-2x2-renderer/package.json",
+      "bytes": 1273,
+      "sha256": "1e630f03b75eea9c5d546d63511626b320ac68a5e535ac4029d5429095dc9277"
+    },
+    {
+      "path": "source/local-2x2-renderer/pnpm-lock.yaml",
+      "bytes": 74375,
+      "sha256": "27aa0333f1cb799fdf4625fdb42ed538f7364946384b110a0bfb6e634ecf240a"
+    },
+    {
+      "path": "source/local-2x2-renderer/pnpm-workspace.yaml",
+      "bytes": 29,
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+    },
+    {
+      "path": "source/local-2x2-renderer/ring-lab.html",
+      "bytes": 374,
+      "sha256": "3d3c820eed4e67ce52c47c0a6108a735b61be8247e51ba9a3df7dda29a2a2c5f"
+    },
+    {
+      "path": "source/local-2x2-renderer/tsconfig.json",
+      "bytes": 608,
+      "sha256": "69b524c646daf14b400184992086c5ab702a4c046a615dab68f861bfe9894b23"
+    },
+    {
+      "path": "source/local-2x2-renderer/vite.config.mjs",
+      "bytes": 1096,
+      "sha256": "48fd77eb8b980011f8432b9c86552d7d2b715a80ba221788bed532b48847acc5"
+    },
+    {
+      "path": "source/local-2x2-renderer/vitest.config.ts",
+      "bytes": 366,
+      "sha256": "f7841669825c440e4c245d629f75d8429613eab3116faaf99e8412cbfbf0c72f"
+    },
+    {
+      "path": "source/local-2x2-renderer/.openai/hosting.json",
+      "bytes": 31,
+      "sha256": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/layered-ring-scheme-a-summary.md",
+      "bytes": 14188,
+      "sha256": "063a690157b74e79eaa0f97552942aaf574486b3c044425dac3ab05bb616be1a"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/template-system-v2-p1-checks.md",
+      "bytes": 3478,
+      "sha256": "bb618708758cad57d91531e6681fc821c4ec123dc166d0a884013b8b8848c841"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/concepts/conversation-card-renderer-concept.png",
+      "bytes": 1088936,
+      "sha256": "98247b8ebc72d7b515f1ed265715e5882b7b8bdf0a0c25fa2190871e41e5a30e"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/screenshots/conversation-renderer-debug.png",
+      "bytes": 236638,
+      "sha256": "1523c64dff2247fcc95470054fcbe87730db3a1da0d4678a21ede1de79b4b0b0"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/screenshots/conversation-renderer-desktop.png",
+      "bytes": 214754,
+      "sha256": "636599c21da7edacc6273479fe705e78d7afae2e77d4191e217492d7fd5292c9"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/screenshots/conversation-renderer-narrow.png",
+      "bytes": 142231,
+      "sha256": "5b3e254cd15ae6af2a87f9213a26a4435b28f485985fae47c53e513aa50ac4a5"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-14-metric-list-card.md",
+      "bytes": 10441,
+      "sha256": "c8120ae5cc40d774326751cbf6b4cc0565ae51c525b03f33b95095288c3c0615"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-14-service-action-card.md",
+      "bytes": 6091,
+      "sha256": "6f0f9637bfb8695e2c75bd03820f2c0abd2819cd5db14a9b0562a945d75a5136"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-14-weather-variants.md",
+      "bytes": 4875,
+      "sha256": "aaabe8d2634f8c2c790467b4994716db6c51d782b0fb0da625fe645794b35044"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-activity-summary-card.md",
+      "bytes": 7370,
+      "sha256": "0c961931f1f3459dce54bb19c96ceac1afaa65a156b0bd268411f5822d67d798"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-formal-layered-ring-migration.md",
+      "bytes": 4378,
+      "sha256": "70c7836d0e6bb1ffe14c8572d04d15820e58615149475d28901e1c6f24b94401"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-generic-service-action.md",
+      "bytes": 3356,
+      "sha256": "c177bf1390c1cc4b17328d719c743f90da02af7102c6680afefdbeb426b35e13"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-layered-ring-lab.md",
+      "bytes": 16036,
+      "sha256": "a72b0a817066f6c9e88058d34273d666d3cf415225410963be352637af10d413"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-list-summary-card.md",
+      "bytes": 4414,
+      "sha256": "bf8b434a726699cbccff9f98f60a8a4faffbec7a716e9753a649630c2b4d566e"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-media-action-card.md",
+      "bytes": 6041,
+      "sha256": "b90d37624dad331473914d5e5acd3c492de01beb7a4bba5bb7317875c00b0f92"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-media-highlight-card.md",
+      "bytes": 10220,
+      "sha256": "931bb19452cf492326de67e96ca0c46e2c3cb903f96d36960bbc331b35baf64b"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-media-highlight-profile-extension.md",
+      "bytes": 5101,
+      "sha256": "5a2b9013723c76b13e37426c1d77eea85bdd46b8a3628a11b275ae8276451850"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-quick-grid-card.md",
+      "bytes": 4987,
+      "sha256": "8ee438bcbd3e40e83bb9f294ae9768637f453ebf083587f9e5e3021f240bdf1d"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-radial-status-card.md",
+      "bytes": 8775,
+      "sha256": "648013edecc87074a5f7bd244e28f8981f32f0d593744e32064816aad8d608ff"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-rounded-metric-ring.md",
+      "bytes": 7638,
+      "sha256": "a31ac79a90cee71e4905909142d2f44c9285815a3fa22a3e9888b7ad89b1e6eb"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-18-training-record-input-adapter.md",
+      "bytes": 4257,
+      "sha256": "347cd1c097b33df01b7d129e7c138c06287c400a9b57346edfed5b1e463b8aec"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-20-semantic-assets-density.md",
+      "bytes": 14330,
+      "sha256": "95acde0a432e3fdce4284a7af2627d7108d23d074446b2298799e3f24d0e88a6"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-20-ten-template-manifest-system.md",
+      "bytes": 16419,
+      "sha256": "68a3bc22eba65277095eb7a59d53c1de9a65777b179f74f1285017d7bb7bcb1d"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-25-batch-rendering.md",
+      "bytes": 41095,
+      "sha256": "ba11b39c9204763b8ccc08b3d691915a78cde248b056ad434e89c79f896f032f"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-25-specialized-renderer-restoration.md",
+      "bytes": 4866,
+      "sha256": "8b6ebd973caf1fd1e417b63b55c82be57c64ae1a0cc46815c415b3cb54f2a7c1"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-25-ten-template-generic-runtime.md",
+      "bytes": 37389,
+      "sha256": "5b3964b5c01811a787979e14bc080fc78d4e32b5754cd744064d5a46e3a24523"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-26-all-scenario-two-seed.md",
+      "bytes": 4640,
+      "sha256": "ef157e5f07c0a754870c85428855777260a9ee0bfcb737c4a2750c04eac6b8ea"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-26-specialized-profile-parity.md",
+      "bytes": 533,
+      "sha256": "b624c0930ca91ed6ca968d585a60ffa08593980fd3774b27b5eee4d6679237ff"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-26-specialized-profile-routing.md",
+      "bytes": 3448,
+      "sha256": "fe9b0aa223278d476850740a3681ee3b420fb2902c358e11fec2582de4c30a96"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-26-template-scored-balanced-sft-v2.md",
+      "bytes": 5831,
+      "sha256": "8bc25aa9161a9e12a917e6a015bfc620799a0e10f5cc54651910f88e18f6ba88"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-28-metric-ratio-generalization.md",
+      "bytes": 11235,
+      "sha256": "db6a733eef27157c60f88f1052921583f35894d835506ee414dbce63691757ea"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-08-28-profile-routing-capacity-v3.md",
+      "bytes": 23380,
+      "sha256": "e003088df1c9d7c7b717118438515d2d128b2e3c7ac3a2928e1c386af8219333"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/plans/2026-09-01-scenario-seeds-144.md",
+      "bytes": 18248,
+      "sha256": "36200ec46bab4c6602efce8fe7240daf92dd5c4380f9bf3416f86b394d1cef9c"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-14-metric-list-card-design.md",
+      "bytes": 6623,
+      "sha256": "e72f1a2dcc9df4d4e9ca5d0175b3888c3dd1b9f341df28370313aff2c5c8717d"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-14-service-action-card-design.md",
+      "bytes": 2606,
+      "sha256": "d03d033417684d31a999cc261492239a1cd366e9968f98a622796645f3f19318"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-14-weather-variants-design.md",
+      "bytes": 2490,
+      "sha256": "38cd2d9679880793870c5ef0b09aee6e56f913ad812ca5d52de79acb1b6d6b25"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-activity-summary-card-design.md",
+      "bytes": 5347,
+      "sha256": "4ab8396d285409ae940f21bfaa437069eba6b7d9939640020ff4b90532b86b30"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-formal-layered-ring-migration-design.md",
+      "bytes": 3792,
+      "sha256": "3102c63183082f531f76f02068230bc34aa351a4b02937e7f26bedc3d1b7532b"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-generic-service-action-design.md",
+      "bytes": 2577,
+      "sha256": "4073f7dd0f9f278b0d41833a759b891e9810cb3f93f532a4bf16fd793f11800c"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-layered-ring-lab-design.md",
+      "bytes": 6722,
+      "sha256": "0d6f45bc4ff7771ee8737507c917df33164affc556a74f83d8320da428d9aa76"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-list-summary-card-design.md",
+      "bytes": 2911,
+      "sha256": "09a855b45e7beacdc34196abd365fb72215ec422244de56dc63c315b1f9e92a7"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-media-action-card-design.md",
+      "bytes": 4255,
+      "sha256": "c1ec516aadac148d77153db4e755937b5360460c2b70925b89cfc2e3d0b041dd"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-media-content-template-separation-design.md",
+      "bytes": 1657,
+      "sha256": "ba341a6597301e295603d24ae62b2eb7c506d9d56fe1c612cb8c4a9efe3ed225"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-media-highlight-card-design.md",
+      "bytes": 6220,
+      "sha256": "e9ce69504033c326e8e6b1e9c294e38219554a37a6628b56b5c2e9dcfe3693b0"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-media-highlight-profile-extension-design.md",
+      "bytes": 4757,
+      "sha256": "3afe0fb1e69ed4354151d5ac2d6a73277b5feb324bd4932fdaa0a2af06eb95df"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-quick-grid-card-design.md",
+      "bytes": 4238,
+      "sha256": "089732b4c078cd761026f1e530dbef2663e8996368c28dfa38abbfbb80116320"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-radial-status-card-design.md",
+      "bytes": 4017,
+      "sha256": "91b4d87a3623eb39f5a7d3a6502715c42a083914ab290a26b7f214a63d8d1f9f"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-rounded-metric-ring-design.md",
+      "bytes": 4524,
+      "sha256": "e8a8312076356dda79e9acedceacf7641129be855f0128c22f3f907e6d8cc551"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-18-training-record-input-adapter-design.md",
+      "bytes": 2049,
+      "sha256": "67430e190cd7140989f16e938f49499eaa25a47bd1412b647a82c947a32852be"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-20-semantic-assets-density-design.md",
+      "bytes": 8896,
+      "sha256": "1b4ba3601d4cf7bbabfc28f88f78765801eae6f45972d3788824fa888e38a3a3"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-20-ten-template-manifest-system-design.md",
+      "bytes": 8585,
+      "sha256": "31716fa69b70f9ddbcb72011cbf1daf89e0d6ff723a67d9593dad720ee0e3101"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-25-batch-rendering-design.md",
+      "bytes": 12403,
+      "sha256": "1b8bb0e74f60c7c894bc691cfa74e26efb98203682f8537d109304ca55b4bd99"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-25-specialized-renderer-restoration-design.md",
+      "bytes": 2303,
+      "sha256": "8ee67b00dc13c7b8b11da20a4ba8b2dffef405eb61fb25c72b64deabacecf77b"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-25-ten-template-generic-runtime-design.md",
+      "bytes": 15361,
+      "sha256": "b599c857163e8e62674f13f37449236e3098317568cbc5cb75d73e40206b1b8e"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-26-all-scenario-two-seed-design.md",
+      "bytes": 3734,
+      "sha256": "41b22f547454ebe411b3a8054847d655b1ef0f583d87a9f41c65d68e01dc8a34"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-26-metric-ratio-generalization-design.md",
+      "bytes": 5088,
+      "sha256": "fed9fd0e1c68ecdbf08375e0ff8c9bab143b20c88bf36d680e036b457d19cb9b"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-26-specialized-profile-parity-design.md",
+      "bytes": 1392,
+      "sha256": "bc7ac23ca12a8702f5fdf12a7b5e3b39b303250028ef2291cbafc8351e317897"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-26-specialized-profile-routing-design.md",
+      "bytes": 2951,
+      "sha256": "6e8358587c99054dbac41ac75fc4c33174a481efb89040cc59ac6a8b0777c03f"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-26-template-scored-balanced-sft-v2-design.md",
+      "bytes": 3114,
+      "sha256": "e796e1b4ab016cb2229a64558a877ce93e866bf37a68e923c98a1cc2039482f5"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-08-28-profile-missing-overflow-policy-design.md",
+      "bytes": 10225,
+      "sha256": "9d41ad693e3efb15f962eba1a65ac9ec0929c7d47ba67005fbafe34cb885723a"
+    },
+    {
+      "path": "source/local-2x2-renderer/docs/superpowers/specs/2026-09-01-scenario-seeds-144-design.md",
+      "bytes": 14682,
+      "sha256": "83b52cc66d19cfe5debed2bb232800bdf7b4b63bf173cdcae2705b759ae56c8c"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/activity-sleep-background.png",
+      "bytes": 1360192,
+      "sha256": "6b27f08eb618a1813a0ba550bdd022d9e6353fe3d06f66fa13d7dac6af25dd07"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/activity-steps-background.png",
+      "bytes": 1193041,
+      "sha256": "3967238b451b755d42ee63ae76ed93e47beb8678b233c859364e34a322150473"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/activity-stress-background.png",
+      "bytes": 1307108,
+      "sha256": "db3bae35a8a0df7df7032589067ba7a9fdebfa81010156f833748d2f8be1ee27"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-citypop-album.png",
+      "bytes": 1406152,
+      "sha256": "eb09da4e2b2b3941b4344a71df9badcd5a8dee529cf4bd884ef50558604daece"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-climate.png",
+      "bytes": 1748942,
+      "sha256": "cf03b0a2961d91d89cca6344c163d9515789c1ff8354dcf4fcf2baa31a822103"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-cosmos-poster.png",
+      "bytes": 2197480,
+      "sha256": "2df5a9a981ec77067d05776176ef002890c8b9eb520d0a227064f400e54e7aa3"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-fitness-course.png",
+      "bytes": 1610203,
+      "sha256": "8fd8dead28e2c42236495019094200c7bce170efe04254c067174c42aed40ba6"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-illustration-book.png",
+      "bytes": 2331700,
+      "sha256": "52fbe208f7f7cf46b8dcc36cb488f503669e497b91c3e4b0d9a1e553cbc42300"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-market.png",
+      "bytes": 1549347,
+      "sha256": "4df60b27c43b8d09f04e9b05969816a22038bd91400e4cead180b62111adaeec"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-highlight-sound-x.png",
+      "bytes": 1717516,
+      "sha256": "92ecfb1a559db446a659695b9a815596f38618f3c352bcb14145e6eeb2c01e67"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-playlist-landscape.png",
+      "bytes": 2306331,
+      "sha256": "befda1f9618262bdd7a9b04da8e8665990c581307bebba1cc0acb5f79f16699f"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-recorder-waveform.png",
+      "bytes": 724236,
+      "sha256": "0dc247a7065f57a842c7a92fc456d3bd8abbc0ce1f51fbe30e8a2ecb174bc79b"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/media-sport-ski.png",
+      "bytes": 2413678,
+      "sha256": "ca01b4309dd677658dc3e306214079d98f131a600921bd139935d528d074a6db"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/radial-status-countdown-texture.png",
+      "bytes": 1579600,
+      "sha256": "b5a4e4f45b2b5f8b19157d79a659e65971d89c32734727ba36765345d341ae69"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/contacts/andy.png",
+      "bytes": 1925886,
+      "sha256": "bd8f2cd941a068e14534498e092e693cc22cd0d67ea60ac0539945149b33e7af"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/contacts/ava.png",
+      "bytes": 2080312,
+      "sha256": "cdf5e63ea40422e8cf6197153dd4df4e33141f9b32afa639576a30c11989f49d"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/contacts/ellie.png",
+      "bytes": 1901014,
+      "sha256": "296ccf544d2b938602b9d62eae2678cf7b72d3baa8aa59608d234287b5052d27"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/contacts/noah.png",
+      "bytes": 2067814,
+      "sha256": "e6401a793577b3b2b90261817034b92d338946a249b4084897e4d3545cf5fd35"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/list-summary/tip-fallback.png",
+      "bytes": 34673,
+      "sha256": "be218c02e92bf179bf80df455e9e1e10e5b92a7c75e2b6158ccc4d903fedf4ba"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/list-summary/tip-multi-device.png",
+      "bytes": 46786,
+      "sha256": "8ee0da5dcf88727fa5fe7dfaad9e054c6f0b9b8aa85e71bb84badbd683d70dbb"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/assets/list-summary/tip-photo-recognition.png",
+      "bytes": 56461,
+      "sha256": "64fd6dbdbec788d6874842a4febd4961720c17b1277570466312cae5e7a4215c"
+    },
+    {
+      "path": "source/local-2x2-renderer/public/references/huawei-screen-time-ring.png",
+      "bytes": 22561,
+      "sha256": "7992df578e242564c9b6e41d662f9195778c4f4edaf923e8d7599b47698815d9"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/activity-summary-2x2-v1.schema.json",
+      "bytes": 4530,
+      "sha256": "b3ddda99ee1783fbdaded0ea3f570b2aa9b8109b8d7790933568f06a42dad230"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/activity-summary-variants.a2ui.jsonl",
+      "bytes": 1960,
+      "sha256": "df900b71f39efb2e18a56cb490554f5b2e4909d031ba76d94601de8b04fcad4b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/activity-summary-variants.frames.jsonl",
+      "bytes": 550,
+      "sha256": "6eb6ed58fe5cacaf09ae75ee4937427784e0a0b33719db6ddcbc5110caf52ae3"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/calendar-day-summary-2x2-v1.schema.json",
+      "bytes": 1512,
+      "sha256": "9226492baf227439a452f4de36157b1123922722bb474fe08fef4f35a62b3176"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/calendar-empty.a2ui.json",
+      "bytes": 574,
+      "sha256": "06ae13c2f9d456f74875f92bdcb93bba5e2e5e413fecb2c49fa0bbb2b1703c16"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/calendar-empty.frame.json",
+      "bytes": 119,
+      "sha256": "5912bab9c168a57ccea142a9981e98a05a92924ccdb77ef1c30c59eca2804035"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/calendar-success.a2ui.json",
+      "bytes": 723,
+      "sha256": "1f8dabfbf20a80b125ca72c9ee0f12facff008262ff0a782232cdb330cf84cd0"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/calendar-success.frame.json",
+      "bytes": 222,
+      "sha256": "886ac817b51d206aa446f0722d2b10efe7906f42669577ce3d34f22ca3d7e44d"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/content-classified-90.json",
+      "bytes": 39448,
+      "sha256": "d8c405c9ed0ba54c06197e179a95b54727fba9c6660c3a8758af61208511620b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/list-summary-2x2-v1.schema.json",
+      "bytes": 6585,
+      "sha256": "cf8e9229bfa63daaacb0f223c1980d75de676702cdb561430134354cfaacd98b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/list-summary-variants.a2ui.jsonl",
+      "bytes": 2306,
+      "sha256": "0f676b2291034c850d282368c701e1e56a450a04a1dd703c94d2a6ba7495de84"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/list-summary-variants.frames.jsonl",
+      "bytes": 893,
+      "sha256": "1c313b7342da628d3fd7f0d78c77fed9897c81819c923816e19e1f2575c06f80"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-action-2x2-v1.schema.json",
+      "bytes": 5373,
+      "sha256": "bdfe53ab25dfce5b140c2c9ce70ef4d338e203a22e26a8579c66f4dc43edeaaf"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-action-variants.a2ui.jsonl",
+      "bytes": 2078,
+      "sha256": "3c1ddbc2e27453195b1641bf7a89a68344ba35fb49b390815371af66c9459bb8"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-action-variants.frames.jsonl",
+      "bytes": 697,
+      "sha256": "be33b3a4316a5c224783ba598f747ee683dcf1b3e8520de0bcc41bddeeed7c56"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-content-2x2-v1.schema.json",
+      "bytes": 8051,
+      "sha256": "940edfe74fb3669b7cd29fa5e2fde3e88bdf5d6f2fd3c13c71cbdae9d35e9912"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-content-variants.a2ui.jsonl",
+      "bytes": 3508,
+      "sha256": "4ae927460f7e890e140b4ca9c3400333dee9ccdc05c3cbaaf16f096fa110f744"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-content-variants.frames.jsonl",
+      "bytes": 1296,
+      "sha256": "71b112faa7e5e7e71d9ecccdb53cfe42ada3b07d0f587e33392329fb7e68528a"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-highlight-2x2-v1.schema.json",
+      "bytes": 3344,
+      "sha256": "a3d3cac4432b59218b93eb842e2e265866b1f0375d3350afcfeb309e83ab0575"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-highlight-variants.a2ui.jsonl",
+      "bytes": 1313,
+      "sha256": "1e91e89b0ae5cbfc97574c9b2ea3386d10356c36ef6240c97b0b031f2e4f0880"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/media-highlight-variants.frames.jsonl",
+      "bytes": 478,
+      "sha256": "93654364faebf9103d6fdb3f06926c5694c5c77ac360672d9ae92eb75ab8c7d5"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/metric-list-2x2-v1.schema.json",
+      "bytes": 2061,
+      "sha256": "4b99cf482c18bb997125f9efe161aede5a228d10bc4657c7c1f8cfef27633837"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/metric-list-variants.a2ui.jsonl",
+      "bytes": 2379,
+      "sha256": "aa40673d2cac832a94679135df07ead15653b1ce1534daa10fca18b43e6229ef"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/metric-list-variants.frames.jsonl",
+      "bytes": 1145,
+      "sha256": "45d2c3ed4ed62497b387a29ea094d992519e3a9fc11d799095911af248d80363"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/quick-grid-2x2-v1.schema.json",
+      "bytes": 3743,
+      "sha256": "247bf73d5f58ebea854bd2e3922bb89cf0fda7e9fe3e5d6b52af2484fb39530c"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/quick-grid-variants.a2ui.jsonl",
+      "bytes": 2752,
+      "sha256": "a80242091b3c1c73c0356d39bf5a51d6570bc1760dc8b6b806eccbcc9b5ee70b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/quick-grid-variants.frames.jsonl",
+      "bytes": 969,
+      "sha256": "63847e1736bab7ea510b486a4fd5938c36907a03c0b1f6f69e2a6a0b0781a0aa"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/radial-status-2x2-v1.schema.json",
+      "bytes": 1701,
+      "sha256": "6e9467807b03620b12b55d3b74e346af84a706199da2b07fedcf8fe8294674e5"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/radial-status-variants.a2ui.jsonl",
+      "bytes": 1314,
+      "sha256": "5fb650bbf6e163effbe1a2d0b998785f1c0f5404b9a84059b300b1a9f0a24d86"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/radial-status-variants.frames.jsonl",
+      "bytes": 367,
+      "sha256": "c496b565a9876c13cbbd3c52f83f3f054cfaa91c8c964b92885ce62dde09c9b2"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/service-action-2x2-v1.schema.json",
+      "bytes": 1406,
+      "sha256": "d72e20b2ee33bca06f68276c139b86fbc9b1b95dd5059b96fcdb3ea78c29a6ef"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/service-action-variants.a2ui.jsonl",
+      "bytes": 2722,
+      "sha256": "2759b87e95b0e1f074dae701a02d54b4e1a3529c4654703a208a87ad62f51b7f"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/service-action-variants.frames.jsonl",
+      "bytes": 959,
+      "sha256": "36379430d6103d2cdb764c0361e5f3e7967b311101dfebfdafeeb5110dbd3fa6"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/training-reference.jsonl",
+      "bytes": 31927,
+      "sha256": "87433d6d8b4b28f793b2d3e8cb080d4aead750a3b0ccbf9b6ffbbe87ed115838"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/weather-current-2x2-v1.schema.json",
+      "bytes": 1573,
+      "sha256": "cd0df356c31ef77fb2e0cf5f7120b3dea01a0639f68b140e837aaa1e35d05a07"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/weather-success.a2ui.json",
+      "bytes": 749,
+      "sha256": "f60381f8455f3e36f4b035378af0d1f3bfa2beef1add2d510156142761d45254"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/weather-success.frame.json",
+      "bytes": 213,
+      "sha256": "ae7df85d0fa02748877c990d20d7083dba84e4cd8e88093e81bf5e54dc523c3f"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/weather-variants.a2ui.jsonl",
+      "bytes": 8210,
+      "sha256": "3e49b842cc1436ce313e8df3b70e43a2b513e8730275452b5567f864f2d7793e"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/weather-variants.frames.jsonl",
+      "bytes": 2314,
+      "sha256": "bdad2df45c277314b6587aafade1908c8d81ff61f94f85f64711293e889735d1"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/README.md",
+      "bytes": 15874,
+      "sha256": "31c2cfc65ceb1dc3d17a6e6216f84304c34c6061dcc4c8a2719f47e4f280c598"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/activity-summary-2x2-v1.manifest.json",
+      "bytes": 12392,
+      "sha256": "271aa9236dd104f52270492fe8c5b8b577d67e525e81b3e6252456b88def1515"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/global-design-system.json",
+      "bytes": 28366,
+      "sha256": "c68862bac158831190acb2d47440b5cde556d249085544f91c4f3626f580d70a"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/info-summary-2x2-v1.manifest.json",
+      "bytes": 14502,
+      "sha256": "7c82a5e4ca7de228a5e53269fbbea477378303c1d7858fd82879a42687b896fc"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/list-summary-2x2-v1.manifest.json",
+      "bytes": 12607,
+      "sha256": "c14c67fe47e09eeb21566315c859e2d8226ec7174ca8aea5d5306220a6ca53c3"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/media-action-2x2-v1.manifest.json",
+      "bytes": 11554,
+      "sha256": "8dae23dd5715157578b0e11b7a5d2f0fa46c2ffda16ebfcb9d57d208caf75bb1"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/media-content-2x2-v1.manifest.json",
+      "bytes": 12567,
+      "sha256": "3bbf1618b54086be9d4295477e5fe1a1ea8926d4e8dbead915987a2b9cd196d2"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/media-highlight-2x2-v1.manifest.json",
+      "bytes": 9856,
+      "sha256": "013ac79cc90f8b95b9879a27662b2ac464cdedc89aed08b6fc87807dd2b98099"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/metric-list-2x2-v1.manifest.json",
+      "bytes": 12072,
+      "sha256": "13ff5caa8b4d9abdbfafa274d46983858a7caeb9a49ac773e9550255b9486f33"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/quick-grid-2x2-v1.manifest.json",
+      "bytes": 10839,
+      "sha256": "50421d9feaa9619c903fb3fd0c4051e363559715fbe37c0bed7b183766d3aa92"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/radial-status-2x2-v1.manifest.json",
+      "bytes": 11805,
+      "sha256": "5a889aa5594c42dd89aea815fc74ceb45239d466f08a32695cedbca8befe6a1b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/service-action-2x2-v1.manifest.json",
+      "bytes": 12175,
+      "sha256": "7f043888ab7b6b0aa66a25633989a06ebddb8849b3682b8f2c94afcaedc26516"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system/ten-template-manifests.json",
+      "bytes": 139448,
+      "sha256": "f5c53a6954fba36c3e1c89cad72d315a072bf48ac65e4a4570af4ed263ad6fca"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/README.md",
+      "bytes": 7835,
+      "sha256": "5d3bbbc080601328d4e4322aa8ce983e021003df5c7c90fa60f4c9f9edb22676"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/activity-summary-2x2-v1.manifest.json",
+      "bytes": 236617,
+      "sha256": "cd3c4c72e20a73f136930fdf449f732dd160635f752ff5b275c6b809f79153df"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/assets.json",
+      "bytes": 39808,
+      "sha256": "0f0531e09b6cd7a4dc0ace73deac6334c5b1f5148c0018ee564b481f377c0908"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/behavior-rules.json",
+      "bytes": 410673,
+      "sha256": "9ea587187dc2f6c4e93e12759b75430be2e2b69ca3f70bd20ce17f04a469f318"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/examples.json",
+      "bytes": 27024,
+      "sha256": "e7121410fdd0c37f3d8cd3f8785af39f1c641b7593c13f6a5f1011bcf7c0e9fc"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/index.json",
+      "bytes": 1752,
+      "sha256": "f99a934074e768d0d5ccf564c601d0ac16c445ae2a48881af734af7ea80a52b6"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/info-summary-2x2-v1.manifest.json",
+      "bytes": 243334,
+      "sha256": "52ca430f36642d693706aaac497a702d0f7f8cd9b4071b81cd16e8b5e161eb76"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/list-summary-2x2-v1.manifest.json",
+      "bytes": 301764,
+      "sha256": "1ca0e92a7908f46631679d463e9f76e1e73f093e094f9a1266d1ab94f2dd15bc"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/media-action-2x2-v1.manifest.json",
+      "bytes": 247610,
+      "sha256": "3657f57e859b374a4d646880c0c5afe0f7e36ed3545cff8d9a6324746392124d"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/media-content-2x2-v1.manifest.json",
+      "bytes": 307929,
+      "sha256": "fd504dbc34262995fe376786bb901ea3f5f7c0c191a901cf568e13d44c380950"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/media-highlight-2x2-v1.manifest.json",
+      "bytes": 164634,
+      "sha256": "3474e8820c4c8499df20b4f6e49d3ac46d263396194e931be2f6d77ed3e81f3e"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/metric-list-2x2-v1.manifest.json",
+      "bytes": 305213,
+      "sha256": "fc19d0aab828e319d082303674aec3b9f1bd841a4a2db17ed4aa3545bb5a1bff"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/model-contracts.json",
+      "bytes": 360141,
+      "sha256": "487e0b78de1f371b31ab87458cb52a22eaa7f97905c5fa5df188c11f1d884bd9"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/profiles.json",
+      "bytes": 19937,
+      "sha256": "e28f492bdd4d75091c447d939c3145904decbf544232fcca2f62f29bdf806d7a"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/quick-grid-2x2-v1.manifest.json",
+      "bytes": 143898,
+      "sha256": "fc50e31e87ffdc4fe98814144a8211d3c5b43a48b8451159086ff113d01a383a"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/radial-status-2x2-v1.manifest.json",
+      "bytes": 196631,
+      "sha256": "d65df647d4a40984151820152f1d9ac14c9028c0332bd7361e6356531e1c7930"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/render-program.json",
+      "bytes": 6787852,
+      "sha256": "8b94ba74a15cacfb15053af2c66b3363f2eff999d9741d7e386af5ec6321541b"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/service-action-2x2-v1.manifest.json",
+      "bytes": 183635,
+      "sha256": "785acf7cc26bd4d68496fa088532fa596c0dcaf1bfbfc42646cec1da9ce81a79"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/source-index.json",
+      "bytes": 13016,
+      "sha256": "53474a6c93941d1ec9139efd316b5e7dcb6c5b983bce5109ffd66c889b9f0935"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/styles.json",
+      "bytes": 678009,
+      "sha256": "028e7a4a4c9f6fbd3563aaf73389e65d8dcb208987654929a2bbb7b6bd18efa7"
+    },
+    {
+      "path": "source/local-2x2-renderer/reference-data/template-system-v2/ten-template-manifests.json",
+      "bytes": 2622691,
+      "sha256": "0abd018cb0f4f71346992fe7afba2c1566b49d27cc335b7b5a8816f9818b578e"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/analyze-ollama-direct-dialogue-failures.ts",
+      "bytes": 36580,
+      "sha256": "c19abe2f042bac33c11359a83baa4fcb51d676fd56ac546da049419b5c1443a8"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/audit-profile-renderability.ts",
+      "bytes": 1500,
+      "sha256": "4d0e991db65c0070dd2c92d0f43946a53e1d20cc65df730abbffa08b00944120"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/evaluate-ollama-baseline.ts",
+      "bytes": 9150,
+      "sha256": "20ade74649977c68b50574d099d872f140d3afcffa8c9b85e5595b1c0902f606"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/evaluate-ollama-profile-v4-288.ts",
+      "bytes": 10712,
+      "sha256": "47df5ab5d4111b5e022aeb54e04bb6e9693f1c8f175af0abec6b716678d98c37"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/evaluate-profile-v4.ts",
+      "bytes": 4370,
+      "sha256": "88757ae281cb40f19d06a917f3ef223ee42308727fde1cb7b0452278c7e83b37"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/evaluate-semantic-extraction-1000.ts",
+      "bytes": 14939,
+      "sha256": "b58de9af9ea6f494e9ba0d7b7191597d3ef11cb16ae78b34c0c4a603cb34cce5"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/export-reference-data.ts",
+      "bytes": 45373,
+      "sha256": "f638d6704afa597d91a4bf952014eabe3874643ed93ccfbc224d78c21567bd57"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/export-semantic-extraction-training-1000.ts",
+      "bytes": 3510,
+      "sha256": "b9bb08d5e6652190db610118b9798363aa0407b98c6ec5cc7e9bed50f02d3f02"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/export-template-system-legacy.ts",
+      "bytes": 412,
+      "sha256": "c308971a7b2e2d2fe92c495df856a13a77377f0f82646e66029051d7a250901a"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/export-template-system.ts",
+      "bytes": 261,
+      "sha256": "01358c0d5fa733d3322fb583a1abf4bb95db719133b6d979b0fabb2fb381ed87"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/find-balanced-split-salt.ts",
+      "bytes": 4061,
+      "sha256": "d884b00ed172d1d1f3824686a45c444abe61ecd4c2a919a933755f851cf262f1"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-all-scenario-seeds.ts",
+      "bytes": 12978,
+      "sha256": "b9b00ff361c4d32cf993ba46a67991a46f42cf536e14fd5688b7fe643984c1fa"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-balanced-scenario-corpus-v2.ts",
+      "bytes": 15943,
+      "sha256": "8783baf7e39a022fcbe032c66f0097aa08d036e0464ae806be1830cdd31a9044"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-profile-seeds-v4.ts",
+      "bytes": 19909,
+      "sha256": "29b5228f8729d50098b6645f73b76d356eeeca96bf9175ecb085031ef0527f3d"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-profile-sft-v4-5000.ts",
+      "bytes": 16467,
+      "sha256": "4774ae44d3f48a3e324085e0842d40daa803c3fa367dd8a563fd901518f8aada"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-scenario-seeds-144.test.ts",
+      "bytes": 5337,
+      "sha256": "f54ec6298ac41079714ec777b13e01c196e8f6e1778ee8573c82075b4d30f6f7"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-scenario-seeds-144.ts",
+      "bytes": 12085,
+      "sha256": "cb5936687337ebdcfeabdcf32688e8404c0d2bfa7db7707378db95754e7197bd"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-scenario-sft-5000.ts",
+      "bytes": 13253,
+      "sha256": "71c30d7905f651dfed12a2b22b9480321d4aa7afbea2c5e8784a0bfca8eca832"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/generate-semantic-extraction-1000.ts",
+      "bytes": 28640,
+      "sha256": "113571dabd723e519f74bf7903b425726c8cb4f119eb4178242164de9ec8053b"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/prepare-sites-build.mjs",
+      "bytes": 910,
+      "sha256": "b6a6adaa4fab3234676116dd1c9cb6611275ab9d92dd26f5bf402393e3744bf6"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/prepare_profile_v4_288_experiment.py",
+      "bytes": 5550,
+      "sha256": "6733889b9dcf297d0d8e3ec81956d05a3dc417e8299e18a4f5a8413dff03cbb4"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-activity-summary.mjs",
+      "bytes": 5275,
+      "sha256": "814254a1959f6d165dbdee9da05dde23d412810cd0192104fcc220203aa513e1"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-list-summary.mjs",
+      "bytes": 6325,
+      "sha256": "66b9fbb9c2ddbcb3803cdd1c12d9e1e760b31611af4a6f517ce50085d1f625c0"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-media-action.mjs",
+      "bytes": 5232,
+      "sha256": "c2dcbc65a51af2f51eee7201e0e9a38497410d1b608c227ac1c545fb0723042a"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-media-highlight-extension.mjs",
+      "bytes": 205,
+      "sha256": "98fb1906b53e7e545f52ac099704daf21fb2478d2e3cacea50b3b166e92ff8ca"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-media-highlight.mjs",
+      "bytes": 5534,
+      "sha256": "6a153bdcf7e3ec5d2e25591ed7cfefe3520cbc0a6ce50c3c74763fbbd316b8d6"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-media-template-separation.mjs",
+      "bytes": 8785,
+      "sha256": "3a8ac2bc872b7332f440f2ab6bded5b03357614cfb9ebe9008c1ff4963a8a3af"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-quick-grid.mjs",
+      "bytes": 6182,
+      "sha256": "7f2393c6375460d6f95d05fa668a0b3620d80de098afe056bfd467a502108f14"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/qa-radial-status.mjs",
+      "bytes": 5230,
+      "sha256": "a9f37eaf34628267145668fd66567f8686fe7da6cd05ea242ae1c225a9cbf738"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/report-semantic-extraction-1000.ts",
+      "bytes": 12378,
+      "sha256": "93ac8e27b08c1ffc08e487c917135db5b2dba16b2898bbdede01c12c6247c726"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/report_profile_v4_finetune_288.py",
+      "bytes": 14344,
+      "sha256": "44f63ad6c937d16b2a0ef468fe06a220bfa0c2089290b1cfa02a68edab24df9c"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/run-ollama-direct-dialogue-288.ts",
+      "bytes": 11825,
+      "sha256": "1b0e7fb76b47c3f2711866af59f2e0c9cdae404011f6cdefe7c319985e702ce0"
+    },
+    {
+      "path": "source/local-2x2-renderer/scripts/train_qwen25_profile_v4_qlora.py",
+      "bytes": 14549,
+      "sha256": "20d3495686eb4ace6ca5e792f1cda8ecec9eb697d30652b2012bc1bffefbae16"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/App.test.tsx",
+      "bytes": 15950,
+      "sha256": "8c7798ba53d9ccb078611955934dc05deec78a5939b4e5489a09e779b6f50a3e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/App.tsx",
+      "bytes": 26752,
+      "sha256": "e8749cbaad7f534372379482a90a6a592a53d09b7d696366c7f1d70cd2ba5202"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/main.tsx",
+      "bytes": 325,
+      "sha256": "3fe9150d9c4251b0ae4a97538eb0735b77c1c91324221e98094cc3ca2c7d69d4"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/styles.css",
+      "bytes": 6955,
+      "sha256": "087ffd78e3c654063c52574ed51b2a0a6f2148c89a015c2951f4e1d9da8ff616"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/a2ui/a2ui.test.ts",
+      "bytes": 27704,
+      "sha256": "192741b61142b955d8db468844cd43262b4926d3262c58b038acde0255f2c888"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/a2ui/adapter.ts",
+      "bytes": 2857,
+      "sha256": "74750f816a7d4efddc3099653502863c2e577e3ae2e42a3f53a18c70385e7e5c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/a2ui/parser.ts",
+      "bytes": 9874,
+      "sha256": "28b0cdf39b16e3d2745004854a3cd2789bc0b7157b9945da16fc635d75eac7d8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/a2ui/types.ts",
+      "bytes": 2467,
+      "sha256": "a28c9cecb48a6663aec985c2ee11e9909e9ff1bac9527f6cc18d278763e2ed7e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/ActivitySummaryCard.tsx",
+      "bytes": 3815,
+      "sha256": "d3305685baae371d05ede308182ad60e61d59464809a3b827b2b1adee12a1b3a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/CalendarDaySummaryCard.tsx",
+      "bytes": 1329,
+      "sha256": "7a832e03af757a310149c15653ba6f1e06a8dc0bb31ab73adf40de678935602a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/CardCanvas.tsx",
+      "bytes": 536,
+      "sha256": "52830d1dd4691f6d7c267deff12bcb39898483538086137e2c1a4e949ae52a24"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/CoreValue.test.tsx",
+      "bytes": 6377,
+      "sha256": "1ee3c7b6da2d090d370337ab9e2b65491ab842f39122a467f3476d6c0d7b2f9f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/CoreValue.tsx",
+      "bytes": 1866,
+      "sha256": "a5d2ef61189450e10881bde363dcc3aa34652fa0e95b51fcdab569a92038875a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/InfoSummaryCard.tsx",
+      "bytes": 12747,
+      "sha256": "4d0c81ddffd619b374a0c7fa2cde1d27aaf04bb5175c829bf21aa8d80f50fc65"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/ListSummaryCard.tsx",
+      "bytes": 3812,
+      "sha256": "57ea314498486ea688ac0f3c3a0eeaf37dda442a25645f3584339ca626131eb8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/MediaActionCard.tsx",
+      "bytes": 3502,
+      "sha256": "2a2f3d52803f9f9b13d75e85f90564d4399fdecf396c7c0eba89275dd4a8af97"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/MediaContentCard.tsx",
+      "bytes": 4128,
+      "sha256": "b42558208ed294d86193cf828ab2608959313dcbe9453769a6238277630a5e00"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/MediaHighlightCard.tsx",
+      "bytes": 3013,
+      "sha256": "e381e5927179e1330e7bf68ba3db88c667c823a4003f48e449ab0bd1f9b7f1ce"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/MetricListCard.tsx",
+      "bytes": 3796,
+      "sha256": "861e76791680c01dc4a277450b048c0caaaf28a811e82cc514d0e23a0aa20f6c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/QuickGridCard.tsx",
+      "bytes": 3033,
+      "sha256": "03e42dedab9fcced7f4426ed6d9237bb974eee11cd5772733a9e0f08c27dc1a0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/RadialStatusCard.tsx",
+      "bytes": 5914,
+      "sha256": "7bc47c8d012189c87c977044b5e43d3a77a59933675e2d78f7e8ff47798eb4d8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/ServiceActionCard.tsx",
+      "bytes": 3127,
+      "sha256": "8b3bf63ac12fc0f63ad18bcfd27ec29dd0c8fdf6e9781a4812c4d961877f1171"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/StateShell.tsx",
+      "bytes": 1441,
+      "sha256": "f6dd4326a2d085701f8588a55f8074f4aaea7f06a5c8ea1a8def6223cf0f3a62"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/WeatherCurrentCard.tsx",
+      "bytes": 1515,
+      "sha256": "db4be7f2f2ca6bc8d27982145134b77e34a3974ddc4511a71bcd89e8a2fbd239"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/cards.css",
+      "bytes": 53775,
+      "sha256": "0b17811d4c88316903823e95f3bbd931c2a733665e6cc8b0643ce85e91673f00"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/cards/cards.test.tsx",
+      "bytes": 44084,
+      "sha256": "9c27a542793241a1c143382875f537dc0fe045784a341ddd53d43b833dcb33a7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/frame.test.ts",
+      "bytes": 35201,
+      "sha256": "10304c4906b62f5611243eff91b8edb74af1b2177230575d4847dc73bfde7e88"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/frame.ts",
+      "bytes": 45146,
+      "sha256": "83582e8659cf9d30958a0ef0dcb2045134d613cefe2dbf5d6dfbbad0f1878850"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/genericFrame.test.ts",
+      "bytes": 25861,
+      "sha256": "06737c615069f6aae0ee0c43a1b69106c7dd81c21293b0f1b6a715efa992b38a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/genericFrame.ts",
+      "bytes": 20433,
+      "sha256": "006ee27636a18d620df89b6b9fc7ca187605a229e835cf8f119695268926af14"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/legacyAdapters.test.ts",
+      "bytes": 27925,
+      "sha256": "8081e267cf6bb792434e098d1ff4590e6ea1a08639f9bc30abbd7d82ad439f4e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/contracts/legacyAdapters.ts",
+      "bytes": 30906,
+      "sha256": "49e60b424ec386333b32370faa941d2fef06e48400ff3791bd5eb3449038412e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/ConversationRendererApp.tsx",
+      "bytes": 13160,
+      "sha256": "eddd3c5aef25e3578d4d6aeed340160b77aa83ca7d3f2c700a886f4307198c0f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/conversation-renderer.css",
+      "bytes": 13364,
+      "sha256": "9c9599375de10d36d31f401f0f4f6cbb12b14b3b7ecd3beb2e33b9817e6dfdc0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/legacyPrompt.ts",
+      "bytes": 4341,
+      "sha256": "6d5992cd3e91e2089ba85a9ec7b8283007fbac16192587b65c92d2da1f0add63"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/main.tsx",
+      "bytes": 432,
+      "sha256": "56126d5603d8f3ba70edceaff0ba8e2905af72da65054813300a40401c7902a6"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/ollamaClient.test.ts",
+      "bytes": 6996,
+      "sha256": "8a7651cad07f3191e5ab3e7c7baf3d40f31569b81920f7574c12658a34e962ad"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/conversation-renderer/ollamaClient.ts",
+      "bytes": 25353,
+      "sha256": "78110120bf029c2374486a3ec38e4d9368332019e2319cd9aa4b3fd888faa3d2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/ActivitySummaryVariantPicker.tsx",
+      "bytes": 864,
+      "sha256": "1ab452ba3ab0a0d6c89de9ada256a1e15eaca285d92129472828e5168f6c6cdd"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/BatchPreview.test.tsx",
+      "bytes": 4433,
+      "sha256": "6b18d74ad9e9893a746b64e87893782af45a014cc9cd4ec8858f9bece545e21c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/BatchPreview.tsx",
+      "bytes": 2100,
+      "sha256": "e99882a81cf5117134ec6d1ad47c77e74b013044f4a669ba7e084bad25866a52"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/JsonEditor.tsx",
+      "bytes": 461,
+      "sha256": "69ed362b39b165c3dbbf0acf844d2d6702bee16794c6027c7c2bc11a4aa35442"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/ListSummaryVariantPicker.tsx",
+      "bytes": 908,
+      "sha256": "d2740f565e6363ab7b1ea1bd25c2a9a0c564196513e573dd8811d874c37e47c8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/MediaActionVariantPicker.tsx",
+      "bytes": 779,
+      "sha256": "83f3b52b08dd63748df350b51f90fedea815857598c2eff7ce86551d538d5453"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/MediaContentVariantPicker.tsx",
+      "bytes": 918,
+      "sha256": "ca2af3d636a930ab48e1f50d4cd0ed910d1370c40680e327254f80cbad03833a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/MediaHighlightVariantPicker.tsx",
+      "bytes": 938,
+      "sha256": "5e3aa08f27e78e51e86bf7e229c763911bbf6d437c40ff8e66eb7ceb6fb4fbc9"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/MetricListVariantPicker.tsx",
+      "bytes": 772,
+      "sha256": "ebb3eb44c7d1ebb1b953a0cd65e8d30538b9ff9cdfa81bebdfeb430a18e4b6c8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/QuickGridVariantPicker.tsx",
+      "bytes": 930,
+      "sha256": "16ed812d765adbfb2f69d5143e4fedd36fd971700a7bcd22d656fe000fe08736"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/RadialStatusVariantPicker.tsx",
+      "bytes": 975,
+      "sha256": "c2c36eb4dab2d6c8ae9be190b7f6de410a27fb050657a0bed4244c428f76b71b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/ServiceActionVariantPicker.tsx",
+      "bytes": 840,
+      "sha256": "3f639f1ad0b9590896433cf1fa541af7eccd10c159541c34bcad3b671fa3f434"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/TemplateGallery.tsx",
+      "bytes": 3252,
+      "sha256": "fe0fa9a3b6e627169b99e995f363a6bba71c4e4953819fcad513848f348a658b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/Toolbar.tsx",
+      "bytes": 758,
+      "sha256": "b936ddf2f6ec44011cb0ab8e36c50dcbba135da8267b6c619b3724ef61ad991a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/WeatherVariantPicker.tsx",
+      "bytes": 801,
+      "sha256": "d6e84272b2fa57cd8b5b23ed5b35f337c14b18fd98cb23c8726830cc929779ec"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/editor/editor.test.tsx",
+      "bytes": 27042,
+      "sha256": "38050ae5d188a10f851bd8f408eb6dba05c604bd62d3ef99884f2fb28b178dce"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/activitySummarySamples.test.ts",
+      "bytes": 1028,
+      "sha256": "7d3b6ec1e40c8de5efd0016daf98682818da90fe2c077ae3314e93f01ae9d352"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/activitySummarySamples.ts",
+      "bytes": 1879,
+      "sha256": "9c6b95e004efd3946f7eab82afcc610211fd4cfb8f9ca27110f57ef0a23a8413"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/contentSafetySamples.test.ts",
+      "bytes": 6291,
+      "sha256": "9da98faadd99c47b1e5cea0afcd296efc6bbc7c80ce58d3915f766f4cf1e849e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/contentSafetySamples.ts",
+      "bytes": 4863,
+      "sha256": "e06db75deb66f26b282ca142ba7d42355a2d23d94a842bdb6fe6d7b530289655"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/export.test.ts",
+      "bytes": 16370,
+      "sha256": "d4fb361c9b5026517d9896d8e11865edac9a9598861bdaf815e21fcfe9f7c3df"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/listSummarySamples.test.ts",
+      "bytes": 1176,
+      "sha256": "9739384859c8fa66100c49e56bb588be982c12699ffb689b4b32883e75b643a2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/listSummarySamples.ts",
+      "bytes": 2724,
+      "sha256": "c34b01a46dc0f5c40778e7c02c0b8e343d6fdda10e66b522cb353c4639b9af6d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaActionSamples.test.ts",
+      "bytes": 952,
+      "sha256": "d90f53080da91e34ce15a5d83e88fbcd482154123aca61846bf05889c2e2213a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaActionSamples.ts",
+      "bytes": 2189,
+      "sha256": "36241262be5b6b1aad7358a89a541d13f8ecb00e34ab0167b1cf525055e22f3f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaContentSamples.test.ts",
+      "bytes": 1061,
+      "sha256": "89dea622ba2445c74842932f61f6e10ce7cee01880906b09f3888a868d1ddf09"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaContentSamples.ts",
+      "bytes": 3108,
+      "sha256": "a28c8fe9b66e105d172a52e2a555296119d63540218aae9dd7cbce357c794529"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaHighlightSamples.test.ts",
+      "bytes": 1270,
+      "sha256": "d5c77a768ac1910d730e17cda76f8d9ba0b93bf0eaf3889d3534cc191d0637f4"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/mediaHighlightSamples.ts",
+      "bytes": 1968,
+      "sha256": "19906d31173b516337299a7a61be4f84136983497174f4a88deddc49005b40da"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/metricListSamples.test.ts",
+      "bytes": 969,
+      "sha256": "854f89a07ad6be0875e0f4975f6fce9527e3a240220626bc9a09fe77dd30725f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/metricListSamples.ts",
+      "bytes": 2214,
+      "sha256": "9eab674d332cd0448293551149e64a6ef9b9560b4facab75334e07b70702ab42"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/quickGridSamples.test.ts",
+      "bytes": 1109,
+      "sha256": "8da6494ada8a832dbd52c6c5b9d5e82659fe7f03005e2f53bac891e02fdb15ec"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/quickGridSamples.ts",
+      "bytes": 2348,
+      "sha256": "76161b44b2ca5714b55c23c9d15eb1b32e686b712ee817bc0410522a70c321c9"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/radialStatusSamples.test.ts",
+      "bytes": 968,
+      "sha256": "a3232ad5b5d82440edf071de80f0b7e88f9477cc035f571bb37946856f5babe7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/radialStatusSamples.ts",
+      "bytes": 1450,
+      "sha256": "858cec535e65de8963986917dadd6c73ca00e27d992700b0a707ec79d08e895f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/seedFrames.ts",
+      "bytes": 591,
+      "sha256": "e2165ba47d6347d7c480af8ee8f383831e850662e3c48074879c9f0448313fb0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/serviceActionSamples.test.ts",
+      "bytes": 1647,
+      "sha256": "f508d6ec428e1e02e786a709a56d933b72dbcf428885d80768271002198968a0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/serviceActionSamples.ts",
+      "bytes": 2139,
+      "sha256": "a8560fef77f3ef78e56d353873cf740fea47a838fc44d5c1b5a6623c552e6510"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/weatherSamples.test.ts",
+      "bytes": 1161,
+      "sha256": "c9f4f2c0b6c4dc5e0773037209d8adea83f69193261e7f27a7ec2d6e8e56843e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/examples/weatherSamples.ts",
+      "bytes": 3102,
+      "sha256": "93faca020643a88df80e04b02b5cd6d62a8280ffffa5aece72083135700a42da"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/activitySummary.ts",
+      "bytes": 3660,
+      "sha256": "7fccd4559d91fa86c40cf8c90959cf701865b2999717b5f93561baa9e0a0b9f0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/assets.tsx",
+      "bytes": 4814,
+      "sha256": "491561ec8a654ed558b9fa5cc8c2befd447c645ba8b8e192119436f1f4882a53"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/calendar.ts",
+      "bytes": 1326,
+      "sha256": "bd4d3734bf17ab09dd5334b4b8daba47252196f389e81dce70d186b7467ab38b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/contentDensity.ts",
+      "bytes": 960,
+      "sha256": "5f2dc2c083263ce22c523144de439c341048c2542f2fd671995ef850aaa18e6a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/infoSummary.ts",
+      "bytes": 8519,
+      "sha256": "4533cbb701bec20c58c0f9c44658a9bce29fb94f63fb3e7edb98c98628ec9b7a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/listSummary.ts",
+      "bytes": 3094,
+      "sha256": "98fc91dc83c8ec73e3c6d64a24dfa2b2e690fbec6b2c77320fb7f1729f8bf440"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/mediaAction.ts",
+      "bytes": 2613,
+      "sha256": "66bb7056f0f09d034aa5887afc2da16bd8ed0633abbe96762d7cdf37961b0d6f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/mediaContent.ts",
+      "bytes": 2705,
+      "sha256": "0c3d4a4193b874b2cd87217c1c663cd9ffde5aef74d71d27d7eacbe7a1f030fe"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/mediaHighlight.ts",
+      "bytes": 2305,
+      "sha256": "1c9164cea4f33db3b9357071ba9be9bb5389769c1fde53b91d58a48aee580daf"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/metricDerivation.test.ts",
+      "bytes": 2741,
+      "sha256": "8615fb38a8bbd90d1d215a6785693939f10cb110fd445e29c0afda69956ef32b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/metricDerivation.ts",
+      "bytes": 2780,
+      "sha256": "11025ba532f58d1d47d7d78b54ea12d3cd181ae6fb3aff15eccd8f9af38b8297"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/metricList.ts",
+      "bytes": 2312,
+      "sha256": "9e5e3ec9bdf61b667b904aea232c7bfdb688c27592bdde42ccc990d5e14c605a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/presentation.test.ts",
+      "bytes": 56489,
+      "sha256": "4cc17601e35617dcd2d4d018d381bc6f9f00c0bd382368a2f1e69492eac72209"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/profileRegistry.test.ts",
+      "bytes": 7283,
+      "sha256": "54ab1b320e5028f7d7129b2569f6760960ea47210a0188e98f359b05ffa3ec69"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/profileRegistry.ts",
+      "bytes": 12668,
+      "sha256": "254e4d3da0c174b3ad0a48d3bb70e37420e586aab7e7d7da19cbfc86768b103a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/quickGrid.ts",
+      "bytes": 1888,
+      "sha256": "a806882b7bddd81a84ed66da3cc4bd4d019213954570b8e0589bd1dadd785a40"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/radialStatus.ts",
+      "bytes": 3668,
+      "sha256": "88ac272a6719d14f5c17c21d547d319dfe63a3b12b179b70495fc2a40d31721e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/semanticAssets.ts",
+      "bytes": 9925,
+      "sha256": "77c08ff7abe73113b85d29e43e18c422faadf80f445731d31bf4dda7531031ec"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/serviceAction.ts",
+      "bytes": 2225,
+      "sha256": "0a50c10dbb3d87a9d4f9e23bee9103a836bf30cd70c4d815bb342a9276e06b44"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/presentation/weather.ts",
+      "bytes": 2551,
+      "sha256": "99258a16f1b7010d46591d4e746d0aec35b10723eb461ae5aa7d7e5f911e855f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/profiles/modelContractV4.ts",
+      "bytes": 10862,
+      "sha256": "03dcf42ef52e1da16205ab2fa02630b74086496b8e386b201affa15f4ca3511d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/profiles/profileAliases.ts",
+      "bytes": 1075,
+      "sha256": "431dc177e734c719425b1fd64e9cfab06d49dee1d8497232b91d87214135af73"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/profiles/selectionCatalog.test.ts",
+      "bytes": 22870,
+      "sha256": "5c5ed0641fd5ec04e42617c4a77d0997451d77205ee4ff89284e2fb9b82a93e1"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/profiles/selectionCatalog.ts",
+      "bytes": 19119,
+      "sha256": "f4584f205a1d4017adf5dc742b29d74b412f79adc9f1e0290ec57c62eeec3c84"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/FrameRenderer.tsx",
+      "bytes": 5437,
+      "sha256": "23827e1b27947eede8b94457e33d149f02b3a23a1e2d96c102e2e556d70dcc3f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/batchInput.test.ts",
+      "bytes": 15240,
+      "sha256": "2a16584965ac85336e12dc137cdc754353066592cb61d3d61c6ec3eb4278bc2c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/batchInput.ts",
+      "bytes": 7012,
+      "sha256": "3476ae23548192cc0ab0466f19c5dad50de4cdc1ed2793fadb2cf3ce5c00f311"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/normalizeInput.test.ts",
+      "bytes": 6684,
+      "sha256": "6ffa19e63235440947e2d808baf5c8bd200adb6168048f742b17f7d72c2b21a6"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/normalizeInput.ts",
+      "bytes": 3310,
+      "sha256": "9562663c82abb804435bf1cd4bb8f15427cb0d1246dc2dcdb6131e9f67ac8bd2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/renderer.test.tsx",
+      "bytes": 7439,
+      "sha256": "1967e0bcf50587f758e4fc6bc51b76156b8b003ed16b920e15bddeccd1fc3855"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/specializedRoute.test.ts",
+      "bytes": 16080,
+      "sha256": "017c94ef25162d6ec2dd079730e3ce38931c8a9090c85ab4fc696a5d428d3e21"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/renderer/specializedRoute.ts",
+      "bytes": 13433,
+      "sha256": "d671821da4cc203f04ca9c783ddf5f6f47672f6dcc75187f8326869a8f50d0be"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/RingLabApp.test.tsx",
+      "bytes": 1966,
+      "sha256": "20f8b8866a27a80008223370dc719b651fdc894d15049f85529707fbfe925d59"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/RingLabApp.tsx",
+      "bytes": 7929,
+      "sha256": "6c7e6243de21512e6f7b4254819744ebb5a5e5d6ba0d10a75b765bdc7b0c08af"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/layeredRing.test.tsx",
+      "bytes": 4390,
+      "sha256": "629fd7e9dfadbea733bfd9f0f0af14d0827bc146c12a81d8488b1a67f278d34d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/main.tsx",
+      "bytes": 367,
+      "sha256": "2a9c52331179dc0ca33771906e3ea2f231f35ac678dc15d1dd02e06a4ef0c3e2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/palettes.test.ts",
+      "bytes": 2788,
+      "sha256": "b2b00d83790ed28faa9cd62edb2ce38d0cd9eec4a597f9799b7ceb793ec91574"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/ring-lab/ring-lab.css",
+      "bytes": 4884,
+      "sha256": "2403901d94d2dcf6280e8863e6727c5c46e548f0dd7dcf3cd435b138b1457915"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/semantic/semanticExtractionV1.ts",
+      "bytes": 11046,
+      "sha256": "9966c02588256ab3a0f6e72f728fd2e43a495ebfe0297ba60ced271b7bd33b53"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/buildManifest.ts",
+      "bytes": 5010,
+      "sha256": "6e71439251e158563ce39d47f183ad9fa70747cbdb3574769e6699c2175bca73"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/definitions.ts",
+      "bytes": 49624,
+      "sha256": "19119d5d28d42babb40cae697db7c9bf9a05cc4a054ffac58eb8d51429475ed9"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/export.ts",
+      "bytes": 2044,
+      "sha256": "8305a3798d91427783dc8f81b9fb2162071ab24ad464b0afd561cd7f7b5272c3"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/globalDesignSystem.ts",
+      "bytes": 11418,
+      "sha256": "e32019e35a8d662eba3469de5e25483b21bdcd472766072a4f7abeabae8c46ab"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/schema.ts",
+      "bytes": 2987,
+      "sha256": "6a09913642c9c4347db82abe16d2306b4485e45120ef5ed6ba1c0fea324f85af"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/templateSystem.test.ts",
+      "bytes": 7751,
+      "sha256": "4441937c82fd66e0dc65752f9cc025e40a5e3d11ebdbfb191735fe65191b4cfe"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system/validation.ts",
+      "bytes": 10886,
+      "sha256": "415dc627ff0cd44c782901fdd2824b92941d4e7a189aedfe793e7347e17b7a71"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system-v2/README.template.md",
+      "bytes": 7835,
+      "sha256": "5d3bbbc080601328d4e4322aa8ce983e021003df5c7c90fa60f4c9f9edb22676"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system-v2/definitions.ts",
+      "bytes": 24735,
+      "sha256": "98a888881e00c514dcab5c6143ed71079e9d07a9df996d908db2a0dd4e717cf3"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system-v2/export.ts",
+      "bytes": 1979,
+      "sha256": "fb7d9497de551d5d00dbc927f049161e686ea3b8a548f181cf70055faaf23598"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system-v2/sourceIR.ts",
+      "bytes": 11027,
+      "sha256": "a724f21b72bdad3faa50536ea5034e24a0943fb4a5d0bdf856ae6342c5825dab"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/template-system-v2/templateSystemV2.test.ts",
+      "bytes": 6814,
+      "sha256": "cb8b96d9a125610201e9196daac18b5876e067d9d43662b9a2286ba25c51e5a7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/test/setup.ts",
+      "bytes": 216,
+      "sha256": "6bbb74b51e62edabb041467e5ee3b33289de4aeaba477261037453d877b7daff"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/profileSeedsV4/boundaries.ts",
+      "bytes": 6094,
+      "sha256": "07e3a5a513098ac1daef32fe0b377e28cde355fb3c56c95ae0ffe15725dae94c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/profileSeedsV4/evaluationImports.ts",
+      "bytes": 152,
+      "sha256": "7f28a83f4f4ed2578915e3d49367304db85832c3f1c51d0c05f2d368669d852f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/profileSeedsV4/profileV4.test.ts",
+      "bytes": 3128,
+      "sha256": "1c33063049ce1b8b0459ae05a8f2670ea7fa7a385d203f0435ecdf8db7a57ad9"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/profileSeedsV4/renderGate.tsx",
+      "bytes": 1260,
+      "sha256": "1db1a58d25203196b1b99967dfe367465d2b95d5f8dd6ee018b3b7bc370f69c7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/buildSeed.ts",
+      "bytes": 3779,
+      "sha256": "24682d5c99652ebba3b6101c5bbeda4e68cbae1649fffc9bb65bb239abb02fb5"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/exportSeeds.test.ts",
+      "bytes": 4030,
+      "sha256": "7610772f0d8e5f44f35df99b66ed988c8258816bb86ae2558c4fc2f245921f7e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/exportSeeds.ts",
+      "bytes": 6953,
+      "sha256": "d3686261a981f0f6f1b1db4b043d0983f2cd99a46f82d7798f706e8dcef1eb1f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/fixtures.test.ts",
+      "bytes": 5003,
+      "sha256": "51501da70517ac1303c516469a00b8c033d407024088a0ac84de407cc56a75ce"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/fixtures.ts",
+      "bytes": 64543,
+      "sha256": "b340acdaacdd2899f9b6b913129349e8fb7fccd90be485435fcfb28c90c38371"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/metaPrompt.test.ts",
+      "bytes": 6758,
+      "sha256": "82911ff2a72f326ce8f02b4901b4cb4a548b779654734496d457342b2cf2ed7b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/metaPrompt.ts",
+      "bytes": 5150,
+      "sha256": "47858c4ff98f287af7c6eb5c4b6270e4bad43f8cd447485e040593915549f07b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/reviewedBaselines.test.ts",
+      "bytes": 5246,
+      "sha256": "7551ba372cb4a14a9b4946ef32f03799086bdbcdebc2b48091093cd64472afd8"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/reviewedBaselines.ts",
+      "bytes": 6750,
+      "sha256": "a655a8f38a02aca3749a213584ed3ee248a4bba19eeb9605dbcb808abd81aca7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/routingPolicy.test.ts",
+      "bytes": 3357,
+      "sha256": "96dbf5615e1dfccaff3a38a2e1955e87e63522372c0b1a24c3f8f91f357e3ef6"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/routingPolicy.ts",
+      "bytes": 15115,
+      "sha256": "3926a1cb020813d52d70daa4181145288c4b6ae2bc69defccbdd2e060b133d6e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/scenarioSeeds.test.ts",
+      "bytes": 2230,
+      "sha256": "28e83503eca4189211d66af80fa21c6adfad56aa4a88cd7d1da358e6c1c4ba84"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/types.ts",
+      "bytes": 2459,
+      "sha256": "2521aa8b4f2753d58cad6d50421fe7bc7013fbcda42e3c09616f6aeea998b8f4"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/validateSeeds.test.ts",
+      "bytes": 7085,
+      "sha256": "aeabfc6c2db0086349ec67af59d78e5fb6c4cc5b52cea56c4137846fc62dd9ae"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds/validateSeeds.ts",
+      "bytes": 12656,
+      "sha256": "cdafb21876e1a73ebed0531be2410eb99a875fc66deb255e7110f9423d8a2dec"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprintHelpers.ts",
+      "bytes": 2046,
+      "sha256": "5bd31d124aed22f484013960adf30fdd966a9c11eb1c5ea705911ed0254faf81"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/buildCorpus.test.ts",
+      "bytes": 18608,
+      "sha256": "33ffe78c4fa6a7ceaea8f8fdee204c68a70daa6a2ef4f41ab949cd143629c81b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/buildCorpus.ts",
+      "bytes": 26063,
+      "sha256": "005148301edf2327fa13e58abdbb47ccaf163c5471faee225ade2df39294b6c2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/renderGate.tsx",
+      "bytes": 1902,
+      "sha256": "d9eea2765ad610d25f22615bd4d7d49a7d5e72c16c72261745ae859ccccb093f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/renderValidation.test.tsx",
+      "bytes": 3249,
+      "sha256": "21dd7c0f124f4c633573c8c94f4688fdb7ec5d952796f9245127e524f85865c7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/split.test.ts",
+      "bytes": 7270,
+      "sha256": "56fb5ebb4a99891bb1fe7693b9f2edeb85d9dda97015808e554930c9f9f75659"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/split.ts",
+      "bytes": 10220,
+      "sha256": "3c8ab4392d710f925dcce6fddda87d03e5076e45b39f913c022d0c4d9c9da64e"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/types.test.ts",
+      "bytes": 19063,
+      "sha256": "6fc43a987ac31599164532f783693779efd29cbeab63ea52b7b81a067ea8eb98"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/types.ts",
+      "bytes": 9223,
+      "sha256": "a42d7ccb9481284f47a4a42d0b76920372c16cbf073e3d652331d28e21e09e1d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/validateCorpus.test.ts",
+      "bytes": 6946,
+      "sha256": "5cf3b92d17e931803ddaf558db244bf404baff3c46207a0159d24ce75d98c3ed"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/validateCorpus.ts",
+      "bytes": 16944,
+      "sha256": "7223bea826ab8e24e9fcfe3addd4f7971719726f7ac8cae80a12bb5c9c55375b"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/index.ts",
+      "bytes": 382,
+      "sha256": "54e3b9b6219c778cb6af352d7cad9363b4a2d87c7c26cc741bf045fc12bd316a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0001To0048.test.ts",
+      "bytes": 11955,
+      "sha256": "b4ec5c3ee1902d915785b85a3e86ec7cd91b2bb5fe85337c931b0f165f890eb3"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0001To0048.ts",
+      "bytes": 46050,
+      "sha256": "3fe9ae9479cf82f3138e21ea1f7c28669cde01356d7275ace643be8269a342a0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0049To0096.test.ts",
+      "bytes": 13766,
+      "sha256": "9ea95f85914b4aaac67c90b4e06800f10cf185b20f70664bb304c914a35c6593"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0049To0096.ts",
+      "bytes": 47098,
+      "sha256": "d95b4247eefb1b1da8a94c7905ddc650bfe39bdcc7beb3ae2d8b86633bf25dcb"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0097To0144.test.ts",
+      "bytes": 14998,
+      "sha256": "2cbce9bf1bee730e11d78b0552151d958347955e76994f1d4efed28957d7380d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeeds144/blueprints/scn0097To0144.ts",
+      "bytes": 46731,
+      "sha256": "f68f4d6b66378e4e2cfa42a1c27e4d82ef66418c45a360f7d07ad7db1398c155"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/balancedCorpus.test.ts",
+      "bytes": 5550,
+      "sha256": "7e245649015f550f153f7d2c6671d706cec4aeda5c5244f1d94d56209f023827"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/balancedCorpus.ts",
+      "bytes": 22498,
+      "sha256": "34550e2f90b6646df2198ae5004e744c7ec5d9441deb3b70f21b2113f94bc0ef"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/inferStructure.test.ts",
+      "bytes": 4115,
+      "sha256": "2692261c828a392ab18a5c7db60a367150bbbd84f511d9acf5c2bfad070cf30c"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/inferStructure.ts",
+      "bytes": 13172,
+      "sha256": "a02e7b668a3b420e1fe97e16444e83f4a9b9194ce05e04bbe6795e7a88660040"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/profileApproval.ts",
+      "bytes": 1924,
+      "sha256": "5c91b2a09c1aa3c1c8027a712b417cf78ac2154db3f76c170739b52886869a30"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/profileRenderValidation.test.ts",
+      "bytes": 4563,
+      "sha256": "b805d5553edd93d9d812df212cb19bfc9a9993c85645cfca761b3d0ef7773f9a"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/semanticPlans.test.ts",
+      "bytes": 3594,
+      "sha256": "ac7370bcfca2516eaba760a96f81414d25ed74335ffa45476467138c7fe1c3a2"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/semanticPlans.ts",
+      "bytes": 21468,
+      "sha256": "bf736bc8401781059e2ea10570ac3abe108bcea2d23bdc03d8e709fff5c9e60f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/templateScoring.test.ts",
+      "bytes": 3391,
+      "sha256": "35b36ef855ae9601d4395e6ce3030740471ab54bc67b36612beaf9cd37d4c779"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV2/templateScoring.ts",
+      "bytes": 13468,
+      "sha256": "4e823ed572168ed62136efb5571e9397aba181aaa5d37bcc4307c77bc1f9d55f"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV3/profileCandidates.test.ts",
+      "bytes": 14155,
+      "sha256": "99ac0a9d22f774651c453e4b7d4f6fc5293bbd7cd9ec4d40e718a1f46e92834d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSeedsV3/profileCandidates.ts",
+      "bytes": 18326,
+      "sha256": "56e34bcb561dda4d07503ccec194516b05d610750c4d3039560a3071b70dd809"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSft5000/buildCorpus.test.ts",
+      "bytes": 4547,
+      "sha256": "b35af4da2e4f6dd22a346b1131a0c0f600bd35632c01e09615f8021d60804c98"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSft5000/buildCorpus.ts",
+      "bytes": 22369,
+      "sha256": "a18102bfe6c626d9762209420098c5ec86a7a09329f4765a388b962928b1ebe1"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSft5000/renderGate.tsx",
+      "bytes": 1827,
+      "sha256": "f544f364d8f1d50ca1267a5c790ce43e7ae10c22416ab89819b72a1771f3f9c0"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSft5000/types.ts",
+      "bytes": 2250,
+      "sha256": "eb6ff1ddcbabea342ab5cc56ee097595edb90a99c071985f8a50dad65b9d6c3d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/training/scenarioSft5000/validateCorpus.ts",
+      "bytes": 13885,
+      "sha256": "3a618f1e942803ea61824d5f3efa01d3f256f58e1d19663be90e80792a609b2d"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/visualizations/ring/LayeredRingCanvas.tsx",
+      "bytes": 2185,
+      "sha256": "0a58a89bcdd53d265b9c10d6c4b6b755e273d564ea4bf46d37a5136985778887"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/visualizations/ring/formalRingPolicy.test.ts",
+      "bytes": 1530,
+      "sha256": "1c14c525b7689bc70491f0a565d441e3f015cc741f1d2dad35ff55e90f76ded7"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/visualizations/ring/index.ts",
+      "bytes": 330,
+      "sha256": "cad9515f91f5d5b7180630596283a4916925bcdf9063fc9f6be3c5c55b250d92"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/visualizations/ring/layeredRing.ts",
+      "bytes": 2172,
+      "sha256": "bc7bec4351247072396852305f4203311b3469a825b39dd730331a807e3234c5"
+    },
+    {
+      "path": "source/local-2x2-renderer/src/visualizations/ring/palettes.ts",
+      "bytes": 3404,
+      "sha256": "306d93b7e878eac5e3a82bff3c98208bdba7a760b81a658f9086e2f986fe6d68"
+    },
+    {
+      "path": "source/local-2x2-renderer/tests/sites-worker.test.mjs",
+      "bytes": 2293,
+      "sha256": "5145dafe1c87b3ed3fb1ae944cd6d80c301aa63ce60ce4dbe514c53c460e82d4"
+    },
+    {
+      "path": "source/local-2x2-renderer/worker/index.js",
+      "bytes": 483,
+      "sha256": "2dd0615a445143933d88d4271f54f5d63ee951421fcd08c5a7617bb09c564389"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/.npmrc",
+      "bytes": 23,
+      "sha256": "f7dbda001b627b3a792fb6929303b517f047f03916f2c55227e81216d38a2008"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/AGENTS.md",
+      "bytes": 9957,
+      "sha256": "254cee495a6adec0116b458c712e27ade704ca56d0998c0dd187ae1e959043cc"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/PROJECT_TECHNICAL_GUIDE.md",
+      "bytes": 21322,
+      "sha256": "e3d3feaa3e095ed109e96535f975540fbf0e327ecb6a23ae9515ca58cef6b06c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/README.md",
+      "bytes": 16362,
+      "sha256": "dd6c57f1112c40a56001f583e02810202bb83ccb51f59f53eb821865debef93f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/design-qa.md",
+      "bytes": 37204,
+      "sha256": "b6e38c1801a86aee703e151b34228ace16f1ffa49c18331bd86f494b6eab89d6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/index.html",
+      "bytes": 354,
+      "sha256": "a70a816a1b79abae91c50ded81ea3421ea1d4c0b005a11868a318d6ddaa875c1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/package-lock.json",
+      "bytes": 57071,
+      "sha256": "5be2b05527f458e378c6897694583af60d611d23a5c7d8822c888cc3fbd4140c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/package.json",
+      "bytes": 1042,
+      "sha256": "a1dc79446e2645f310a5d18c5bb5fd8b8c8509f9c79394bf308f1f1186683b1d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/pnpm-lock.yaml",
+      "bytes": 74375,
+      "sha256": "27aa0333f1cb799fdf4625fdb42ed538f7364946384b110a0bfb6e634ecf240a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/pnpm-workspace.yaml",
+      "bytes": 29,
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/ring-lab.html",
+      "bytes": 374,
+      "sha256": "3d3c820eed4e67ce52c47c0a6108a735b61be8247e51ba9a3df7dda29a2a2c5f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/tsconfig.json",
+      "bytes": 608,
+      "sha256": "69b524c646daf14b400184992086c5ab702a4c046a615dab68f861bfe9894b23"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/vite.config.mjs",
+      "bytes": 648,
+      "sha256": "70f16730a2c0e199f97d589b885b390de3a6fec95eb947532945f85e1653f1e6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/vitest.config.ts",
+      "bytes": 263,
+      "sha256": "881631fa4d4f690e7ae49c5dc54387e977a0c17265ea027538cc1e6934b9f7c3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/启动专属渲染器.cmd",
+      "bytes": 268,
+      "sha256": "234e07f48c408fdd0a2c77f6d09149b7c945b558e7a12cd9cb03029d34d90ae5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/.openai/hosting.json",
+      "bytes": 31,
+      "sha256": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/layered-ring-scheme-a-summary.md",
+      "bytes": 14188,
+      "sha256": "063a690157b74e79eaa0f97552942aaf574486b3c044425dac3ab05bb616be1a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/qa/calendar.png",
+      "bytes": 6295,
+      "sha256": "8d137d2ade7ee55866a80485c2a18a5f58d7bdc04e36e31346102579ff33ad63"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/qa/full-page.png",
+      "bytes": 101596,
+      "sha256": "fda9e82f22d38bb38235acb0bd685967b368bed38f870b86d9af04f2d3d636a7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/qa/screen-time.png",
+      "bytes": 9316,
+      "sha256": "a32e569ec3243502f5e30eeb1ce13250dfc064ef9ed9905cbed372338bda5255"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/qa/weather.png",
+      "bytes": 16999,
+      "sha256": "f696d007622a36be7d42604665ecc51926b3e8cf9ca105e5298ab2d4fc294b44"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-14-metric-list-card.md",
+      "bytes": 10441,
+      "sha256": "c8120ae5cc40d774326751cbf6b4cc0565ae51c525b03f33b95095288c3c0615"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-14-service-action-card.md",
+      "bytes": 6091,
+      "sha256": "6f0f9637bfb8695e2c75bd03820f2c0abd2819cd5db14a9b0562a945d75a5136"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-14-weather-variants.md",
+      "bytes": 4875,
+      "sha256": "aaabe8d2634f8c2c790467b4994716db6c51d782b0fb0da625fe645794b35044"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-activity-summary-card.md",
+      "bytes": 7370,
+      "sha256": "0c961931f1f3459dce54bb19c96ceac1afaa65a156b0bd268411f5822d67d798"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-formal-layered-ring-migration.md",
+      "bytes": 4378,
+      "sha256": "70c7836d0e6bb1ffe14c8572d04d15820e58615149475d28901e1c6f24b94401"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-generic-service-action.md",
+      "bytes": 3356,
+      "sha256": "c177bf1390c1cc4b17328d719c743f90da02af7102c6680afefdbeb426b35e13"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-layered-ring-lab.md",
+      "bytes": 16036,
+      "sha256": "a72b0a817066f6c9e88058d34273d666d3cf415225410963be352637af10d413"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-list-summary-card.md",
+      "bytes": 4414,
+      "sha256": "bf8b434a726699cbccff9f98f60a8a4faffbec7a716e9753a649630c2b4d566e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-media-action-card.md",
+      "bytes": 6041,
+      "sha256": "b90d37624dad331473914d5e5acd3c492de01beb7a4bba5bb7317875c00b0f92"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-media-highlight-card.md",
+      "bytes": 10220,
+      "sha256": "931bb19452cf492326de67e96ca0c46e2c3cb903f96d36960bbc331b35baf64b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-media-highlight-profile-extension.md",
+      "bytes": 5101,
+      "sha256": "5a2b9013723c76b13e37426c1d77eea85bdd46b8a3628a11b275ae8276451850"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-quick-grid-card.md",
+      "bytes": 4987,
+      "sha256": "8ee438bcbd3e40e83bb9f294ae9768637f453ebf083587f9e5e3021f240bdf1d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-radial-status-card.md",
+      "bytes": 8775,
+      "sha256": "648013edecc87074a5f7bd244e28f8981f32f0d593744e32064816aad8d608ff"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-rounded-metric-ring.md",
+      "bytes": 7638,
+      "sha256": "a31ac79a90cee71e4905909142d2f44c9285815a3fa22a3e9888b7ad89b1e6eb"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-18-training-record-input-adapter.md",
+      "bytes": 4257,
+      "sha256": "347cd1c097b33df01b7d129e7c138c06287c400a9b57346edfed5b1e463b8aec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-20-semantic-assets-density.md",
+      "bytes": 14330,
+      "sha256": "95acde0a432e3fdce4284a7af2627d7108d23d074446b2298799e3f24d0e88a6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-20-ten-template-manifest-system.md",
+      "bytes": 16419,
+      "sha256": "68a3bc22eba65277095eb7a59d53c1de9a65777b179f74f1285017d7bb7bcb1d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-25-batch-rendering.md",
+      "bytes": 41095,
+      "sha256": "ba11b39c9204763b8ccc08b3d691915a78cde248b056ad434e89c79f896f032f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-25-specialized-renderer-restoration.md",
+      "bytes": 4866,
+      "sha256": "8b6ebd973caf1fd1e417b63b55c82be57c64ae1a0cc46815c415b3cb54f2a7c1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/plans/2026-08-25-ten-template-generic-runtime.md",
+      "bytes": 37389,
+      "sha256": "5b3964b5c01811a787979e14bc080fc78d4e32b5754cd744064d5a46e3a24523"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-14-metric-list-card-design.md",
+      "bytes": 6623,
+      "sha256": "e72f1a2dcc9df4d4e9ca5d0175b3888c3dd1b9f341df28370313aff2c5c8717d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-14-service-action-card-design.md",
+      "bytes": 2606,
+      "sha256": "d03d033417684d31a999cc261492239a1cd366e9968f98a622796645f3f19318"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-14-weather-variants-design.md",
+      "bytes": 2490,
+      "sha256": "38cd2d9679880793870c5ef0b09aee6e56f913ad812ca5d52de79acb1b6d6b25"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-activity-summary-card-design.md",
+      "bytes": 5347,
+      "sha256": "4ab8396d285409ae940f21bfaa437069eba6b7d9939640020ff4b90532b86b30"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-formal-layered-ring-migration-design.md",
+      "bytes": 3792,
+      "sha256": "3102c63183082f531f76f02068230bc34aa351a4b02937e7f26bedc3d1b7532b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-generic-service-action-design.md",
+      "bytes": 2577,
+      "sha256": "4073f7dd0f9f278b0d41833a759b891e9810cb3f93f532a4bf16fd793f11800c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-layered-ring-lab-design.md",
+      "bytes": 6722,
+      "sha256": "0d6f45bc4ff7771ee8737507c917df33164affc556a74f83d8320da428d9aa76"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-list-summary-card-design.md",
+      "bytes": 2911,
+      "sha256": "09a855b45e7beacdc34196abd365fb72215ec422244de56dc63c315b1f9e92a7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-media-action-card-design.md",
+      "bytes": 4255,
+      "sha256": "c1ec516aadac148d77153db4e755937b5360460c2b70925b89cfc2e3d0b041dd"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-media-content-template-separation-design.md",
+      "bytes": 1657,
+      "sha256": "ba341a6597301e295603d24ae62b2eb7c506d9d56fe1c612cb8c4a9efe3ed225"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-media-highlight-card-design.md",
+      "bytes": 6220,
+      "sha256": "e9ce69504033c326e8e6b1e9c294e38219554a37a6628b56b5c2e9dcfe3693b0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-media-highlight-profile-extension-design.md",
+      "bytes": 4757,
+      "sha256": "3afe0fb1e69ed4354151d5ac2d6a73277b5feb324bd4932fdaa0a2af06eb95df"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-quick-grid-card-design.md",
+      "bytes": 4238,
+      "sha256": "089732b4c078cd761026f1e530dbef2663e8996368c28dfa38abbfbb80116320"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-radial-status-card-design.md",
+      "bytes": 4017,
+      "sha256": "91b4d87a3623eb39f5a7d3a6502715c42a083914ab290a26b7f214a63d8d1f9f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-rounded-metric-ring-design.md",
+      "bytes": 4524,
+      "sha256": "e8a8312076356dda79e9acedceacf7641129be855f0128c22f3f907e6d8cc551"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-18-training-record-input-adapter-design.md",
+      "bytes": 2049,
+      "sha256": "67430e190cd7140989f16e938f49499eaa25a47bd1412b647a82c947a32852be"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-20-semantic-assets-density-design.md",
+      "bytes": 8896,
+      "sha256": "1b4ba3601d4cf7bbabfc28f88f78765801eae6f45972d3788824fa888e38a3a3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-20-ten-template-manifest-system-design.md",
+      "bytes": 8585,
+      "sha256": "31716fa69b70f9ddbcb72011cbf1daf89e0d6ff723a67d9593dad720ee0e3101"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-25-batch-rendering-design.md",
+      "bytes": 12403,
+      "sha256": "1b8bb0e74f60c7c894bc691cfa74e26efb98203682f8537d109304ca55b4bd99"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-25-specialized-renderer-restoration-design.md",
+      "bytes": 2303,
+      "sha256": "8ee67b00dc13c7b8b11da20a4ba8b2dffef405eb61fb25c72b64deabacecf77b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/docs/superpowers/specs/2026-08-25-ten-template-generic-runtime-design.md",
+      "bytes": 15361,
+      "sha256": "b599c857163e8e62674f13f37449236e3098317568cbc5cb75d73e40206b1b8e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/activity-sleep-background.png",
+      "bytes": 1360192,
+      "sha256": "6b27f08eb618a1813a0ba550bdd022d9e6353fe3d06f66fa13d7dac6af25dd07"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/activity-steps-background.png",
+      "bytes": 1193041,
+      "sha256": "3967238b451b755d42ee63ae76ed93e47beb8678b233c859364e34a322150473"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/activity-stress-background.png",
+      "bytes": 1307108,
+      "sha256": "db3bae35a8a0df7df7032589067ba7a9fdebfa81010156f833748d2f8be1ee27"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-citypop-album.png",
+      "bytes": 1406152,
+      "sha256": "eb09da4e2b2b3941b4344a71df9badcd5a8dee529cf4bd884ef50558604daece"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-climate.png",
+      "bytes": 1748942,
+      "sha256": "cf03b0a2961d91d89cca6344c163d9515789c1ff8354dcf4fcf2baa31a822103"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-cosmos-poster.png",
+      "bytes": 2197480,
+      "sha256": "2df5a9a981ec77067d05776176ef002890c8b9eb520d0a227064f400e54e7aa3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-fitness-course.png",
+      "bytes": 1610203,
+      "sha256": "8fd8dead28e2c42236495019094200c7bce170efe04254c067174c42aed40ba6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-illustration-book.png",
+      "bytes": 2331700,
+      "sha256": "52fbe208f7f7cf46b8dcc36cb488f503669e497b91c3e4b0d9a1e553cbc42300"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-market.png",
+      "bytes": 1549347,
+      "sha256": "4df60b27c43b8d09f04e9b05969816a22038bd91400e4cead180b62111adaeec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-highlight-sound-x.png",
+      "bytes": 1717516,
+      "sha256": "92ecfb1a559db446a659695b9a815596f38618f3c352bcb14145e6eeb2c01e67"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-playlist-landscape.png",
+      "bytes": 2306331,
+      "sha256": "befda1f9618262bdd7a9b04da8e8665990c581307bebba1cc0acb5f79f16699f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-recorder-waveform.png",
+      "bytes": 724236,
+      "sha256": "0dc247a7065f57a842c7a92fc456d3bd8abbc0ce1f51fbe30e8a2ecb174bc79b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/media-sport-ski.png",
+      "bytes": 2413678,
+      "sha256": "ca01b4309dd677658dc3e306214079d98f131a600921bd139935d528d074a6db"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/radial-status-countdown-texture.png",
+      "bytes": 1579600,
+      "sha256": "b5a4e4f45b2b5f8b19157d79a659e65971d89c32734727ba36765345d341ae69"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/contacts/andy.png",
+      "bytes": 1925886,
+      "sha256": "bd8f2cd941a068e14534498e092e693cc22cd0d67ea60ac0539945149b33e7af"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/contacts/ava.png",
+      "bytes": 2080312,
+      "sha256": "cdf5e63ea40422e8cf6197153dd4df4e33141f9b32afa639576a30c11989f49d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/contacts/ellie.png",
+      "bytes": 1901014,
+      "sha256": "296ccf544d2b938602b9d62eae2678cf7b72d3baa8aa59608d234287b5052d27"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/contacts/noah.png",
+      "bytes": 2067814,
+      "sha256": "e6401a793577b3b2b90261817034b92d338946a249b4084897e4d3545cf5fd35"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/list-summary/tip-fallback.png",
+      "bytes": 34673,
+      "sha256": "be218c02e92bf179bf80df455e9e1e10e5b92a7c75e2b6158ccc4d903fedf4ba"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/list-summary/tip-multi-device.png",
+      "bytes": 46786,
+      "sha256": "8ee0da5dcf88727fa5fe7dfaad9e054c6f0b9b8aa85e71bb84badbd683d70dbb"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/assets/list-summary/tip-photo-recognition.png",
+      "bytes": 56461,
+      "sha256": "64fd6dbdbec788d6874842a4febd4961720c17b1277570466312cae5e7a4215c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/public/references/huawei-screen-time-ring.png",
+      "bytes": 22561,
+      "sha256": "7992df578e242564c9b6e41d662f9195778c4f4edaf923e8d7599b47698815d9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/activity-summary-2x2-v1.schema.json",
+      "bytes": 4530,
+      "sha256": "b3ddda99ee1783fbdaded0ea3f570b2aa9b8109b8d7790933568f06a42dad230"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/activity-summary-variants.a2ui.jsonl",
+      "bytes": 1861,
+      "sha256": "945a431a429837311a4d8a0e9f0eb4f577f4d947d385672055d68096f2fefb84"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/activity-summary-variants.frames.jsonl",
+      "bytes": 550,
+      "sha256": "6eb6ed58fe5cacaf09ae75ee4937427784e0a0b33719db6ddcbc5110caf52ae3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/calendar-day-summary-2x2-v1.schema.json",
+      "bytes": 1512,
+      "sha256": "9226492baf227439a452f4de36157b1123922722bb474fe08fef4f35a62b3176"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/calendar-empty.a2ui.json",
+      "bytes": 571,
+      "sha256": "07fa0a739748d0ea67c622ea15dc225f69d79019d3c7044bf5df5bb7f13acc5d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/calendar-empty.frame.json",
+      "bytes": 119,
+      "sha256": "5912bab9c168a57ccea142a9981e98a05a92924ccdb77ef1c30c59eca2804035"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/calendar-success.a2ui.json",
+      "bytes": 674,
+      "sha256": "5a04fcc8d7c2e3971ed70c61a4c71b24414bdec9f81897a9487e5ca1afb99675"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/calendar-success.frame.json",
+      "bytes": 222,
+      "sha256": "886ac817b51d206aa446f0722d2b10efe7906f42669577ce3d34f22ca3d7e44d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/content-classified-90.json",
+      "bytes": 39598,
+      "sha256": "3deb904b104ff27cf13a0efab6e3a3dada74528c00b5bed9349f92c00281a1e5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/list-summary-2x2-v1.schema.json",
+      "bytes": 6585,
+      "sha256": "cf8e9229bfa63daaacb0f223c1980d75de676702cdb561430134354cfaacd98b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/list-summary-variants.a2ui.jsonl",
+      "bytes": 2156,
+      "sha256": "9b8c83bf1ce77bea288f74c15e174f4da25855a4f2e592788b0aee1f08db11f0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/list-summary-variants.frames.jsonl",
+      "bytes": 893,
+      "sha256": "1c313b7342da628d3fd7f0d78c77fed9897c81819c923816e19e1f2575c06f80"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-action-2x2-v1.schema.json",
+      "bytes": 5373,
+      "sha256": "bdfe53ab25dfce5b140c2c9ce70ef4d338e203a22e26a8579c66f4dc43edeaaf"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-action-variants.a2ui.jsonl",
+      "bytes": 1960,
+      "sha256": "2489a473eea04d6655192a28cc83930727644245f2f507176a28fc03195e0152"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-action-variants.frames.jsonl",
+      "bytes": 697,
+      "sha256": "be33b3a4316a5c224783ba598f747ee683dcf1b3e8520de0bcc41bddeeed7c56"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-content-2x2-v1.schema.json",
+      "bytes": 8051,
+      "sha256": "940edfe74fb3669b7cd29fa5e2fde3e88bdf5d6f2fd3c13c71cbdae9d35e9912"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-content-variants.a2ui.jsonl",
+      "bytes": 3421,
+      "sha256": "ea3cdbed7ebacd244d5829dc7a80794563550ce2d4cb9eb8475989b7e2e962db"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-content-variants.frames.jsonl",
+      "bytes": 1296,
+      "sha256": "71b112faa7e5e7e71d9ecccdb53cfe42ada3b07d0f587e33392329fb7e68528a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-highlight-2x2-v1.schema.json",
+      "bytes": 3344,
+      "sha256": "a3d3cac4432b59218b93eb842e2e265866b1f0375d3350afcfeb309e83ab0575"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-highlight-variants.a2ui.jsonl",
+      "bytes": 1344,
+      "sha256": "487870206285f54f7e4efc64c1f77303814f32af6a957f0c4de7cd002c722a83"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/media-highlight-variants.frames.jsonl",
+      "bytes": 478,
+      "sha256": "93654364faebf9103d6fdb3f06926c5694c5c77ac360672d9ae92eb75ab8c7d5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/metric-list-2x2-v1.schema.json",
+      "bytes": 2061,
+      "sha256": "4b99cf482c18bb997125f9efe161aede5a228d10bc4657c7c1f8cfef27633837"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/metric-list-variants.a2ui.jsonl",
+      "bytes": 2396,
+      "sha256": "89ccc26c351b7d4e7ead892a4f52404af780c4d6a8deb781a9469df7ab9963a1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/metric-list-variants.frames.jsonl",
+      "bytes": 1145,
+      "sha256": "45d2c3ed4ed62497b387a29ea094d992519e3a9fc11d799095911af248d80363"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/quick-grid-2x2-v1.schema.json",
+      "bytes": 3743,
+      "sha256": "247bf73d5f58ebea854bd2e3922bb89cf0fda7e9fe3e5d6b52af2484fb39530c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/quick-grid-variants.a2ui.jsonl",
+      "bytes": 2208,
+      "sha256": "f9abb67499b715d542d22d9ccd7ba53a76f00b6576451af9e5c1406573816d42"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/quick-grid-variants.frames.jsonl",
+      "bytes": 969,
+      "sha256": "63847e1736bab7ea510b486a4fd5938c36907a03c0b1f6f69e2a6a0b0781a0aa"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/radial-status-2x2-v1.schema.json",
+      "bytes": 1701,
+      "sha256": "6e9467807b03620b12b55d3b74e346af84a706199da2b07fedcf8fe8294674e5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/radial-status-variants.a2ui.jsonl",
+      "bytes": 1217,
+      "sha256": "edc2f6bd76c25888cadd80e449ea3781c67fe8832346b53900a4a03f48098c31"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/radial-status-variants.frames.jsonl",
+      "bytes": 367,
+      "sha256": "c496b565a9876c13cbbd3c52f83f3f054cfaa91c8c964b92885ce62dde09c9b2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/service-action-2x2-v1.schema.json",
+      "bytes": 1406,
+      "sha256": "d72e20b2ee33bca06f68276c139b86fbc9b1b95dd5059b96fcdb3ea78c29a6ef"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/service-action-variants.a2ui.jsonl",
+      "bytes": 2675,
+      "sha256": "31c1fd3c904d39818b1112dfded6218f4675759e86b85923e569803192d329e9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/service-action-variants.frames.jsonl",
+      "bytes": 959,
+      "sha256": "36379430d6103d2cdb764c0361e5f3e7967b311101dfebfdafeeb5110dbd3fa6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/training-reference.jsonl",
+      "bytes": 31927,
+      "sha256": "87433d6d8b4b28f793b2d3e8cb080d4aead750a3b0ccbf9b6ffbbe87ed115838"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/weather-current-2x2-v1.schema.json",
+      "bytes": 1573,
+      "sha256": "cd0df356c31ef77fb2e0cf5f7120b3dea01a0639f68b140e837aaa1e35d05a07"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/weather-success.a2ui.json",
+      "bytes": 646,
+      "sha256": "50e44b2b2e072bba8b7ba85203c1ab59a1c824235e3fa2b335d6f3f1cf944807"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/weather-success.frame.json",
+      "bytes": 213,
+      "sha256": "ae7df85d0fa02748877c990d20d7083dba84e4cd8e88093e81bf5e54dc523c3f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/weather-variants.a2ui.jsonl",
+      "bytes": 7077,
+      "sha256": "e532746eee7149649e1d7e09fb48cc886f941859a14845803665f142c33ea8f9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/weather-variants.frames.jsonl",
+      "bytes": 2314,
+      "sha256": "bdad2df45c277314b6587aafade1908c8d81ff61f94f85f64711293e889735d1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/README.md",
+      "bytes": 15874,
+      "sha256": "31c2cfc65ceb1dc3d17a6e6216f84304c34c6061dcc4c8a2719f47e4f280c598"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/activity-summary-2x2-v1.manifest.json",
+      "bytes": 12392,
+      "sha256": "271aa9236dd104f52270492fe8c5b8b577d67e525e81b3e6252456b88def1515"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/global-design-system.json",
+      "bytes": 28366,
+      "sha256": "c68862bac158831190acb2d47440b5cde556d249085544f91c4f3626f580d70a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/info-summary-2x2-v1.manifest.json",
+      "bytes": 14502,
+      "sha256": "7c82a5e4ca7de228a5e53269fbbea477378303c1d7858fd82879a42687b896fc"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/list-summary-2x2-v1.manifest.json",
+      "bytes": 12607,
+      "sha256": "c14c67fe47e09eeb21566315c859e2d8226ec7174ca8aea5d5306220a6ca53c3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/media-action-2x2-v1.manifest.json",
+      "bytes": 11554,
+      "sha256": "8dae23dd5715157578b0e11b7a5d2f0fa46c2ffda16ebfcb9d57d208caf75bb1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/media-content-2x2-v1.manifest.json",
+      "bytes": 12567,
+      "sha256": "3bbf1618b54086be9d4295477e5fe1a1ea8926d4e8dbead915987a2b9cd196d2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/media-highlight-2x2-v1.manifest.json",
+      "bytes": 9856,
+      "sha256": "013ac79cc90f8b95b9879a27662b2ac464cdedc89aed08b6fc87807dd2b98099"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/metric-list-2x2-v1.manifest.json",
+      "bytes": 12072,
+      "sha256": "13ff5caa8b4d9abdbfafa274d46983858a7caeb9a49ac773e9550255b9486f33"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/quick-grid-2x2-v1.manifest.json",
+      "bytes": 10839,
+      "sha256": "50421d9feaa9619c903fb3fd0c4051e363559715fbe37c0bed7b183766d3aa92"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/radial-status-2x2-v1.manifest.json",
+      "bytes": 11805,
+      "sha256": "5a889aa5594c42dd89aea815fc74ceb45239d466f08a32695cedbca8befe6a1b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/service-action-2x2-v1.manifest.json",
+      "bytes": 12175,
+      "sha256": "7f043888ab7b6b0aa66a25633989a06ebddb8849b3682b8f2c94afcaedc26516"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/reference-data/template-system/ten-template-manifests.json",
+      "bytes": 139448,
+      "sha256": "f5c53a6954fba36c3e1c89cad72d315a072bf48ac65e4a4570af4ed263ad6fca"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/export-reference-data.ts",
+      "bytes": 45373,
+      "sha256": "f638d6704afa597d91a4bf952014eabe3874643ed93ccfbc224d78c21567bd57"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/export-template-system.ts",
+      "bytes": 325,
+      "sha256": "5ce98979db90acfb7c0e7a42886dde09b0fafcc855ec9f5fb357acf10b3982b0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/prepare-sites-build.mjs",
+      "bytes": 910,
+      "sha256": "b6a6adaa4fab3234676116dd1c9cb6611275ab9d92dd26f5bf402393e3744bf6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-activity-summary.mjs",
+      "bytes": 5275,
+      "sha256": "814254a1959f6d165dbdee9da05dde23d412810cd0192104fcc220203aa513e1"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-list-summary.mjs",
+      "bytes": 6325,
+      "sha256": "66b9fbb9c2ddbcb3803cdd1c12d9e1e760b31611af4a6f517ce50085d1f625c0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-media-action.mjs",
+      "bytes": 5232,
+      "sha256": "c2dcbc65a51af2f51eee7201e0e9a38497410d1b608c227ac1c545fb0723042a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-media-highlight-extension.mjs",
+      "bytes": 205,
+      "sha256": "98fb1906b53e7e545f52ac099704daf21fb2478d2e3cacea50b3b166e92ff8ca"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-media-highlight.mjs",
+      "bytes": 5534,
+      "sha256": "6a153bdcf7e3ec5d2e25591ed7cfefe3520cbc0a6ce50c3c74763fbbd316b8d6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-media-template-separation.mjs",
+      "bytes": 8785,
+      "sha256": "3a8ac2bc872b7332f440f2ab6bded5b03357614cfb9ebe9008c1ff4963a8a3af"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-quick-grid.mjs",
+      "bytes": 6182,
+      "sha256": "7f2393c6375460d6f95d05fa668a0b3620d80de098afe056bfd467a502108f14"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/scripts/qa-radial-status.mjs",
+      "bytes": 5230,
+      "sha256": "a9f37eaf34628267145668fd66567f8686fe7da6cd05ea242ae1c225a9cbf738"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/App.test.tsx",
+      "bytes": 15950,
+      "sha256": "8c7798ba53d9ccb078611955934dc05deec78a5939b4e5489a09e779b6f50a3e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/App.tsx",
+      "bytes": 26688,
+      "sha256": "9a4ff5b9b22c47967c7ca7298b3d55d84a5a7592d6fd8f2dc66ad0601e5f2da3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/main.tsx",
+      "bytes": 325,
+      "sha256": "3fe9150d9c4251b0ae4a97538eb0735b77c1c91324221e98094cc3ca2c7d69d4"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/styles.css",
+      "bytes": 6955,
+      "sha256": "087ffd78e3c654063c52574ed51b2a0a6f2148c89a015c2951f4e1d9da8ff616"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/a2ui/a2ui.test.ts",
+      "bytes": 9999,
+      "sha256": "9c6ddae068353967a0954906b591f75a2fd0c46e6018b35ab40a9d6835393fbc"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/a2ui/adapter.ts",
+      "bytes": 2284,
+      "sha256": "715917df149d8a6ab53d4dafff0414c3a531ea9d159e2f757464f6bebb9e31c7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/a2ui/parser.ts",
+      "bytes": 5158,
+      "sha256": "693266427353f490fb57e7809a0996cbf5c4c350ec4bcb24190cfa1bc4550977"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/a2ui/types.ts",
+      "bytes": 1156,
+      "sha256": "25f7f799fc1828c7ffc80286973804db8138f333a940dccf1823a1883c140c5d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/ActivitySummaryCard.tsx",
+      "bytes": 2002,
+      "sha256": "2c041f4d341920a0e44d815f14985cde8420a3c72e43fc84660b54767388a16a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/CalendarDaySummaryCard.tsx",
+      "bytes": 1329,
+      "sha256": "7a832e03af757a310149c15653ba6f1e06a8dc0bb31ab73adf40de678935602a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/CardCanvas.tsx",
+      "bytes": 536,
+      "sha256": "52830d1dd4691f6d7c267deff12bcb39898483538086137e2c1a4e949ae52a24"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/InfoSummaryCard.tsx",
+      "bytes": 9215,
+      "sha256": "069b091753119c7c89d4e05af27e3c7d97cb0d4e41941dcb4e1b7199804a52fa"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/ListSummaryCard.tsx",
+      "bytes": 3025,
+      "sha256": "f479ed0ad727583085759a3d5003fb81f906d1a80b1f45c50e732c5d8211002b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/MediaActionCard.tsx",
+      "bytes": 2638,
+      "sha256": "96bddb7a5650f306829ce6a737ab272a95e551030b36dd5c238a5c85a11dbbe2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/MediaContentCard.tsx",
+      "bytes": 3003,
+      "sha256": "7f2813b758a187a16190922d1fdcbc15d6781ab0787f081b40182be4384df906"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/MediaHighlightCard.tsx",
+      "bytes": 2251,
+      "sha256": "3b39dcbb7d4dd8b72098e6379602e0a9520f1632e0811c5831d4b080758763c3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/MetricListCard.tsx",
+      "bytes": 3054,
+      "sha256": "2e568f899b0a4ed700d9e065cbd164681bce73d5001157de93efe0a6fce5c56e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/QuickGridCard.tsx",
+      "bytes": 2811,
+      "sha256": "9ae5f3ba5c2c876c3fc70f3d4e26c43310c841a9c6d5f7a78db63968448304e6"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/RadialStatusCard.tsx",
+      "bytes": 4374,
+      "sha256": "a1683dd0b76e9ec9ea4fcacdcfca8474a383961fd18a2b2b7238ed42b0fd667d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/ServiceActionCard.tsx",
+      "bytes": 2001,
+      "sha256": "82cc477a2f7af16c003111511fccaa00b74c704e55f4577aee1d57d38c64613b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/StateShell.tsx",
+      "bytes": 1462,
+      "sha256": "43733ea9c6a2c1ed0def7b253071b21b87799668ebb8684dfa345b8700c4cdd9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/WeatherCurrentCard.tsx",
+      "bytes": 1515,
+      "sha256": "db4be7f2f2ca6bc8d27982145134b77e34a3974ddc4511a71bcd89e8a2fbd239"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/cards.css",
+      "bytes": 34597,
+      "sha256": "6c783ee994ccc6887ac43a32fd518470b4723af1dfd39e096f07ec9ad40d4fb0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/cards/cards.test.tsx",
+      "bytes": 29913,
+      "sha256": "a329c1f80942ef2e7bc15a06f3a383e824bccf609fe15fe5ea50bb863a47b653"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/frame.test.ts",
+      "bytes": 35841,
+      "sha256": "f7abe23cae51241f4a6440b70ea1cb510ecb4d2bf5f15aee296cb8d5d5d542aa"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/frame.ts",
+      "bytes": 45146,
+      "sha256": "83582e8659cf9d30958a0ef0dcb2045134d613cefe2dbf5d6dfbbad0f1878850"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/genericFrame.test.ts",
+      "bytes": 19832,
+      "sha256": "349fbb6d8487e6597df0697818f35ed6609bf50014befaddbcc5d0c94c762fc5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/genericFrame.ts",
+      "bytes": 18246,
+      "sha256": "1bf00e896efbd34b87141ac7a1d239998fefafa90a00b12518c29b7a69b81dec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/legacyAdapters.test.ts",
+      "bytes": 24831,
+      "sha256": "8e162bbe263eb48160cc874e33d991020f7b148d6519ad32a7f3c703f64ba08a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/contracts/legacyAdapters.ts",
+      "bytes": 29876,
+      "sha256": "f51da7c70401eb3070f8a0701ec071900b39fc0d147f72588977d7441e90da8e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/ActivitySummaryVariantPicker.tsx",
+      "bytes": 864,
+      "sha256": "1ab452ba3ab0a0d6c89de9ada256a1e15eaca285d92129472828e5168f6c6cdd"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/BatchPreview.test.tsx",
+      "bytes": 4433,
+      "sha256": "6b18d74ad9e9893a746b64e87893782af45a014cc9cd4ec8858f9bece545e21c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/BatchPreview.tsx",
+      "bytes": 2100,
+      "sha256": "e99882a81cf5117134ec6d1ad47c77e74b013044f4a669ba7e084bad25866a52"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/JsonEditor.tsx",
+      "bytes": 461,
+      "sha256": "69ed362b39b165c3dbbf0acf844d2d6702bee16794c6027c7c2bc11a4aa35442"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/ListSummaryVariantPicker.tsx",
+      "bytes": 908,
+      "sha256": "d2740f565e6363ab7b1ea1bd25c2a9a0c564196513e573dd8811d874c37e47c8"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/MediaActionVariantPicker.tsx",
+      "bytes": 779,
+      "sha256": "83f3b52b08dd63748df350b51f90fedea815857598c2eff7ce86551d538d5453"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/MediaContentVariantPicker.tsx",
+      "bytes": 918,
+      "sha256": "ca2af3d636a930ab48e1f50d4cd0ed910d1370c40680e327254f80cbad03833a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/MediaHighlightVariantPicker.tsx",
+      "bytes": 938,
+      "sha256": "5e3aa08f27e78e51e86bf7e229c763911bbf6d437c40ff8e66eb7ceb6fb4fbc9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/MetricListVariantPicker.tsx",
+      "bytes": 772,
+      "sha256": "ebb3eb44c7d1ebb1b953a0cd65e8d30538b9ff9cdfa81bebdfeb430a18e4b6c8"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/QuickGridVariantPicker.tsx",
+      "bytes": 930,
+      "sha256": "16ed812d765adbfb2f69d5143e4fedd36fd971700a7bcd22d656fe000fe08736"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/RadialStatusVariantPicker.tsx",
+      "bytes": 975,
+      "sha256": "c2c36eb4dab2d6c8ae9be190b7f6de410a27fb050657a0bed4244c428f76b71b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/ServiceActionVariantPicker.tsx",
+      "bytes": 840,
+      "sha256": "3f639f1ad0b9590896433cf1fa541af7eccd10c159541c34bcad3b671fa3f434"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/TemplateGallery.tsx",
+      "bytes": 3252,
+      "sha256": "fe0fa9a3b6e627169b99e995f363a6bba71c4e4953819fcad513848f348a658b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/Toolbar.tsx",
+      "bytes": 758,
+      "sha256": "b936ddf2f6ec44011cb0ab8e36c50dcbba135da8267b6c619b3724ef61ad991a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/WeatherVariantPicker.tsx",
+      "bytes": 801,
+      "sha256": "d6e84272b2fa57cd8b5b23ed5b35f337c14b18fd98cb23c8726830cc929779ec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/editor/editor.test.tsx",
+      "bytes": 27042,
+      "sha256": "38050ae5d188a10f851bd8f408eb6dba05c604bd62d3ef99884f2fb28b178dce"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/activitySummarySamples.test.ts",
+      "bytes": 1028,
+      "sha256": "7d3b6ec1e40c8de5efd0016daf98682818da90fe2c077ae3314e93f01ae9d352"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/activitySummarySamples.ts",
+      "bytes": 1879,
+      "sha256": "9c6b95e004efd3946f7eab82afcc610211fd4cfb8f9ca27110f57ef0a23a8413"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/export.test.ts",
+      "bytes": 16370,
+      "sha256": "d4fb361c9b5026517d9896d8e11865edac9a9598861bdaf815e21fcfe9f7c3df"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/listSummarySamples.test.ts",
+      "bytes": 1176,
+      "sha256": "9739384859c8fa66100c49e56bb588be982c12699ffb689b4b32883e75b643a2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/listSummarySamples.ts",
+      "bytes": 2724,
+      "sha256": "c34b01a46dc0f5c40778e7c02c0b8e343d6fdda10e66b522cb353c4639b9af6d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaActionSamples.test.ts",
+      "bytes": 952,
+      "sha256": "d90f53080da91e34ce15a5d83e88fbcd482154123aca61846bf05889c2e2213a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaActionSamples.ts",
+      "bytes": 2189,
+      "sha256": "36241262be5b6b1aad7358a89a541d13f8ecb00e34ab0167b1cf525055e22f3f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaContentSamples.test.ts",
+      "bytes": 1061,
+      "sha256": "89dea622ba2445c74842932f61f6e10ce7cee01880906b09f3888a868d1ddf09"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaContentSamples.ts",
+      "bytes": 3108,
+      "sha256": "a28c8fe9b66e105d172a52e2a555296119d63540218aae9dd7cbce357c794529"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaHighlightSamples.test.ts",
+      "bytes": 1270,
+      "sha256": "d5c77a768ac1910d730e17cda76f8d9ba0b93bf0eaf3889d3534cc191d0637f4"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/mediaHighlightSamples.ts",
+      "bytes": 1968,
+      "sha256": "19906d31173b516337299a7a61be4f84136983497174f4a88deddc49005b40da"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/metricListSamples.test.ts",
+      "bytes": 969,
+      "sha256": "854f89a07ad6be0875e0f4975f6fce9527e3a240220626bc9a09fe77dd30725f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/metricListSamples.ts",
+      "bytes": 2214,
+      "sha256": "9eab674d332cd0448293551149e64a6ef9b9560b4facab75334e07b70702ab42"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/quickGridSamples.test.ts",
+      "bytes": 1109,
+      "sha256": "8da6494ada8a832dbd52c6c5b9d5e82659fe7f03005e2f53bac891e02fdb15ec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/quickGridSamples.ts",
+      "bytes": 2348,
+      "sha256": "76161b44b2ca5714b55c23c9d15eb1b32e686b712ee817bc0410522a70c321c9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/radialStatusSamples.test.ts",
+      "bytes": 968,
+      "sha256": "a3232ad5b5d82440edf071de80f0b7e88f9477cc035f571bb37946856f5babe7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/radialStatusSamples.ts",
+      "bytes": 1450,
+      "sha256": "858cec535e65de8963986917dadd6c73ca00e27d992700b0a707ec79d08e895f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/seedFrames.ts",
+      "bytes": 591,
+      "sha256": "e2165ba47d6347d7c480af8ee8f383831e850662e3c48074879c9f0448313fb0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/serviceActionSamples.test.ts",
+      "bytes": 1647,
+      "sha256": "f508d6ec428e1e02e786a709a56d933b72dbcf428885d80768271002198968a0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/serviceActionSamples.ts",
+      "bytes": 2139,
+      "sha256": "a8560fef77f3ef78e56d353873cf740fea47a838fc44d5c1b5a6623c552e6510"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/weatherSamples.test.ts",
+      "bytes": 1161,
+      "sha256": "c9f4f2c0b6c4dc5e0773037209d8adea83f69193261e7f27a7ec2d6e8e56843e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/examples/weatherSamples.ts",
+      "bytes": 3102,
+      "sha256": "93faca020643a88df80e04b02b5cd6d62a8280ffffa5aece72083135700a42da"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/activitySummary.ts",
+      "bytes": 3993,
+      "sha256": "5a92be7511870ba4f52f4e18b879f0ab401f1309b6849d88cbdb64029e269458"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/assets.tsx",
+      "bytes": 4814,
+      "sha256": "491561ec8a654ed558b9fa5cc8c2befd447c645ba8b8e192119436f1f4882a53"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/calendar.ts",
+      "bytes": 1326,
+      "sha256": "bd4d3734bf17ab09dd5334b4b8daba47252196f389e81dce70d186b7467ab38b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/contentDensity.ts",
+      "bytes": 960,
+      "sha256": "5f2dc2c083263ce22c523144de439c341048c2542f2fd671995ef850aaa18e6a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/infoSummary.ts",
+      "bytes": 2370,
+      "sha256": "cbc8865d3aedaf468e63242f56a4fe0404a3241ae1e54f7d54569e50f4046f9f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/listSummary.ts",
+      "bytes": 3268,
+      "sha256": "8340d5140aa8cfb9ef3af2f5745a4cb34a259554625676c4e105a9d71450361e"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/mediaAction.ts",
+      "bytes": 3667,
+      "sha256": "70f103e0d5bbb802b08db66e6c760417e8001291a49efdfdc466f7edeb946ecc"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/mediaContent.ts",
+      "bytes": 4565,
+      "sha256": "287145c97fdb22523f6bc46954f060d3be6e26ec426d440527da3cb4d7891c7b"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/mediaHighlight.ts",
+      "bytes": 2012,
+      "sha256": "2f3f277afd7bd0f5871d50925deedf48434a4396a4b61b46d44ab395de003cf7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/metricList.ts",
+      "bytes": 4443,
+      "sha256": "b611e4c87eaa993c343b651079e62d7b34e54b07e923fd144aedfc57d03f9e51"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/presentation.test.ts",
+      "bytes": 20348,
+      "sha256": "4c100d6b25a16a9c8f620297a381eb11c192a1d3b3d136e5e6c8b341f3206621"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/profileRegistry.test.ts",
+      "bytes": 7383,
+      "sha256": "9244c1f264f6251ec44516d311cb9d03278ad22279babeda2bb441da40e17ee2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/profileRegistry.ts",
+      "bytes": 12668,
+      "sha256": "254e4d3da0c174b3ad0a48d3bb70e37420e586aab7e7d7da19cbfc86768b103a"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/quickGrid.ts",
+      "bytes": 4439,
+      "sha256": "e5d61e9123609575cef36db006dca10d793aa5f81075d5917c72ac351c382962"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/radialStatus.ts",
+      "bytes": 3128,
+      "sha256": "c121f42fd3e0c0b2a25b46fb69888eb6937298abf98c3923258a12d9cbecbcf2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/semanticAssets.ts",
+      "bytes": 9925,
+      "sha256": "77c08ff7abe73113b85d29e43e18c422faadf80f445731d31bf4dda7531031ec"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/serviceAction.ts",
+      "bytes": 1229,
+      "sha256": "8738ecc56747a4f21d4f75ab750e941188d073579cf646035592b630671f24cd"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/presentation/weather.ts",
+      "bytes": 2551,
+      "sha256": "99258a16f1b7010d46591d4e746d0aec35b10723eb461ae5aa7d7e5f911e855f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/FrameRenderer.tsx",
+      "bytes": 3196,
+      "sha256": "12d0471ff4709bb612f6c1bd2d6d365b6237d34547921099a0270aef63bfa54f"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/batchInput.test.ts",
+      "bytes": 15240,
+      "sha256": "2a16584965ac85336e12dc137cdc754353066592cb61d3d61c6ec3eb4278bc2c"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/batchInput.ts",
+      "bytes": 7012,
+      "sha256": "3476ae23548192cc0ab0466f19c5dad50de4cdc1ed2793fadb2cf3ce5c00f311"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/normalizeInput.test.ts",
+      "bytes": 3188,
+      "sha256": "6c5391f7463db0e8972ab666c8b21a8bc6aec50f21d5dc70448f5b371c06e0d8"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/normalizeInput.ts",
+      "bytes": 3225,
+      "sha256": "a7ccb17dcd0f78423170839cbc38f184815290fc248b8f4d24cb4a54c2776454"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/renderer/renderer.test.tsx",
+      "bytes": 2616,
+      "sha256": "6b1b55d3c565e482b46a81e757363bfdd57ea6eb16e50a11b6c67fe8cb1ebbd0"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/RingLabApp.test.tsx",
+      "bytes": 1966,
+      "sha256": "20f8b8866a27a80008223370dc719b651fdc894d15049f85529707fbfe925d59"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/RingLabApp.tsx",
+      "bytes": 7929,
+      "sha256": "6c7e6243de21512e6f7b4254819744ebb5a5e5d6ba0d10a75b765bdc7b0c08af"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/layeredRing.test.tsx",
+      "bytes": 4390,
+      "sha256": "629fd7e9dfadbea733bfd9f0f0af14d0827bc146c12a81d8488b1a67f278d34d"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/main.tsx",
+      "bytes": 367,
+      "sha256": "2a9c52331179dc0ca33771906e3ea2f231f35ac678dc15d1dd02e06a4ef0c3e2"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/palettes.test.ts",
+      "bytes": 2788,
+      "sha256": "b2b00d83790ed28faa9cd62edb2ce38d0cd9eec4a597f9799b7ceb793ec91574"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/ring-lab/ring-lab.css",
+      "bytes": 4884,
+      "sha256": "2403901d94d2dcf6280e8863e6727c5c46e548f0dd7dcf3cd435b138b1457915"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/buildManifest.ts",
+      "bytes": 5010,
+      "sha256": "6e71439251e158563ce39d47f183ad9fa70747cbdb3574769e6699c2175bca73"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/definitions.ts",
+      "bytes": 49624,
+      "sha256": "19119d5d28d42babb40cae697db7c9bf9a05cc4a054ffac58eb8d51429475ed9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/export.ts",
+      "bytes": 2044,
+      "sha256": "8305a3798d91427783dc8f81b9fb2162071ab24ad464b0afd561cd7f7b5272c3"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/globalDesignSystem.ts",
+      "bytes": 11418,
+      "sha256": "e32019e35a8d662eba3469de5e25483b21bdcd472766072a4f7abeabae8c46ab"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/schema.ts",
+      "bytes": 2987,
+      "sha256": "6a09913642c9c4347db82abe16d2306b4485e45120ef5ed6ba1c0fea324f85af"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/templateSystem.test.ts",
+      "bytes": 7751,
+      "sha256": "4441937c82fd66e0dc65752f9cc025e40a5e3d11ebdbfb191735fe65191b4cfe"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/template-system/validation.ts",
+      "bytes": 10886,
+      "sha256": "415dc627ff0cd44c782901fdd2824b92941d4e7a189aedfe793e7347e17b7a71"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/test/setup.ts",
+      "bytes": 158,
+      "sha256": "085f9bda956e6890429926fdac3d5c1dbd0147486e530441440641f722868cd9"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/visualizations/ring/LayeredRingCanvas.tsx",
+      "bytes": 2185,
+      "sha256": "0a58a89bcdd53d265b9c10d6c4b6b755e273d564ea4bf46d37a5136985778887"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/visualizations/ring/formalRingPolicy.test.ts",
+      "bytes": 1530,
+      "sha256": "1c14c525b7689bc70491f0a565d441e3f015cc741f1d2dad35ff55e90f76ded7"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/visualizations/ring/index.ts",
+      "bytes": 330,
+      "sha256": "cad9515f91f5d5b7180630596283a4916925bcdf9063fc9f6be3c5c55b250d92"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/visualizations/ring/layeredRing.ts",
+      "bytes": 2172,
+      "sha256": "bc7bec4351247072396852305f4203311b3469a825b39dd730331a807e3234c5"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/src/visualizations/ring/palettes.ts",
+      "bytes": 3404,
+      "sha256": "306d93b7e878eac5e3a82bff3c98208bdba7a760b81a658f9086e2f986fe6d68"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/tests/sites-worker.test.mjs",
+      "bytes": 2293,
+      "sha256": "5145dafe1c87b3ed3fb1ae944cd6d80c301aa63ce60ce4dbe514c53c460e82d4"
+    },
+    {
+      "path": "source/local-2x2-renderer-specialized/worker/index.js",
+      "bytes": 483,
+      "sha256": "2dd0615a445143933d88d4271f54f5d63ee951421fcd08c5a7617bb09c564389"
+    },
+    {
+      "path": "verification/check-results.json",
+      "bytes": 2911,
+      "sha256": "e9c23eaab58c8c916c248b0225cdc6ff8010cbd43fba141124c973b8762dc1af"
+    },
+    {
+      "path": "verification/local-2x2-renderer-build-client.txt",
+      "bytes": 2069,
+      "sha256": "c39291192764c4e4c97a22362cf33f35d9f1613449a45c27c0620ca25e2fb142"
+    },
+    {
+      "path": "verification/local-2x2-renderer-build-sites.txt",
+      "bytes": 1084,
+      "sha256": "1fe1d355166f6491cdc41031d59e9a519ec463b617c0e1b1a3f18037b4490ab9"
+    },
+    {
+      "path": "verification/local-2x2-renderer-sites-tests.txt",
+      "bytes": 944,
+      "sha256": "95fb785eaf3c078de1c6aadd84784b35aa4bb6002c5f73ec22e35e99527e9836"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-build-client.txt",
+      "bytes": 2177,
+      "sha256": "34ccfa1422897a96ecec10d5cc78618baaf493cc2869a8a3617b5f48e5ad521a"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-build-sites.txt",
+      "bytes": 1120,
+      "sha256": "b4ae398b10ee80b6376fb5110d3b290fc1ed27042b90101633e053ff79e0f781"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-sites-tests.txt",
+      "bytes": 945,
+      "sha256": "2bdfd719f645ff10bcc91ec5391fe5164829079bedf69f75f143bbca2fd2920f"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-targeted-tests.txt",
+      "bytes": 721,
+      "sha256": "49320648c5113b1875c1040c86c1cbcd6e3b06e22609f3e97abd53f0fdeefec4"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-typecheck.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification/local-2x2-renderer-specialized-unit-tests.txt",
+      "bytes": 2321,
+      "sha256": "03f97c9bbef6d939044d0d68b97bd3b7f6b7b268741284191fdea35ac8c7c9f5"
+    },
+    {
+      "path": "verification/local-2x2-renderer-targeted-tests.txt",
+      "bytes": 695,
+      "sha256": "686b81d2f73d2650cf826dd16cbe3f7ca5dea308e72f97a308489251d4e4bec0"
+    },
+    {
+      "path": "verification/local-2x2-renderer-typecheck.txt",
+      "bytes": 23860,
+      "sha256": "fb71c60961db82d7144d66d4ef8a933ff0884b2340adfc39ed32e10b025c5a5f"
+    },
+    {
+      "path": "verification/local-2x2-renderer-unit-tests.txt",
+      "bytes": 2213,
+      "sha256": "b6807dfc8777c5f195e93cb163c8f5d0b913b934b622a0e99998b02eca2e5040"
+    },
+    {
+      "path": "verification/original-local-2x2-renderer-specialized-unit-tests.txt",
+      "bytes": 12233,
+      "sha256": "05db99baf82a36127d760d5257c8538538bbd8e9c5a6801f5f037939fc7f3634"
+    },
+    {
+      "path": "verification/original-local-2x2-renderer-unit-tests.txt",
+      "bytes": 313554,
+      "sha256": "04568b34fa3f212db93b06fd4a4266da969cdc736cb014d69a7823016f0487db"
+    },
+    {
+      "path": "verification/profile-routing.json",
+      "bytes": 643,
+      "sha256": "a3e19d3d1dd7b18bebd7adc9ff7418d4a10f349115470e5919e336349584117b"
+    },
+    {
+      "path": "verification/source-baseline.json",
+      "bytes": 140184,
+      "sha256": "e4277355e93003b4f25d938ee7996fdc597ad9a2b4f5733ca3cf19c91c3a2fc6"
+    },
+    {
+      "path": "verification/source-preservation.json",
+      "bytes": 433,
+      "sha256": "ea9245c9aab66dd9b204d73e1b8a1d1d50624e6d30ce27ba819954b8b78765ff"
+    },
+    {
+      "path": "verification/targeted-test-results.json",
+      "bytes": 998,
+      "sha256": "6a2e2624c92b941052dcd8a847e27a08c0434db31150d02654087c60be800901"
+    },
+    {
+      "path": "verification/verification-summary.json",
+      "bytes": 1868,
+      "sha256": "e4a3da4193016a58bfe7ac3270d29ebcbd78a0dafbb050200bc89adee85ff350"
+    },
+    {
+      "path": "verification/browser/canonical-27-cards.png",
+      "bytes": 110772,
+      "sha256": "7e5dd2a255bfd7989a3e6f14a9e362a2f343f850d9e4c270a829208d440f701f"
+    },
+    {
+      "path": "verification/browser/canonical-desktop.png",
+      "bytes": 253732,
+      "sha256": "de250394e1831b92b0474614335d87c351071505486e3f0873e922951bb5aed7"
+    },
+    {
+      "path": "verification/browser/canonical-mobile.png",
+      "bytes": 62397,
+      "sha256": "7f6b34d09d9916f88c2e7e9299b25798abf2f6170c73a8070fb081b4240ec972"
+    },
+    {
+      "path": "verification/browser/results.json",
+      "bytes": 8118,
+      "sha256": "151d4d9627cafe5251f9a81ecb6474d7ae5818b31c5d3bda68b45d3d67cc4e91"
+    },
+    {
+      "path": "verification/browser/specialized-27-cards.png",
+      "bytes": 110772,
+      "sha256": "7e5dd2a255bfd7989a3e6f14a9e362a2f343f850d9e4c270a829208d440f701f"
+    },
+    {
+      "path": "verification/browser/specialized-desktop.png",
+      "bytes": 253398,
+      "sha256": "bca2ea5957adc6c8eaa63ff0d0e07faf309b10b7fadaa8ee87e818cfe09672e7"
+    },
+    {
+      "path": "verification/browser/specialized-mobile.png",
+      "bytes": 62397,
+      "sha256": "7f6b34d09d9916f88c2e7e9299b25798abf2f6170c73a8070fb081b4240ec972"
+    },
+    {
+      "path": "verification/browser/canonical-cards/agenda.day-events.png",
+      "bytes": 6692,
+      "sha256": "8de6fcd71b8dffc494d8498c2b4799d109cc712a4064464cd2667e7c75da2964"
+    },
+    {
+      "path": "verification/browser/canonical-cards/audio.cover-playback.png",
+      "bytes": 12366,
+      "sha256": "cabd7dc3a713805ac08446d95a31201ef1d5b7ec2d32c5d015ea8eb4b09d0bd4"
+    },
+    {
+      "path": "verification/browser/canonical-cards/calendar.day-summary.png",
+      "bytes": 8519,
+      "sha256": "5cb82d2eb471afe927868079b839a622f6c4c0c3f38cb3cb35eeaba3d93221ac"
+    },
+    {
+      "path": "verification/browser/canonical-cards/capture.sport-photography.png",
+      "bytes": 48105,
+      "sha256": "0fd5e0d58176a84cfdd9dcb383a57306f561b933668d66a5b5230508f48fa48c"
+    },
+    {
+      "path": "verification/browser/canonical-cards/content.poster-action.png",
+      "bytes": 14461,
+      "sha256": "c94b0c94dfd2b2e9de142148b0931de714a47a50b7874c64473d8ed7f5a5df70"
+    },
+    {
+      "path": "verification/browser/canonical-cards/course.cover-progress.png",
+      "bytes": 29679,
+      "sha256": "52b51ac266c1513a5a22b3ee1df2010dd95c41a275d2fd0ce56d8d2e127ab4c3"
+    },
+    {
+      "path": "verification/browser/canonical-cards/editorial.climate.png",
+      "bytes": 32797,
+      "sha256": "1f999d097bce15cbe872a346fdb001bb7a5751622ee6e9e26c4aacf704c0693c"
+    },
+    {
+      "path": "verification/browser/canonical-cards/finance.market.png",
+      "bytes": 38147,
+      "sha256": "afa719b614f3f649e6ca0b4657ce251327d77ff3242abbd8804aa8ac7ccc1439"
+    },
+    {
+      "path": "verification/browser/canonical-cards/grid.camera-modes.png",
+      "bytes": 5366,
+      "sha256": "029a4547c8b7d924e82cfef53d93af83eecc17b051ed38f5accdaabc68c17f36"
+    },
+    {
+      "path": "verification/browser/canonical-cards/grid.contact-shortcuts.png",
+      "bytes": 18446,
+      "sha256": "c0b1fc9869d5e3e0e695f91806f82b69d834901b474cf7544fbbcc9ef60cafb3"
+    },
+    {
+      "path": "verification/browser/canonical-cards/grid.semantic-shortcuts.png",
+      "bytes": 5683,
+      "sha256": "7474609aa9e766a23f4525d7bb003bd38d93bbad078662f5df3bee0cf953c9dc"
+    },
+    {
+      "path": "verification/browser/canonical-cards/learning.chapter-cover.png",
+      "bytes": 15469,
+      "sha256": "cf7328140788ab1e9e1e1bf753c59a10872f81d65c5a9e275271d0d8af627c23"
+    },
+    {
+      "path": "verification/browser/canonical-cards/media.playlist-recommendation.png",
+      "bytes": 25344,
+      "sha256": "57c23141f747618eda36ddb8ea72743e10416526b43e7f42fbfb7e843b53eac9"
+    },
+    {
+      "path": "verification/browser/canonical-cards/metrics.calorie-intake.png",
+      "bytes": 8479,
+      "sha256": "a826b88881727f4a59e37c6d3c755fcaaa56251a646a43151f72529d2d6e3eb2"
+    },
+    {
+      "path": "verification/browser/canonical-cards/metrics.environment-status.png",
+      "bytes": 6267,
+      "sha256": "c38dc87a7a77562b386ae278f30a4cd3393ea7ae8e09bfc3056f812b1fad5ccd"
+    },
+    {
+      "path": "verification/browser/canonical-cards/metrics.screen-time.png",
+      "bytes": 9319,
+      "sha256": "bbb91d595f531fb9149293619dee61f6576fbff6406e0e7c539818f3c464f824"
+    },
+    {
+      "path": "verification/browser/canonical-cards/product.feature-playback.png",
+      "bytes": 13257,
+      "sha256": "37406869ba56223ab70891482fa7195d0aff2ee41607f6dfd304c2b01fbdb0c1"
+    },
+    {
+      "path": "verification/browser/canonical-cards/service.meeting.png",
+      "bytes": 7685,
+      "sha256": "ecfa5a380146d404b0e86d97039481ad4ffc898dd9f36004fa97908454c75297"
+    },
+    {
+      "path": "verification/browser/canonical-cards/status.app-security-score.png",
+      "bytes": 8602,
+      "sha256": "6daad81e01102d4b956e4965cd9412abec74749492a39014f4b91d852dba4232"
+    },
+    {
+      "path": "verification/browser/canonical-cards/status.event-countdown.png",
+      "bytes": 24310,
+      "sha256": "b47cea2b3eb1291510b148ca55b425ac7b73f3c7cd44e4bbd1ce5cbb4c57e4bd"
+    },
+    {
+      "path": "verification/browser/canonical-cards/tasks.todo-summary.png",
+      "bytes": 5542,
+      "sha256": "5fcec0d1ab2684010bd820537dc14c217edb8e1140b96cd1ce47be9c3e01e2f1"
+    },
+    {
+      "path": "verification/browser/canonical-cards/tips.daily-guides.png",
+      "bytes": 11534,
+      "sha256": "c8226ee9704d03d6039980bd8016db1cbeea16c618943edfbdb06a5314debf95"
+    },
+    {
+      "path": "verification/browser/canonical-cards/utility.voice-recorder.png",
+      "bytes": 12659,
+      "sha256": "dd3be02d6675bf12ab00f8f36986520192fa4901794c15ea32b48a34b36f96f0"
+    },
+    {
+      "path": "verification/browser/canonical-cards/weather.current.png",
+      "bytes": 17066,
+      "sha256": "c65a9107902a8e7b562ffd1b8a0d741038b4b8fe8333baef958dfbb5f6a5fd6d"
+    },
+    {
+      "path": "verification/browser/canonical-cards/wellness.daily-steps.png",
+      "bytes": 22450,
+      "sha256": "c67495af62b4925aaa75b5ff37ca40efd58d558952003343814a5981f377ea1b"
+    },
+    {
+      "path": "verification/browser/canonical-cards/wellness.sleep-duration.png",
+      "bytes": 25053,
+      "sha256": "15051b6a4653a03b1eb84cb75ff81da96af60e75c834ebb36140f2c18c73d624"
+    },
+    {
+      "path": "verification/browser/canonical-cards/wellness.stress-score.png",
+      "bytes": 24951,
+      "sha256": "ea2f8c77e6b17842847414a4835c8db812de646ae613eac765831e3882447da9"
+    },
+    {
+      "path": "verification/browser/specialized-cards/agenda.day-events.png",
+      "bytes": 6692,
+      "sha256": "8de6fcd71b8dffc494d8498c2b4799d109cc712a4064464cd2667e7c75da2964"
+    },
+    {
+      "path": "verification/browser/specialized-cards/audio.cover-playback.png",
+      "bytes": 12366,
+      "sha256": "cabd7dc3a713805ac08446d95a31201ef1d5b7ec2d32c5d015ea8eb4b09d0bd4"
+    },
+    {
+      "path": "verification/browser/specialized-cards/calendar.day-summary.png",
+      "bytes": 8519,
+      "sha256": "5cb82d2eb471afe927868079b839a622f6c4c0c3f38cb3cb35eeaba3d93221ac"
+    },
+    {
+      "path": "verification/browser/specialized-cards/capture.sport-photography.png",
+      "bytes": 48105,
+      "sha256": "0fd5e0d58176a84cfdd9dcb383a57306f561b933668d66a5b5230508f48fa48c"
+    },
+    {
+      "path": "verification/browser/specialized-cards/content.poster-action.png",
+      "bytes": 14461,
+      "sha256": "c94b0c94dfd2b2e9de142148b0931de714a47a50b7874c64473d8ed7f5a5df70"
+    },
+    {
+      "path": "verification/browser/specialized-cards/course.cover-progress.png",
+      "bytes": 29586,
+      "sha256": "87339f124281b21432901d3c1b36531860d1cc2c90275d46c80a3a183229bf52"
+    },
+    {
+      "path": "verification/browser/specialized-cards/editorial.climate.png",
+      "bytes": 32797,
+      "sha256": "1f999d097bce15cbe872a346fdb001bb7a5751622ee6e9e26c4aacf704c0693c"
+    },
+    {
+      "path": "verification/browser/specialized-cards/finance.market.png",
+      "bytes": 38147,
+      "sha256": "afa719b614f3f649e6ca0b4657ce251327d77ff3242abbd8804aa8ac7ccc1439"
+    },
+    {
+      "path": "verification/browser/specialized-cards/grid.camera-modes.png",
+      "bytes": 5366,
+      "sha256": "029a4547c8b7d924e82cfef53d93af83eecc17b051ed38f5accdaabc68c17f36"
+    },
+    {
+      "path": "verification/browser/specialized-cards/grid.contact-shortcuts.png",
+      "bytes": 18446,
+      "sha256": "c0b1fc9869d5e3e0e695f91806f82b69d834901b474cf7544fbbcc9ef60cafb3"
+    },
+    {
+      "path": "verification/browser/specialized-cards/grid.semantic-shortcuts.png",
+      "bytes": 5683,
+      "sha256": "7474609aa9e766a23f4525d7bb003bd38d93bbad078662f5df3bee0cf953c9dc"
+    },
+    {
+      "path": "verification/browser/specialized-cards/learning.chapter-cover.png",
+      "bytes": 15469,
+      "sha256": "edc2b2190ec77d831f4bd820978d5d6ed20902d0ff514a2855708c296fec7db4"
+    },
+    {
+      "path": "verification/browser/specialized-cards/media.playlist-recommendation.png",
+      "bytes": 25344,
+      "sha256": "57c23141f747618eda36ddb8ea72743e10416526b43e7f42fbfb7e843b53eac9"
+    },
+    {
+      "path": "verification/browser/specialized-cards/metrics.calorie-intake.png",
+      "bytes": 8479,
+      "sha256": "a826b88881727f4a59e37c6d3c755fcaaa56251a646a43151f72529d2d6e3eb2"
+    },
+    {
+      "path": "verification/browser/specialized-cards/metrics.environment-status.png",
+      "bytes": 6267,
+      "sha256": "c38dc87a7a77562b386ae278f30a4cd3393ea7ae8e09bfc3056f812b1fad5ccd"
+    },
+    {
+      "path": "verification/browser/specialized-cards/metrics.screen-time.png",
+      "bytes": 9319,
+      "sha256": "bbb91d595f531fb9149293619dee61f6576fbff6406e0e7c539818f3c464f824"
+    },
+    {
+      "path": "verification/browser/specialized-cards/product.feature-playback.png",
+      "bytes": 13257,
+      "sha256": "37406869ba56223ab70891482fa7195d0aff2ee41607f6dfd304c2b01fbdb0c1"
+    },
+    {
+      "path": "verification/browser/specialized-cards/service.meeting.png",
+      "bytes": 7685,
+      "sha256": "ecfa5a380146d404b0e86d97039481ad4ffc898dd9f36004fa97908454c75297"
+    },
+    {
+      "path": "verification/browser/specialized-cards/status.app-security-score.png",
+      "bytes": 8602,
+      "sha256": "6daad81e01102d4b956e4965cd9412abec74749492a39014f4b91d852dba4232"
+    },
+    {
+      "path": "verification/browser/specialized-cards/status.event-countdown.png",
+      "bytes": 24310,
+      "sha256": "b47cea2b3eb1291510b148ca55b425ac7b73f3c7cd44e4bbd1ce5cbb4c57e4bd"
+    },
+    {
+      "path": "verification/browser/specialized-cards/tasks.todo-summary.png",
+      "bytes": 5542,
+      "sha256": "5fcec0d1ab2684010bd820537dc14c217edb8e1140b96cd1ce47be9c3e01e2f1"
+    },
+    {
+      "path": "verification/browser/specialized-cards/tips.daily-guides.png",
+      "bytes": 11534,
+      "sha256": "c8226ee9704d03d6039980bd8016db1cbeea16c618943edfbdb06a5314debf95"
+    },
+    {
+      "path": "verification/browser/specialized-cards/utility.voice-recorder.png",
+      "bytes": 12659,
+      "sha256": "dd3be02d6675bf12ab00f8f36986520192fa4901794c15ea32b48a34b36f96f0"
+    },
+    {
+      "path": "verification/browser/specialized-cards/weather.current.png",
+      "bytes": 17066,
+      "sha256": "c65a9107902a8e7b562ffd1b8a0d741038b4b8fe8333baef958dfbb5f6a5fd6d"
+    },
+    {
+      "path": "verification/browser/specialized-cards/wellness.daily-steps.png",
+      "bytes": 22450,
+      "sha256": "c67495af62b4925aaa75b5ff37ca40efd58d558952003343814a5981f377ea1b"
+    },
+    {
+      "path": "verification/browser/specialized-cards/wellness.sleep-duration.png",
+      "bytes": 25053,
+      "sha256": "15051b6a4653a03b1eb84cb75ff81da96af60e75c834ebb36140f2c18c73d624"
+    },
+    {
+      "path": "verification/browser/specialized-cards/wellness.stress-score.png",
+      "bytes": 24951,
+      "sha256": "ea2f8c77e6b17842847414a4835c8db812de646ae613eac765831e3882447da9"
+    },
+    {
+      "path": "verification/retry/check-results.json",
+      "bytes": 2973,
+      "sha256": "c854df0585182c1260fa8511850868d41d051a08c3497dfc96506577d7fffdfe"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-build-client.txt",
+      "bytes": 1100,
+      "sha256": "c099390c55ea2c285cbb4664cd1b53c30102584c8266e989fd9bf0c28e63f625"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-build-sites.txt",
+      "bytes": 74,
+      "sha256": "7094b0bc4d7678a971b39986dba74e577a122cb6fced9ae43ecc92ba36029fcd"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-sites-tests.txt",
+      "bytes": 390,
+      "sha256": "4f6963382a5c801cd842c54dc8dfd21f4b2fe86ee7b4373a828df5403aa5a9cd"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-specialized-build-client.txt",
+      "bytes": 657,
+      "sha256": "ffec3dc72dc284fb9041890f478b8ab19d5594fad5a133e743c214543235b0e4"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-specialized-build-sites.txt",
+      "bytes": 74,
+      "sha256": "7094b0bc4d7678a971b39986dba74e577a122cb6fced9ae43ecc92ba36029fcd"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-specialized-sites-tests.txt",
+      "bytes": 390,
+      "sha256": "f95f3d6f483e2148bd54e6a45456ec22609055ece99df4b6511f3bae9ae00237"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-specialized-typecheck.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-specialized-unit-tests.txt",
+      "bytes": 12800,
+      "sha256": "f9e772dfa60952df56ade896faf907322c09797dda6cf77978ab18d6c29cad8b"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-typecheck.txt",
+      "bytes": 23860,
+      "sha256": "fb71c60961db82d7144d66d4ef8a933ff0884b2340adfc39ed32e10b025c5a5f"
+    },
+    {
+      "path": "verification/retry/local-2x2-renderer-unit-tests.txt",
+      "bytes": 343340,
+      "sha256": "c4715f24b32cdfd1d7e7446773d50eb63aecf7cd54dea63e97917aee77a671d0"
+    }
+  ]
+}

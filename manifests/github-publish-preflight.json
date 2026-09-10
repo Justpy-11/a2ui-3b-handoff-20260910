@@ -1,0 +1,8 @@
+{
+  "sourcePackagingSecretScan": "passed",
+  "embeddedSecretCandidates": [],
+  "unresolvedLinks": [],
+  "credentialLikeExampleRetained": "a2ui-main/specification/v0_9/eval/.env.example",
+  "repositoryVisibility": "private",
+  "note": "This is a private internal handoff; source package scan is not a legal or data-classification approval."
+}

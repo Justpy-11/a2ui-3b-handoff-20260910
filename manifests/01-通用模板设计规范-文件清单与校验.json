@@ -1,0 +1,77 @@
+{
+  "archive": "01-通用模板设计规范.zip",
+  "archiveBytes": 118579,
+  "sha256": "503497bec91da90bf005ab43758d812cc8fc3cf403384270436f58777a5d3d56",
+  "zip64": true,
+  "compression": "模型与已压缩二进制STORE；源码/普通数据DEFLATE level6",
+  "validation": {
+    "entries": 12,
+    "uncompressedBytes": 1386650,
+    "allEntryHashesMatch": true,
+    "crcReadback": "passed",
+    "seconds": 0.0
+  },
+  "seconds": 0.08,
+  "files": [
+    {
+      "path": "01-通用模板设计规范/00-shared-style-and-checks.json",
+      "bytes": 824758,
+      "sha256": "971df789828cf6c4c005eff1efb6c5a0aaac740e3650831798c499c8342d263e"
+    },
+    {
+      "path": "01-通用模板设计规范/01-info-summary-2x2-v1.design.json",
+      "bytes": 52723,
+      "sha256": "2a9663267b2207f475b4f0c6d16f81b87e2c5fe35998deca97b4cadd73524617"
+    },
+    {
+      "path": "01-通用模板设计规范/02-service-action-2x2-v1.design.json",
+      "bytes": 55518,
+      "sha256": "8671117c392b644a73972d8e0c8e80742b5c67c8b44e16d6fa8300d50a8f58f8"
+    },
+    {
+      "path": "01-通用模板设计规范/03-metric-list-2x2-v1.design.json",
+      "bytes": 69443,
+      "sha256": "6bda2b8f80594171991c05fcdbdfab51309a0053eb925da46d089f6057ca05d1"
+    },
+    {
+      "path": "01-通用模板设计规范/04-radial-status-2x2-v1.design.json",
+      "bytes": 56475,
+      "sha256": "9925911646d4d7bbab2667b35147273fbf5314fc469d40e28455aae7f13507d7"
+    },
+    {
+      "path": "01-通用模板设计规范/05-activity-summary-2x2-v1.design.json",
+      "bytes": 54210,
+      "sha256": "658a124e5d5fbd581abd6907b2770b5c3e3af7c29f202abf9332d69ee7395dd9"
+    },
+    {
+      "path": "01-通用模板设计规范/06-quick-grid-2x2-v1.design.json",
+      "bytes": 49519,
+      "sha256": "5a66ba29acc9849c2f84cc34243e7b96f7d14467d241bfbd3261fa1269778441"
+    },
+    {
+      "path": "01-通用模板设计规范/07-media-action-2x2-v1.design.json",
+      "bytes": 52213,
+      "sha256": "934bcfb854fb8d0b6b4b52422674e180fb1c28dd5f763afa3c7d58810c93b05a"
+    },
+    {
+      "path": "01-通用模板设计规范/08-media-highlight-2x2-v1.design.json",
+      "bytes": 42722,
+      "sha256": "b8e3cf49a8b8ed985a79203e14fda0cb2f5a1490151fc67b05d846cdd9b8100a"
+    },
+    {
+      "path": "01-通用模板设计规范/09-media-content-2x2-v1.design.json",
+      "bytes": 58668,
+      "sha256": "61d71681003ff3ce1cd6dcb3c2750ac728dc06fbf56ed1eb6319ff487a37e9e0"
+    },
+    {
+      "path": "01-通用模板设计规范/10-list-summary-2x2-v1.design.json",
+      "bytes": 66428,
+      "sha256": "c2a27ae974744b8d20f3b126bca7e24059611ba2e955377d0e13187efbf85afa"
+    },
+    {
+      "path": "01-通用模板设计规范/README.md",
+      "bytes": 3973,
+      "sha256": "66910a539266ba3c9aaac09df2c688f9db0e694906206af1c5e0884b295ae47f"
+    }
+  ]
+}

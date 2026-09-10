@@ -1,0 +1,274 @@
+{
+  "sourceRoots": [
+    {
+      "source": "D:\\华为实习\\a2ui-representative-28",
+      "archivePath": "a2ui-representative-28"
+    },
+    {
+      "source": "D:\\华为实习\\public-datasets\\multiwoz",
+      "archivePath": "public-datasets/multiwoz"
+    },
+    {
+      "source": "D:\\华为实习\\public-datasets\\dstc8-schema-guided-dialogue",
+      "archivePath": "public-datasets/dstc8-schema-guided-dialogue"
+    },
+    {
+      "source": "D:\\华为实习\\a2ui-main\\specification\\v0_9",
+      "archivePath": "a2ui-main/specification/v0_9"
+    },
+    {
+      "source": "D:\\华为实习\\a2ui-main\\LICENSE",
+      "archivePath": "a2ui-main/LICENSE"
+    },
+    {
+      "source": "D:\\华为实习\\outputs",
+      "archivePath": "outputs"
+    }
+  ],
+  "fileCount": 1986,
+  "bytes": 15463032924,
+  "groups": {
+    "a2ui-representative-28/.recovery": {
+      "files": 222,
+      "bytes": 64313055
+    },
+    "a2ui-representative-28/a2ui-v09-sequences.jsonl": {
+      "files": 1,
+      "bytes": 40069
+    },
+    "a2ui-representative-28/asset-registry.json": {
+      "files": 1,
+      "bytes": 4012
+    },
+    "a2ui-representative-28/curation": {
+      "files": 5,
+      "bytes": 697697
+    },
+    "a2ui-representative-28/docs": {
+      "files": 8,
+      "bytes": 150727
+    },
+    "a2ui-representative-28/figures": {
+      "files": 9,
+      "bytes": 88534696
+    },
+    "a2ui-representative-28/final-renderable-reference.json": {
+      "files": 1,
+      "bytes": 12265
+    },
+    "a2ui-representative-28/final-renderable-reference.jsonl": {
+      "files": 1,
+      "bytes": 6141
+    },
+    "a2ui-representative-28/layout-catalog.json": {
+      "files": 1,
+      "bytes": 17219
+    },
+    "a2ui-representative-28/local-2x2-renderer": {
+      "files": 432,
+      "bytes": 82304027
+    },
+    "a2ui-representative-28/local-2x2-renderer-specialized": {
+      "files": 292,
+      "bytes": 65779514
+    },
+    "a2ui-representative-28/models": {
+      "files": 67,
+      "bytes": 13716747884
+    },
+    "a2ui-representative-28/outputs": {
+      "files": 274,
+      "bytes": 316313564
+    },
+    "a2ui-representative-28/README.md": {
+      "files": 1,
+      "bytes": 3527
+    },
+    "a2ui-representative-28/representative-index.csv": {
+      "files": 1,
+      "bytes": 4515
+    },
+    "a2ui-representative-28/representative-index.xlsx": {
+      "files": 1,
+      "bytes": 13550
+    },
+    "a2ui-representative-28/representative-samples.jsonl": {
+      "files": 1,
+      "bytes": 301917
+    },
+    "a2ui-representative-28/representative_a2ui": {
+      "files": 12,
+      "bytes": 216511
+    },
+    "a2ui-representative-28/requirements.txt": {
+      "files": 1,
+      "bytes": 56
+    },
+    "a2ui-representative-28/scene-specific-2x2-composer": {
+      "files": 9,
+      "bytes": 1219290
+    },
+    "a2ui-representative-28/scripts": {
+      "files": 6,
+      "bytes": 53779
+    },
+    "a2ui-representative-28/tests": {
+      "files": 14,
+      "bytes": 202986
+    },
+    "a2ui-representative-28/validation-report.json": {
+      "files": 1,
+      "bytes": 7732
+    },
+    "a2ui-representative-28/validation-report.md": {
+      "files": 1,
+      "bytes": 325
+    },
+    "a2ui-representative-28/workbench-28.jsonl": {
+      "files": 1,
+      "bytes": 29503
+    },
+    "a2ui-representative-28/workbench-export": {
+      "files": 28,
+      "bytes": 43532
+    },
+    "a2ui-representative-28/workbook-semantic-manifest.json": {
+      "files": 1,
+      "bytes": 2897
+    },
+    "a2ui-representative-28/workbook-verification.json": {
+      "files": 1,
+      "bytes": 801
+    },
+    "a2ui-representative-28/项目全流程技术总结.md": {
+      "files": 1,
+      "bytes": 45807
+    },
+    "public-datasets/multiwoz": {
+      "files": 77,
+      "bytes": 392824694
+    },
+    "public-datasets/dstc8-schema-guided-dialogue": {
+      "files": 228,
+      "bytes": 669015929
+    },
+    "a2ui-main/specification": {
+      "files": 106,
+      "bytes": 528314
+    },
+    "a2ui-main/LICENSE": {
+      "files": 1,
+      "bytes": 12730
+    },
+    "outputs/3b-accuracy-review-20260908": {
+      "files": 27,
+      "bytes": 1784518
+    },
+    "outputs/3b-finetune-implementation-20260908": {
+      "files": 1,
+      "bytes": 36238
+    },
+    "outputs/conversation-renderer-qa-20260908": {
+      "files": 41,
+      "bytes": 9060157
+    },
+    "outputs/defense-materials-20260908": {
+      "files": 48,
+      "bytes": 17067051
+    },
+    "outputs/no-fit-2x2-20260826": {
+      "files": 1,
+      "bytes": 10308
+    },
+    "outputs/scenario-master-20260820": {
+      "files": 18,
+      "bytes": 11191441
+    },
+    "outputs/scenario-seeds-20260826": {
+      "files": 16,
+      "bytes": 3236832
+    },
+    "outputs/scenario-seeds-v2-20260826": {
+      "files": 27,
+      "bytes": 21141198
+    },
+    "outputs/specific-profile-samples-20260826": {
+      "files": 1,
+      "bytes": 55916
+    }
+  },
+  "excluded": [
+    {
+      "path": "a2ui-representative-28/.codex-build",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/.codex-finalizer",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/.pytest_cache",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/local-2x2-renderer/node_modules",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/local-2x2-renderer/scripts/__pycache__",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/local-2x2-renderer-full-20260818.zip",
+      "reason": "已由当前完整源码替代的旧工程压缩包",
+      "kind": "file"
+    },
+    {
+      "path": "a2ui-representative-28/local-2x2-renderer-specialized/node_modules",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/node_modules",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/representative_a2ui/__pycache__",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/scripts/__pycache__",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "a2ui-representative-28/tests/__pycache__",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/3b-accuracy-review-20260908/.build/node_modules",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/3b-finetune-implementation-20260908/.codex-build",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/3b-finetune-implementation-20260908/.codex-finalizer",
+      "reason": "可重装依赖或缓存目录",
+      "kind": "directory"
+    }
+  ],
+  "unresolvedLinks": [],
+  "embeddedSecretCandidates": []
+}

@@ -1,0 +1,6 @@
+downloads/
+release-assets/
+*.zip
+*.zip.part??
+*.partial
+*.tmp

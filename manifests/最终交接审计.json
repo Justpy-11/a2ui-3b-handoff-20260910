@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-10",
+  "status": "handoff-packaging-complete",
+  "contract": "P0-A3",
+  "phaseLedger": "P0-A4",
+  "phases": {
+    "P2": "complete",
+    "P3": "complete",
+    "P4": "complete"
+  },
+  "items": {
+    "M1": "complete:10 template JSON+1 shared JSON+README",
+    "M2": "complete:V4 data with splits, audit and original reports",
+    "M3": "complete:main project + required sibling dependencies + 67 model files + guides",
+    "P1": "preserved:1986 original files match archived bytes after packaging",
+    "N1": "pass:version distinctions and runtime defects disclosed",
+    "N2": "pass:split boundaries and no native parity claim",
+    "T1": "pass:template bindings/references/source/density/radial tests and 169 existing tests",
+    "D1": "pass:144/5000, split and audit correspondence, file hashes",
+    "C1": "pass:3 ZIPs complete-entry CRC+SHA256 readback"
+  },
+  "sourcePreservation": {
+    "filesChecked": 1986,
+    "changed": [],
+    "modelFiles": 67,
+    "modelBytes": 13716747884
+  },
+  "archives": [
+    {
+      "archive": "01-通用模板设计规范.zip",
+      "archiveBytes": 118579,
+      "sha256": "503497bec91da90bf005ab43758d812cc8fc3cf403384270436f58777a5d3d56",
+      "zip64": true,
+      "compression": "模型与已压缩二进制STORE；源码/普通数据DEFLATE level6",
+      "validation": {
+        "entries": 12,
+        "uncompressedBytes": 1386650,
+        "allEntryHashesMatch": true,
+        "crcReadback": "passed",
+        "seconds": 0.0
+      },
+      "seconds": 0.08
+    },
+    {
+      "archive": "02-种子与扩展数据.zip",
+      "archiveBytes": 10320132,
+      "sha256": "24f4fc5bd0da4ea9d43e50e9b11f572dd4b5e418627168e7674406f82fa52406",
+      "zip64": true,
+      "compression": "模型与已压缩二进制STORE；源码/普通数据DEFLATE level6",
+      "validation": {
+        "entries": 228,
+        "uncompressedBytes": 169539949,
+        "allEntryHashesMatch": true,
+        "crcReadback": "passed",
+        "seconds": 0.26
+      },
+      "seconds": 2.5
+    },
+    {
+      "archive": "03-完整工程项目.zip",
+      "archiveBytes": 14199189877,
+      "sha256": "b721a3cf0ffa80060e484c792fd6052724b56eac381e75446d85f9a1f7993a95",
+      "zip64": true,
+      "compression": "模型与已压缩二进制STORE；源码/普通数据DEFLATE level6",
+      "validation": {
+        "entries": 2015,
+        "uncompressedBytes": 15465195175,
+        "allEntryHashesMatch": true,
+        "crcReadback": "passed",
+        "seconds": 21.92
+      },
+      "seconds": 93.52
+    }
+  ],
+  "existingCodeStatus": {
+    "date": "2026-09-10",
+    "node": "v24.19.0",
+    "typecheck": {
+      "exitCode": 2,
+      "errorCount": 34,
+      "status": "current-snapshot-fails",
+      "note": "原工程当前诊断如实保留；本次只新增交接文件，不为使打包成功而修改源代码或放宽检查。"
+    },
+    "requiredContractTests": {
+      "exitCode": 0,
+      "expectedTestCount": 169
+    },
+    "notRun": [
+      "全新机器安装与启动",
+      "整套生产构建",
+      "模型训练/推理重跑",
+      "手机原生渲染"
+    ],
+    "packaging": "ZIP完整性以最终包外文件清单与校验报告为准；该文件不预先宣告归档成功。"
+  },
+  "datasetLimitations": [
+    "当前数据均为合成业务事实或整理样本，不是实时业务查询结果；评测输入通常已包含可信事实。",
+    "三个split覆盖同一批144场景，不能称为未见场景泛化测试。",
+    "消息和样本ID不重叠不等于事实级完全隔离；相同目标Frame或runtime_context仍可能跨split出现，交叉数量已列出。",
+    "5000条按场景扩增，不是5000个独立业务任务；144条种子只覆盖20/27个注册Profile。",
+    "seed目录README的未微调/默认页面描述属于早期状态；后续模型产物和评测已存在，不得混用时间口径。",
+    "现有主要QLoRA实验使用288条训练数据、144条开发数据和288条测试，不代表所有4136条训练集均已训练。",
+    "one-shot两目录保留历史文件变更告警，原结果可追溯但不能宣称其终检或当前页面全部通过。",
+    "本次重新检查数据合同/路由/条数/对应关系；没有重新运行模型推理、训练、浏览器5000条视觉评测。"
+  ],
+  "notVerified": [
+    "独立手机原生渲染与像素一致性",
+    "全新机器依赖安装/启动",
+    "整套生产构建",
+    "训练或模型推理重跑",
+    "未见场景泛化能力"
+  ],
+  "scopeChanges": "none; dependencies retained within confirmed scope",
+  "hardDeviations": "none",
+  "evidence": [
+    "template-validation-report.json",
+    "02-种子与扩展数据/handoff-data-audit.json",
+    "03-工程交接说明/验证证据/",
+    "01-通用模板设计规范-文件清单与校验.json",
+    "02-种子与扩展数据-文件清单与校验.json",
+    "03-完整工程项目-文件清单与校验.json"
+  ]
+}
