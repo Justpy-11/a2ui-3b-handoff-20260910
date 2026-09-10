@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
   "repository": "a2ui-3b-handoff-20260910",
-  "visibility": "private",
+  "visibility": "public",
   "releaseTag": "handoff-20260910",
+  "publicationStatus": "01, 02 and 04 published; 03 deferred",
   "partSizeBytes": 2000000000,
   "githubReleasePerAssetLimitBytes": 2147483648,
   "originalArchives": [
@@ -29,74 +30,76 @@
   ],
   "releaseAssets": [
     {
-      "name": "01-通用模板设计规范.zip",
+      "name": "01-general-template-design-spec.zip",
       "bytes": 118579,
       "sha256": "503497bec91da90bf005ab43758d812cc8fc3cf403384270436f58777a5d3d56",
       "original": "01-通用模板设计规范.zip"
     },
     {
-      "name": "02-种子与扩展数据.zip",
+      "name": "02-seed-and-expanded-data.zip",
       "bytes": 10320132,
       "sha256": "24f4fc5bd0da4ea9d43e50e9b11f572dd4b5e418627168e7674406f82fa52406",
       "original": "02-种子与扩展数据.zip"
     },
     {
-      "name": "04-专属模板渲染器源码与实验说明.zip",
+      "name": "04-dedicated-template-renderer-source-and-guide.zip",
       "bytes": 68715998,
       "sha256": "abe8f416beb2b64d7ee9f6afd42179733f7726f3a72045157a66aa2011a4f785",
       "original": "04-专属模板渲染器源码与实验说明.zip"
-    },
+    }
+  ],
+  "deferredAssets": [
     {
-      "name": "03-完整工程项目.zip.part01",
+      "name": "03-complete-project.zip.part01",
       "bytes": 2000000000,
       "sha256": "9254fcc42e9a858e2b5115e37d7229073a87e2f4a2ca2eb96bac02fa8f59928c",
       "original": "03-完整工程项目.zip",
       "part": 1
     },
     {
-      "name": "03-完整工程项目.zip.part02",
+      "name": "03-complete-project.zip.part02",
       "bytes": 2000000000,
       "sha256": "a3cf221342f14736e9e3c339d6ad6ea15246b73cc41ef444a3593fe436884e28",
       "original": "03-完整工程项目.zip",
       "part": 2
     },
     {
-      "name": "03-完整工程项目.zip.part03",
+      "name": "03-complete-project.zip.part03",
       "bytes": 2000000000,
       "sha256": "231e82fbeefcc41c8d7d2e5e486fbb96c49b77d1fc71434d48ba4213e5519ca0",
       "original": "03-完整工程项目.zip",
       "part": 3
     },
     {
-      "name": "03-完整工程项目.zip.part04",
+      "name": "03-complete-project.zip.part04",
       "bytes": 2000000000,
       "sha256": "1dad07e6a993f9241a74e98c7f869d5d5936e53ae9a8afe942b02878f2be6a57",
       "original": "03-完整工程项目.zip",
       "part": 4
     },
     {
-      "name": "03-完整工程项目.zip.part05",
+      "name": "03-complete-project.zip.part05",
       "bytes": 2000000000,
       "sha256": "a6ac7aedbca9830201d9e04b37a6ea9369255779288d9823481b979ebebc8abc",
       "original": "03-完整工程项目.zip",
       "part": 5
     },
     {
-      "name": "03-完整工程项目.zip.part06",
+      "name": "03-complete-project.zip.part06",
       "bytes": 2000000000,
       "sha256": "5babf9703a253ada69b8654ff7bd9d3ceadd9b94cda262c895b2772a1f27a885",
       "original": "03-完整工程项目.zip",
       "part": 6
     },
     {
-      "name": "03-完整工程项目.zip.part07",
+      "name": "03-complete-project.zip.part07",
       "bytes": 2000000000,
       "sha256": "f8660b5978bdae5e89d20eb1faf0a357cf51393f0d4edd2a2f36c32e16dddae5",
       "original": "03-完整工程项目.zip",
       "part": 7
     },
     {
-      "name": "03-完整工程项目.zip.part08",
+      "name": "03-complete-project.zip.part08",
       "bytes": 199189877,
       "sha256": "871e8fb658c889360188230ff0251600a032f081b5c66ad49374b0cb2e2e8144",
       "original": "03-完整工程项目.zip",

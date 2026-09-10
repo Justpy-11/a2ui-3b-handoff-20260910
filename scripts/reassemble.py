@@ -19,7 +19,8 @@ args = parser.parse_args()
 if args.output.exists():
     raise SystemExit(f'Refusing to overwrite: {args.output}')
 manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
-parts = sorted((x for x in manifest['releaseAssets'] if x.get('original') == '03-完整工程项目.zip' and 'part' in x), key=lambda x: x['part'])
+all_assets = [*manifest.get('releaseAssets', []), *manifest.get('deferredAssets', [])]
+parts = sorted((x for x in all_assets if x.get('original') == '03-完整工程项目.zip' and 'part' in x), key=lambda x: x['part'])
 expected = next(x for x in manifest['originalArchives'] if x['name'] == '03-完整工程项目.zip')
 args.output.parent.mkdir(parents=True, exist_ok=True)
 try:

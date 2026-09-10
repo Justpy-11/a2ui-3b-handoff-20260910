@@ -12,7 +12,8 @@ $outputFile = [System.IO.Path]::GetFullPath($OutputPath)
 $manifestFile = [System.IO.Path]::GetFullPath($ManifestPath)
 if (Test-Path -LiteralPath $outputFile) { throw "Refusing to overwrite existing file: $outputFile" }
 $manifest = Get-Content -LiteralPath $manifestFile -Raw -Encoding UTF8 | ConvertFrom-Json
-$parts = @($manifest.releaseAssets | Where-Object { $null -ne $_.part } | Sort-Object part)
+$allAssets = @($manifest.releaseAssets) + @($manifest.deferredAssets)
+$parts = @($allAssets | Where-Object { $_.original -eq '03-完整工程项目.zip' -and $null -ne $_.part } | Sort-Object part)
 if ($parts.Count -eq 0) { throw 'No numbered archive parts found in manifest.' }
 $parent = Split-Path -Parent $outputFile
 if (-not (Test-Path -LiteralPath $parent)) { New-Item -ItemType Directory -Path $parent | Out-Null }
@@ -35,7 +36,7 @@ try {
 } finally {
     $out.Dispose()
 }
-$expected = @($manifest.originalArchives)[2]
+$expected = @($manifest.originalArchives | Where-Object { $_.name -eq '03-完整工程项目.zip' })[0]
 $actual = Get-Item -LiteralPath $outputFile
 if ([int64]$actual.Length -ne [int64]$expected.bytes) { throw "Reassembled size mismatch: $($actual.Length)" }
 $hash = (Get-FileHash -LiteralPath $outputFile -Algorithm SHA256).Hash.ToLowerInvariant()
