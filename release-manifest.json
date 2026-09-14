@@ -3,7 +3,7 @@
   "repository": "a2ui-3b-handoff-20260910",
   "visibility": "public",
   "releaseTag": "handoff-20260910",
-  "publicationStatus": "01, 02 and 04 published; 03 deferred",
+  "publicationStatus": "01, 02, 03 and 04 published",
   "partSizeBytes": 2000000000,
   "githubReleasePerAssetLimitBytes": 2147483648,
   "originalArchives": [
@@ -46,9 +46,7 @@
       "bytes": 68715998,
       "sha256": "abe8f416beb2b64d7ee9f6afd42179733f7726f3a72045157a66aa2011a4f785",
       "original": "04-专属模板渲染器源码与实验说明.zip"
-    }
-  ],
-  "deferredAssets": [
+    },
     {
       "name": "03-complete-project.zip.part01",
       "bytes": 2000000000,
